@@ -3,6 +3,7 @@ Solver for a Wordle puzzle.
 """
 
 import os
+import warnings
 import numpy as np
 
 import helper
@@ -10,6 +11,7 @@ import helper
 __author__ = "Z Feng"
 
 max_attempts = 5
+warnings.filterwarnings('ignore')
 
 def compute_entropy(legal_guesses: list, potential_answers: list, do_print: bool = True) -> np.ndarray:
     """
@@ -185,9 +187,7 @@ def auto_solver(strategy: str = 'entropy first'):
         else:
             raise NotImplementedError
         yield guess
-        pattern = yield
-        # print('received pattern is', pattern)
-        similarity = helper.pattern_to_similarity(pattern)
+        similarity = yield
         potential_answers = refine_potential_answers(guess, potential_answers, similarity)
 
 
