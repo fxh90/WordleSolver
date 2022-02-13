@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbef393-de46-4ef3-8d48-3945e5534fcb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/solver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644778888765</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update ignore">
+      <created>1644779068885</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1644779068885</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update docstring">
+      <created>1644779166190</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1644779166190</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -205,6 +220,8 @@
     <MESSAGE value="Format prints" />
     <MESSAGE value="Employ numpy arrays" />
     <MESSAGE value="Cache initial calculations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cache initial calculations" />
+    <MESSAGE value="Update ignore" />
+    <MESSAGE value="update docstring" />
+    <option name="LAST_COMMIT_MESSAGE" value="update docstring" />
   </component>
 </project>

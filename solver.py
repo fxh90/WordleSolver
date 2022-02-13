@@ -11,7 +11,7 @@ __author__ = "Z Feng"
 
 max_attempts = 5
 
-def compute_entropy(legal_guesses: list, potential_answers: list) -> np.ndarray:
+def compute_entropy(legal_guesses: list, potential_answers: list, do_print: bool = True) -> np.ndarray:
     """
     Compute the information entropy (in bits) of every legal guess in the legal_guesses list. Potential answers are
     given in a separate list with equal probability assumed.
@@ -23,8 +23,9 @@ def compute_entropy(legal_guesses: list, potential_answers: list) -> np.ndarray:
     entropies = []
     for guess in legal_guesses:
         progress += 1
-        if progress % 500 == 0:
-            print(f'{progress}/{len(legal_guesses)}: {guess}')
+        if do_print:
+            if progress % 500 == 0:
+                print(f'{progress}/{len(legal_guesses)}: {guess}')
         similarity_counts = np.zeros(3 ** 5, dtype=float)
         for target in potential_answers:
             similarity = helper.compare(guess, target)
@@ -140,6 +141,53 @@ def man_solver():
         if similarity == 3 ** 5 - 1:
             print('Congratulations!')
             break
+        potential_answers = refine_potential_answers(guess, potential_answers, similarity)
+
+
+def auto_solver(strategy: str = 'entropy first'):
+    """
+    Generator object that solves a Wordle puzzle automatically according to a given strategy.
+    :param strategy: 'entropy first'
+    """
+    legal_guesses = helper.get_guess_dictionary()
+    potential_answers = helper.get_answer_dictionary()
+    first_attempt = True
+    while True:
+        if first_attempt:
+            # initial entropies
+            if os.path.exists('initial_entropies.npy'):
+                with open('initial_entropies.npy', 'rb') as npy_file:
+                    entropies = np.load(npy_file)
+            else:
+                entropies = compute_entropy(legal_guesses, potential_answers, do_print=False)
+                with open('initial_entropies.npy', 'wb') as npy_file:
+                    np.save(npy_file, entropies)
+            if not strategy == 'entropy first':
+                # initial probabilities
+                if os.path.exists('initial_probabilities.npy'):
+                    with open('initial_probabilities.npy', 'rb') as npy_file:
+                        probabilities = np.load(npy_file)
+                else:
+                    probabilities = compute_probabilities(legal_guesses, potential_answers)
+                    with open('initial_probabilities.npy', 'wb') as npy_file:
+                        np.save(npy_file, probabilities)
+            first_attempt = False
+        else:
+            entropies = compute_entropy(legal_guesses, potential_answers, do_print=False)
+            if not strategy == 'entropy first':
+                probabilities = compute_probabilities(legal_guesses, potential_answers)
+        if strategy == 'entropy first':
+            if len(potential_answers) == 1:
+                guess = potential_answers[0]
+            else:
+                guesses = [(legal_guesses[i], entropies[i]) for i in range(len(legal_guesses))]
+                guess = sorted(guesses, key=lambda e: e[1], reverse=True)[0][0]
+        else:
+            raise NotImplementedError
+        yield guess
+        pattern = yield
+        # print('received pattern is', pattern)
+        similarity = helper.pattern_to_similarity(pattern)
         potential_answers = refine_potential_answers(guess, potential_answers, similarity)
 
 
