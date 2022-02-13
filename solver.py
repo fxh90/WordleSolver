@@ -2,6 +2,7 @@
 Solver for a Wordle puzzle.
 """
 
+import os
 import numpy as np
 
 import helper
@@ -36,7 +37,7 @@ def compute_entropy(legal_guesses: list, potential_answers: list) -> np.ndarray:
     return np.array(entropies)
 
 
-def compute_possibility(legal_guesses: list, potential_answers: list) -> np.ndarray:
+def compute_probabilities(legal_guesses: list, potential_answers: list) -> np.ndarray:
     """
     Compute the possibility of every legal guess in the legal_guesses list. Potential answers are given in a separate
     list with equal probabilities assumed.
@@ -106,8 +107,30 @@ def man_solver():
     legal_guesses = helper.get_guess_dictionary()
     potential_answers = helper.get_answer_dictionary()
     for attempt in range(max_attempts):
-        entropies = compute_entropy(legal_guesses, potential_answers)
-        probabilities = compute_possibility(legal_guesses, potential_answers)
+        if attempt == 0:
+            # initial entropies
+            if os.path.exists('initial_entropies.npy'):
+                print('loading initial_entropies.npy...')
+                with open('initial_entropies.npy', 'rb') as npy_file:
+                    entropies = np.load(npy_file)
+            else:
+                entropies = compute_entropy(legal_guesses, potential_answers)
+                print('saving initial_entropies.npy...')
+                with open('initial_entropies.npy', 'wb') as npy_file:
+                    np.save(npy_file, entropies)
+            # initial probabilities
+            if os.path.exists('initial_probabilities.npy'):
+                print('loading initial_probabilities.npy...')
+                with open('initial_probabilities.npy', 'rb') as npy_file:
+                    probabilities = np.load(npy_file)
+            else:
+                probabilities = compute_probabilities(legal_guesses, potential_answers)
+                print('saving initial_probabilities.npy...')
+                with open('initial_probabilities.npy', 'wb') as npy_file:
+                    np.save(npy_file, probabilities)
+        else:
+            entropies = compute_entropy(legal_guesses, potential_answers)
+            probabilities = compute_probabilities(legal_guesses, potential_answers)
         print_results(legal_guesses, entropies, probabilities)
         guess, pattern = accept_test_result()
         similarity = helper.pattern_to_similarity(pattern)
