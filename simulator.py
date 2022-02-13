@@ -2,12 +2,30 @@
 Simulator for testing the solver of Wordle puzzles.
 """
 
+import time
+import numpy as np
+
 import helper
 import solver
 
 __author__ = "Z Feng"
 
 max_auto_attempts = 10
+
+
+def simulator() -> float:
+    """
+    Simulator that goes through every possible Wordle puzzle in the dictionary, and compute the mean.
+    :return: mean number of attempts by the solver.
+    """
+    attempts = []
+    potential_answers = helper.get_answer_dictionary()
+    for i, answer in enumerate(potential_answers):
+        print(f'\n{i + 1}/{len(potential_answers)}')
+        attempt = responder(answer, do_print=True)
+        attempts.append(attempt)
+    return float(np.mean(attempts))
+
 
 def responder(answer: str, do_print: bool = False) -> int:
     """
@@ -17,7 +35,7 @@ def responder(answer: str, do_print: bool = False) -> int:
     :return: number of attempts used
     """
     if do_print:
-        print(f'\nSimulation starts! Answer = {answer}')
+        print(f'Simulation starts! Answer = {answer}')
         print('attempt\tguess\tpattern')
     gen = solver.auto_solver()
     guess = next(gen)
@@ -34,8 +52,11 @@ def responder(answer: str, do_print: bool = False) -> int:
         next(gen)
         guess = gen.send(similarity)
 
+
 if __name__ == "__main__":
-    attempts = responder('robin', do_print=True)
-    print(f'finished in {attempts} attempts!')
+    t_start = time.time()
+    mean = simulator()
+    print(f'\nSolver finishes in {mean: .3f} attempts on average!')
+    print(f'Finished in {time.time() - t_start: .3f} seconds!')
 
 # EOF

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbef393-de46-4ef3-8d48-3945e5534fcb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/helper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -240,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644782337569</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="similarity_to_pattern and better printing">
+      <created>1644783383208</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1644783383208</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -261,6 +266,7 @@
     <MESSAGE value="update docstring" />
     <MESSAGE value="auto_solver as a generator using entropy first" />
     <MESSAGE value="game simulations automated" />
-    <option name="LAST_COMMIT_MESSAGE" value="game simulations automated" />
+    <MESSAGE value="similarity_to_pattern and better printing" />
+    <option name="LAST_COMMIT_MESSAGE" value="similarity_to_pattern and better printing" />
   </component>
 </project>
