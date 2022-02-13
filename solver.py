@@ -22,7 +22,7 @@ def compute_entropy(legal_guesses: list, potential_answers: list) -> list:
     entropies = []
     for guess in legal_guesses:
         progress += 1
-        if progress % 100 == 0:
+        if progress % 500 == 0:
             print(f'{progress}/{len(legal_guesses)}: {guess}')
         similarity_counts = np.zeros(3 ** 5, dtype=float)
         for target in potential_answers:
@@ -49,11 +49,12 @@ def compute_possibility(legal_guesses: list, potential_answers: list) -> list:
     return probabilities
 
 
-def print_results(legal_guesses: list, entropies: list, probabilities: list) -> None:
+def print_results(legal_guesses: list, entropies: list, probabilities: list, lines: int = 5) -> None:
     """
     Print best guesses according to entropies.
     :param legal_guesses: list of legal words that can be guessed.
     :param entropies: list of entropies (in bits) for every legal guess
+    :param lines: number of lines printed
     :return: None
     """
     guesses = [(legal_guesses[i], entropies[i], probabilities[i]) for i in range(len(legal_guesses))]
@@ -63,9 +64,9 @@ def print_results(legal_guesses: list, entropies: list, probabilities: list) -> 
     guesses_by_probability = sorted(guesses, key=lambda e: e[2], reverse=True)
     # print
     print('word\tentropy (bits)\tword\tprobability')
-    for i in range(10):
+    for i in range(lines):
         print(f'{guesses_by_entropy[i][0]}\t{guesses_by_entropy[i][1]:.3f}'
-              + f'\t\t{guesses_by_probability[i][0]}\t{guesses_by_probability[i][2]:.3f}')
+              + f'\t\t\t{guesses_by_probability[i][0]}\t{guesses_by_probability[i][2]:.3e}')
 
 
 def refine_potential_answers(guess: str, potential_answers: list, similarity: int) -> list:
@@ -91,7 +92,8 @@ def accept_test_result():
     while True:
         usr_input = input('Please enter the word attempted and pattern received\n')
         if usr_input == 'q':
-            raise KeyboardInterrupt
+            print('Solver exited!')
+            quit()
         splits = usr_input.split()
         if len(splits) == 2:
             if len(splits[0]) == len(splits[1]) and all([letter in ('0', '1', '2') for letter in splits[1]]):
@@ -117,5 +119,6 @@ def man_solver():
 
 if __name__ == "__main__":
     man_solver()
+
 
 # EOF

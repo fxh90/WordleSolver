@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbef393-de46-4ef3-8d48-3945e5534fcb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/solver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644769665462</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Compute and print possibilities">
+      <created>1644770704631</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1644770704631</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -174,6 +180,7 @@
     <MESSAGE value="Calculate information entropy" />
     <MESSAGE value="Convert a pattern to similarity" />
     <MESSAGE value="Working version considering entropy only" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working version considering entropy only" />
+    <MESSAGE value="Compute and print possibilities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compute and print possibilities" />
   </component>
 </project>
