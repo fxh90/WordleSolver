@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbef393-de46-4ef3-8d48-3945e5534fcb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/simulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entropy_first.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644783383208</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Simulator goes through all possible answers">
+      <created>1644784175711</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1644784175711</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -267,6 +275,7 @@
     <MESSAGE value="auto_solver as a generator using entropy first" />
     <MESSAGE value="game simulations automated" />
     <MESSAGE value="similarity_to_pattern and better printing" />
-    <option name="LAST_COMMIT_MESSAGE" value="similarity_to_pattern and better printing" />
+    <MESSAGE value="Simulator goes through all possible answers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simulator goes through all possible answers" />
   </component>
 </project>
