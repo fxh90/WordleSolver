@@ -2,7 +2,7 @@
 Helper functions for both simulator and solver.
 """
 
-__author__ = "fxh90"
+__author__ = "Z Feng"
 
 def compare(guess: str, target: str) -> int:
     """
@@ -19,6 +19,7 @@ def compare(guess: str, target: str) -> int:
             similarity += 3 ** i
     assert 0 <= similarity < 3 ** N
     return similarity
+
 
 if __name__ == "__main__":
     print(compare('banana', 'target'))
