@@ -4,6 +4,18 @@ Helper functions for both simulator and solver.
 
 __author__ = "Z Feng"
 
+
+def pattern_to_similarity(pattern: str) -> int:
+    """
+    Convert a pattern of string consisting of '0', '1' and '2' to a similarity rating.
+    '2': right letter in right place
+    '1': right letter in wrong place
+    '0': wrong letter
+    :param pattern: string of pattern
+    :return: similarity
+    """
+    return int(pattern[::-1], 3)
+
 def compare(guess: str, target: str) -> int:
     """
     Compare a guess string to a target string. Return the similarity as an integer in the range of [0, 3^N-1], where
@@ -42,7 +54,10 @@ def get_answer_dictionary() -> list:
 
 
 if __name__ == "__main__":
-    guess_dict = get_answer_dictionary()
-    print(len(guess_dict))
+    guess = 'banana'
+    target = 'target'
+    pattern = '020101'
+    print(compare(guess, target))
+    print(pattern_to_similarity(pattern))
 
 #EOF
