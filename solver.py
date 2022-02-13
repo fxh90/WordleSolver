@@ -10,7 +10,7 @@ __author__ = "Z Feng"
 
 max_attempts = 5
 
-def compute_entropy(legal_guesses: list, potential_answers: list) -> list:
+def compute_entropy(legal_guesses: list, potential_answers: list) -> np.ndarray:
     """
     Compute the information entropy (in bits) of every legal guess in the legal_guesses list. Potential answers are
     given in a separate list with equal probability assumed.
@@ -33,10 +33,10 @@ def compute_entropy(legal_guesses: list, potential_answers: list) -> list:
         entropy_contributions[np.isnan(entropy_contributions)] = 0
         entropy = np.sum(entropy_contributions)
         entropies.append(entropy)
-    return entropies
+    return np.array(entropies)
 
 
-def compute_possibility(legal_guesses: list, potential_answers: list) -> list:
+def compute_possibility(legal_guesses: list, potential_answers: list) -> np.ndarray:
     """
     Compute the possibility of every legal guess in the legal_guesses list. Potential answers are given in a separate
     list with equal probabilities assumed.
@@ -46,10 +46,10 @@ def compute_possibility(legal_guesses: list, potential_answers: list) -> list:
     """
     p = 1 / len(potential_answers)
     probabilities = [(word in potential_answers) * p for word in legal_guesses]
-    return probabilities
+    return np.array(probabilities)
 
 
-def print_results(legal_guesses: list, entropies: list, probabilities: list, lines: int = 5) -> None:
+def print_results(legal_guesses: list, entropies: np.ndarray, probabilities: np.ndarray, lines: int = 5) -> None:
     """
     Print best guesses according to entropies.
     :param legal_guesses: list of legal words that can be guessed.
