@@ -16,6 +16,19 @@ def pattern_to_similarity(pattern: str) -> int:
     """
     return int(pattern[::-1], 3)
 
+
+def similarity_to_pattern(similarity: int) -> str:
+    """
+    Inverse of pattern_to_similarity for 5 digit in base 3.
+    :param similarity: str
+    :return: pattern
+    """
+    pattern = ''
+    for i in range(5):
+        pattern += str(similarity % (3 ** (i + 1)) // 3 ** i)
+    return pattern
+
+
 def compare(guess: str, target: str) -> int:
     """
     Compare a guess string to a target string. Return the similarity as an integer in the range of [0, 3^N-1], where

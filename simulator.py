@@ -16,15 +16,20 @@ def responder(answer: str, do_print: bool = False) -> int:
     :param do_print: print progress or not
     :return: number of attempts used
     """
-    print('attempt\tguess\tsimilarity')
+    if do_print:
+        print(f'\nSimulation starts! Answer = {answer}')
+        print('attempt\tguess\tpattern')
     gen = solver.auto_solver()
     guess = next(gen)
     for attempt in range(max_auto_attempts):
         if guess != answer:
             similarity = helper.compare(guess, answer)
-            print(f'{attempt + 1}\t\t{guess}\t{similarity}')
+            if do_print:
+                pattern = helper.similarity_to_pattern(similarity)
+                print(f'{attempt + 1}\t\t{guess}\t{pattern}')
         else:
-            print(f'{attempt + 1}\t\t{guess}\tCorrect!')
+            if do_print:
+                print(f'{attempt + 1}\t\t{guess}\tCorrect!')
             return attempt + 1
         next(gen)
         guess = gen.send(similarity)
