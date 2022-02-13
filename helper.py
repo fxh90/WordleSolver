@@ -21,7 +21,18 @@ def compare(guess: str, target: str) -> int:
     return similarity
 
 
+def get_guess_dictionary() -> list:
+    with open('words_wordle.txt', 'r') as f:
+        dictionary = f.readlines()
+    for i in range(len(dictionary)):
+        # print(len(word))
+        assert len(dictionary[i]) == 6
+        dictionary[i] = dictionary[i][:5]
+    return dictionary
+
+
 if __name__ == "__main__":
-    print(compare('banana', 'target'))
+    guess_dict = get_guess_dictionary()
+    print(len(guess_dict))
 
 #EOF
