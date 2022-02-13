@@ -8,6 +8,7 @@ import helper
 
 __author__ = "Z Feng"
 
+max_attemps = 5
 
 def compute_entropy(legal_guesses: list, potential_answers: list) -> list:
     """
@@ -51,11 +52,48 @@ def print_results(legal_guesses: list, entropies: list) -> None:
         print(f'{guesses_by_entropy[i][0]}\t{guesses_by_entropy[i][1]:.3f}')
 
 
+def refine_potential_answers(guess: str, potential_answers: list, similarity: int) -> list:
+    """
+    Refine potential answers from the result of a particular guess.
+    :param guess: guessed word
+    :param potential_answers: potential answers to refine from
+    :param similarity: similarity between guess and true answer
+    :return: list of refined potential answers
+    """
+    refined_answers = []
+    for target in potential_answers:
+        if helper.compare(guess, target) == similarity:
+            refined_answers.append(target)
+    return refined_answers
+
+
+def accept_test_result():
+    """
+    Let the user input the word guessed and the result as a pattern.
+    :return: guess, pattern
+    """
+    while True:
+        usr_input = input('Please enter the word attemped and pattern received\n')
+        splits = usr_input.split()
+        if len(splits) == 2:
+            if len(splits[0]) == len(splits[1]) and all([letter in ('0', '1', '2') for letter in splits[1]]):
+                break
+        print('Unrecognisable input. Please try again.')
+    return splits[0], splits[1]
+
+
 def main():
     legal_guesses = helper.get_guess_dictionary()
     potential_answers = helper.get_answer_dictionary()
-    entropies = compute_entropy(legal_guesses, potential_answers)
-    print_results(legal_guesses, entropies)
+    for attemp in range(max_attemps):
+        entropies = compute_entropy(legal_guesses, potential_answers)
+        print(len(potential_answers), potential_answers)
+        print_results(legal_guesses, entropies)
+        guess, pattern = accept_test_result()
+        similarity = helper.pattern_to_similarity(pattern)
+        if similarity == 3 ** 5 - 1:
+            print('Congratulations!')
+        potential_answers = refine_potential_answers(guess, potential_answers, similarity)
 
 if __name__ == "__main__":
     main()
