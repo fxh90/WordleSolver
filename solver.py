@@ -8,15 +8,15 @@ import helper
 
 __author__ = "Z Feng"
 
-max_attemps = 5
+max_attempts = 5
 
 def compute_entropy(legal_guesses: list, potential_answers: list) -> list:
     """
-    Compute the information entropy (in bits) of every legal guess in the legal_guesses list. Potential answers are given in a
-    seperate list with equal probability assumed.
+    Compute the information entropy (in bits) of every legal guess in the legal_guesses list. Potential answers are
+    given in a separate list with equal probability assumed.
     :param legal_guesses: list of legal guesses
     :param potential_answers: list of potential answers remaining
-    :return: list of information entropies for each entory in legal_guesses. Entropy giben in bits.
+    :return: list of information entropies for each entry in legal_guesses. Entropy given in bits.
     """
     progress = 0
     entropies = []
@@ -36,20 +36,36 @@ def compute_entropy(legal_guesses: list, potential_answers: list) -> list:
     return entropies
 
 
-def print_results(legal_guesses: list, entropies: list) -> None:
+def compute_possibility(legal_guesses: list, potential_answers: list) -> list:
+    """
+    Compute the possibility of every legal guess in the legal_guesses list. Potential answers are given in a separate
+    list with equal probabilities assumed.
+    :param legal_guesses: list of legal guesses
+    :param potential_answers: list of potential answers
+    :return: list of probabilities for each entry in legal_guesses.
+    """
+    p = 1 / len(potential_answers)
+    probabilities = [(word in potential_answers) * p for word in legal_guesses]
+    return probabilities
+
+
+def print_results(legal_guesses: list, entropies: list, probabilities: list) -> None:
     """
     Print best guesses according to entropies.
     :param legal_guesses: list of legal words that can be guessed.
     :param entropies: list of entropies (in bits) for every legal guess
     :return: None
     """
-    guesses = [(legal_guesses[i], entropies[i]) for i in range(len(legal_guesses))]
+    guesses = [(legal_guesses[i], entropies[i], probabilities[i]) for i in range(len(legal_guesses))]
     # sort by entropy
     guesses_by_entropy = sorted(guesses, key=lambda e: e[1], reverse=True)
+    # sort by probabilities
+    guesses_by_probability = sorted(guesses, key=lambda e: e[2], reverse=True)
     # print
-    print('word\tentropy (bits)')
+    print('word\tentropy (bits)\tword\tprobability')
     for i in range(10):
-        print(f'{guesses_by_entropy[i][0]}\t{guesses_by_entropy[i][1]:.3f}')
+        print(f'{guesses_by_entropy[i][0]}\t{guesses_by_entropy[i][1]:.3f}'
+              + f'\t\t{guesses_by_probability[i][0]}\t{guesses_by_probability[i][2]:.3f}')
 
 
 def refine_potential_answers(guess: str, potential_answers: list, similarity: int) -> list:
@@ -73,7 +89,9 @@ def accept_test_result():
     :return: guess, pattern
     """
     while True:
-        usr_input = input('Please enter the word attemped and pattern received\n')
+        usr_input = input('Please enter the word attempted and pattern received\n')
+        if usr_input == 'q':
+            raise KeyboardInterrupt
         splits = usr_input.split()
         if len(splits) == 2:
             if len(splits[0]) == len(splits[1]) and all([letter in ('0', '1', '2') for letter in splits[1]]):
@@ -82,20 +100,22 @@ def accept_test_result():
     return splits[0], splits[1]
 
 
-def main():
+def man_solver():
     legal_guesses = helper.get_guess_dictionary()
     potential_answers = helper.get_answer_dictionary()
-    for attemp in range(max_attemps):
+    for attempt in range(max_attempts):
         entropies = compute_entropy(legal_guesses, potential_answers)
-        print(len(potential_answers), potential_answers)
-        print_results(legal_guesses, entropies)
+        probabilities = compute_possibility(legal_guesses, potential_answers)
+        print_results(legal_guesses, entropies, probabilities)
         guess, pattern = accept_test_result()
         similarity = helper.pattern_to_similarity(pattern)
         if similarity == 3 ** 5 - 1:
             print('Congratulations!')
+            break
         potential_answers = refine_potential_answers(guess, potential_answers, similarity)
 
+
 if __name__ == "__main__":
-    main()
+    man_solver()
 
 # EOF

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cbef393-de46-4ef3-8d48-3945e5534fcb" name="Changes" comment="Accept user input">
+    <list default="true" id="6cbef393-de46-4ef3-8d48-3945e5534fcb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/solver.py" afterDir="false" />
     </list>
@@ -154,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644768432048</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Working version considering entropy only">
+      <created>1644769665462</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1644769665462</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -166,6 +173,7 @@
     <MESSAGE value="Read answer dictionary" />
     <MESSAGE value="Calculate information entropy" />
     <MESSAGE value="Convert a pattern to similarity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Convert a pattern to similarity" />
+    <MESSAGE value="Working version considering entropy only" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working version considering entropy only" />
   </component>
 </project>
