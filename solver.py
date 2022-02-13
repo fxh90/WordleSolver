@@ -104,6 +104,9 @@ def accept_test_result():
 
 
 def man_solver():
+    """
+    Manual solver of a Wordle puzzle.
+    """
     legal_guesses = helper.get_guess_dictionary()
     potential_answers = helper.get_answer_dictionary()
     for attempt in range(max_attempts):
