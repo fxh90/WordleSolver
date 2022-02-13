@@ -53,7 +53,21 @@ def compute_probabilities(legal_guesses: list, potential_answers: list) -> np.nd
     return np.array(probabilities)
 
 
-def print_results(legal_guesses: list, entropies: np.ndarray, probabilities: np.ndarray, lines: int = 5) -> None:
+def compute_score_1(entropies: np.ndarray, probabilities: np.ndarray) -> np.ndarray:
+    """
+    First version of computing a score combining entropy and probability to make (hopefully) better choices when making
+    a guess.
+    The proposed function of score is: S = (H + p) / (1.1 ^ 2 - p ^2)
+    :param entropies: entropy (H)
+    :param probabilities: probability (p)
+    :return: score (S)
+    """
+    scores = (entropies + probabilities) / (1.1 ** 2 - probabilities ** 2)
+    return scores
+
+
+def print_results(legal_guesses: list, entropies: np.ndarray, probabilities: np.ndarray,
+                  scores: np.ndarray, lines: int = 5) -> None:
     """
     Print best guesses according to entropies.
     :param legal_guesses: list of legal words that can be guessed.
@@ -61,16 +75,19 @@ def print_results(legal_guesses: list, entropies: np.ndarray, probabilities: np.
     :param lines: number of lines printed
     :return: None
     """
-    guesses = [(legal_guesses[i], entropies[i], probabilities[i]) for i in range(len(legal_guesses))]
+    guesses = [(legal_guesses[i], entropies[i], probabilities[i], scores[i]) for i in range(len(legal_guesses))]
     # sort by entropy
     guesses_by_entropy = sorted(guesses, key=lambda e: e[1], reverse=True)
-    # sort by probabilities
+    # sort by probability
     guesses_by_probability = sorted(guesses, key=lambda e: e[2], reverse=True)
+    # sort by score
+    guesses_by_score = sorted(guesses, key=lambda e: e[3], reverse=True)
     # print
-    print('word\tentropy (bits)\tword\tprobability')
+    print('word\tentropy (bits)\tword\tprobability\t\tword\tscore')
     for i in range(lines):
         print(f'{guesses_by_entropy[i][0]}\t{guesses_by_entropy[i][1]:.3f}'
-              + f'\t\t\t{guesses_by_probability[i][0]}\t{guesses_by_probability[i][2]:.3e}')
+              + f'\t\t\t{guesses_by_probability[i][0]}\t{guesses_by_probability[i][2]:.3e}'
+              + f'\t\t{guesses_by_score[i][0]}\t{guesses_by_score[i][3]:3e}')
 
 
 def refine_potential_answers(guess: str, potential_answers: list, similarity: int) -> list:
@@ -137,7 +154,8 @@ def man_solver():
         else:
             entropies = compute_entropy(legal_guesses, potential_answers)
             probabilities = compute_probabilities(legal_guesses, potential_answers)
-        print_results(legal_guesses, entropies, probabilities)
+        scores = compute_score_1(entropies, probabilities)
+        print_results(legal_guesses, entropies, probabilities, scores)
         guess, pattern = accept_test_result()
         similarity = helper.pattern_to_similarity(pattern)
         if similarity == 3 ** 5 - 1:

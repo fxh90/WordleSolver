@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbef393-de46-4ef3-8d48-3945e5534fcb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/entropy_first.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/solver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.simulator">
+  <component name="RunManager" selected="Python.solver">
     <configuration name="helper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WordleSolver" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,8 +105,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.simulator" />
         <item itemvalue="Python.solver" />
+        <item itemvalue="Python.simulator" />
         <item itemvalue="Python.helper" />
       </list>
     </recent_temporary>
@@ -253,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644784175711</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Entropy first simulation result">
+      <created>1644793292780</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1644793292780</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -276,6 +283,7 @@
     <MESSAGE value="game simulations automated" />
     <MESSAGE value="similarity_to_pattern and better printing" />
     <MESSAGE value="Simulator goes through all possible answers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simulator goes through all possible answers" />
+    <MESSAGE value="Entropy first simulation result" />
+    <option name="LAST_COMMIT_MESSAGE" value="Entropy first simulation result" />
   </component>
 </project>
