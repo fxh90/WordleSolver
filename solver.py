@@ -176,7 +176,7 @@ def man_solver():
         potential_answers = refine_potential_answers(guess, potential_answers, similarity)
 
 
-def auto_solver(strategy: str = 'entropy first'):
+def auto_solver(strategy: str = 'score 1'):
     """
     Generator object that solves a Wordle puzzle automatically according to a given strategy.
     :param strategy: 'entropy first', 'score 1'
