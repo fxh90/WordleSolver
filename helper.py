@@ -37,11 +37,21 @@ def compare(guess: str, target: str) -> int:
     assert len(guess) == len(target)
     N = len(guess)
     similarity = 0
+    used_target = [False for i in range(N)]
+    used_guess = [False for i in range(N)]
     for i in range(N):
         if guess[i] == target[i]:
             similarity += 2 * 3 ** i
-        elif guess[i] in target:
-            similarity += 3 ** i
+            used_target[i] = True
+            used_guess[i] = True
+    for i in range(N):
+        if used_guess[i]:
+            continue
+        for j in range(N):
+            if not used_target[j] and guess[i] == target[j]:
+                similarity += 3 ** i
+                used_target[j] = True
+                break
     assert 0 <= similarity < 3 ** N
     return similarity
 
@@ -67,10 +77,10 @@ def get_answer_dictionary() -> list:
 
 
 if __name__ == "__main__":
-    guess = 'banana'
-    target = 'target'
-    pattern = '020101'
-    print(compare(guess, target))
-    print(pattern_to_similarity(pattern))
+    guess = 'speed'
+    target = 'crepe'
+    similarity = compare(guess, target)
+    print(similarity)
+    print(similarity_to_pattern(similarity))
 
 #EOF
