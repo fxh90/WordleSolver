@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6cbef393-de46-4ef3-8d48-3945e5534fcb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial_entropies.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial_probabilities.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entropy_first.log" beforeDir="false" afterPath="$PROJECT_DIR$/entropy_first.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.simulator">
+  <component name="RunManager" selected="Python.solver">
     <configuration name="helper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WordleSolver" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,9 +106,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.solver" />
         <item itemvalue="Python.simulator" />
         <item itemvalue="Python.helper" />
-        <item itemvalue="Python.solver" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644836252930</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Updated cache entropy / probability">
+      <created>1644836679011</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1644836679011</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -318,6 +324,7 @@
     <MESSAGE value="Auto solver using score 1" />
     <MESSAGE value="Score 1 simulation result" />
     <MESSAGE value="Bug fixes for multiple occurrence of letters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fixes for multiple occurrence of letters" />
+    <MESSAGE value="Updated cache entropy / probability" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated cache entropy / probability" />
   </component>
 </project>
