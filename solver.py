@@ -14,18 +14,8 @@ __author__ = "Z Feng"
 max_attempts = 5
 warnings.filterwarnings('ignore')
 
-# initialise similarity LUT
-if os.path.exists('similarity_lut.pkl'):
-    with open('similarity_lut.pkl', 'rb') as pkl_file:
-        similarity_lut = pickle.load(pkl_file)
-else:
-    print('Initialising similarity LUT...')
-    similarity_lut = helper.gen_similarity_LUT()
-    with open('similarity_lut.pkl', 'wb') as pkl_file:
-        pickle.dump(similarity_lut, pkl_file)
 
-
-def compute_entropy(legal_guesses: list, potential_answers: list, do_print: bool = True) -> np.ndarray:
+def compute_entropy(legal_guesses: list = None, potential_answers: list = None, do_print: bool = True) -> np.ndarray:
     """
     Compute the information entropy (in bits) of every legal guess in the legal_guesses list. Potential answers are
     given in a separate list with equal probability assumed.
@@ -33,6 +23,10 @@ def compute_entropy(legal_guesses: list, potential_answers: list, do_print: bool
     :param potential_answers: list of potential answers remaining
     :return: list of information entropies for each entry in legal_guesses. Entropy given in bits.
     """
+    if legal_guesses is None:
+        legal_guesses = helper.get_guess_dictionary()
+    if potential_answers is None:
+        potential_answers = helper.get_answer_dictionary()
     progress = 0
     entropies = []
     for guess in legal_guesses:
@@ -52,7 +46,7 @@ def compute_entropy(legal_guesses: list, potential_answers: list, do_print: bool
     return np.array(entropies)
 
 
-def compute_probabilities(legal_guesses: list, potential_answers: list) -> np.ndarray:
+def compute_probabilities(legal_guesses: list = None, potential_answers: list = None) -> np.ndarray:
     """
     Compute the possibility of every legal guess in the legal_guesses list. Potential answers are given in a separate
     list with equal probabilities assumed.
@@ -60,6 +54,10 @@ def compute_probabilities(legal_guesses: list, potential_answers: list) -> np.nd
     :param potential_answers: list of potential answers
     :return: list of probabilities for each entry in legal_guesses.
     """
+    if legal_guesses is None:
+        legal_guesses = helper.get_guess_dictionary()
+    if potential_answers is None:
+        potential_answers = helper.get_answer_dictionary()
     p = 1 / len(potential_answers)
     probabilities = [(word in potential_answers) * p for word in legal_guesses]
     return np.array(probabilities)
@@ -143,26 +141,8 @@ def man_solver():
     potential_answers = helper.get_answer_dictionary()
     for attempt in range(max_attempts):
         if attempt == 0:
-            # initial entropies
-            if os.path.exists('initial_entropies.npy'):
-                print('loading initial_entropies.npy...')
-                with open('initial_entropies.npy', 'rb') as npy_file:
-                    entropies = np.load(npy_file)
-            else:
-                entropies = compute_entropy(legal_guesses, potential_answers)
-                print('saving initial_entropies.npy...')
-                with open('initial_entropies.npy', 'wb') as npy_file:
-                    np.save(npy_file, entropies)
-            # initial probabilities
-            if os.path.exists('initial_probabilities.npy'):
-                print('loading initial_probabilities.npy...')
-                with open('initial_probabilities.npy', 'rb') as npy_file:
-                    probabilities = np.load(npy_file)
-            else:
-                probabilities = compute_probabilities(legal_guesses, potential_answers)
-                print('saving initial_probabilities.npy...')
-                with open('initial_probabilities.npy', 'wb') as npy_file:
-                    np.save(npy_file, probabilities)
+            entropies = initial_entropies
+            probabilities = initial_probabilities
         else:
             entropies = compute_entropy(legal_guesses, potential_answers)
             probabilities = compute_probabilities(legal_guesses, potential_answers)
@@ -187,22 +167,8 @@ def auto_solver(strategy: str = 'score 1'):
     while True:
         if first_attempt:
             # initial entropies
-            if os.path.exists('initial_entropies.npy'):
-                with open('initial_entropies.npy', 'rb') as npy_file:
-                    entropies = np.load(npy_file)
-            else:
-                entropies = compute_entropy(legal_guesses, potential_answers, do_print=False)
-                with open('initial_entropies.npy', 'wb') as npy_file:
-                    np.save(npy_file, entropies)
-            if not strategy == 'entropy first':
-                # initial probabilities
-                if os.path.exists('initial_probabilities.npy'):
-                    with open('initial_probabilities.npy', 'rb') as npy_file:
-                        probabilities = np.load(npy_file)
-                else:
-                    probabilities = compute_probabilities(legal_guesses, potential_answers)
-                    with open('initial_probabilities.npy', 'wb') as npy_file:
-                        np.save(npy_file, probabilities)
+            entropies = initial_entropies
+            probabilities = initial_probabilities
             first_attempt = False
         else:
             entropies = compute_entropy(legal_guesses, potential_answers, do_print=False)
@@ -223,6 +189,37 @@ def auto_solver(strategy: str = 'score 1'):
         yield guess
         similarity = yield
         potential_answers = refine_potential_answers(guess, potential_answers, similarity)
+
+
+# initialise similarity LUT
+if os.path.exists('similarity_lut.pkl'):
+    with open('similarity_lut.pkl', 'rb') as pkl_file:
+        similarity_lut = pickle.load(pkl_file)
+else:
+    print('Initialising similarity LUT...')
+    similarity_lut = helper.gen_similarity_LUT()
+    with open('similarity_lut.pkl', 'wb') as pkl_file:
+        pickle.dump(similarity_lut, pkl_file)
+# initial entropies
+if os.path.exists('initial_entropies.npy'):
+    print('loading initial_entropies.npy...')
+    with open('initial_entropies.npy', 'rb') as npy_file:
+        initial_entropies = np.load(npy_file)
+else:
+    initial_entropies = compute_entropy()
+    print('saving initial_entropies.npy...')
+    with open('initial_entropies.npy', 'wb') as npy_file:
+        np.save(npy_file, initial_entropies)
+# initial probabilities
+if os.path.exists('initial_probabilities.npy'):
+    print('loading initial_probabilities.npy...')
+    with open('initial_probabilities.npy', 'rb') as npy_file:
+        initial_probabilities = np.load(npy_file)
+else:
+    initial_probabilities = compute_probabilities()
+    print('saving initial_probabilities.npy...')
+    with open('initial_probabilities.npy', 'wb') as npy_file:
+        np.save(npy_file, initial_probabilities)
 
 
 if __name__ == "__main__":

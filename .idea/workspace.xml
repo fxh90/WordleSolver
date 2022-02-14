@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbef393-de46-4ef3-8d48-3945e5534fcb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/solver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,12 +343,18 @@
       <option name="project" value="LOCAL" />
       <updated>1644874774303</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Update exit">
+      <created>1644878228794</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1644878228795</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Read answer dictionary" />
     <MESSAGE value="Calculate information entropy" />
     <MESSAGE value="Convert a pattern to similarity" />
     <MESSAGE value="Working version considering entropy only" />
@@ -374,6 +379,7 @@
     <MESSAGE value="Cache similarity LUT for faster computation" />
     <MESSAGE value="Updated score 1 result with multiple occurrence bug fix" />
     <MESSAGE value="Better readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Better readme" />
+    <MESSAGE value="Update exit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update exit" />
   </component>
 </project>
