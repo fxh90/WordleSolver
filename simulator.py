@@ -37,7 +37,7 @@ def responder(answer: str, do_print: bool = False) -> int:
     if do_print:
         print(f'Simulation starts! Answer = {answer}')
         print('attempt\tguess\tpattern')
-    gen = solver.auto_solver(strategy='entropy first')
+    gen = solver.auto_solver(strategy='score 1')
     guess = next(gen)
     for attempt in range(max_auto_attempts):
         if guess != answer:

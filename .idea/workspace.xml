@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cbef393-de46-4ef3-8d48-3945e5534fcb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/entropy_first.log" beforeDir="false" afterPath="$PROJECT_DIR$/entropy_first.log" afterDir="false" />
+    <list default="true" id="6cbef393-de46-4ef3-8d48-3945e5534fcb" name="Changes" comment="Cache similarity LUT for faster computation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/score_1.log" beforeDir="false" afterPath="$PROJECT_DIR$/score_1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644866660145</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Cache similarity LUT for faster computation">
+      <created>1644866713055</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1644866713055</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

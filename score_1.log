@@ -3,14 +3,14 @@
 Simulation starts! Answer = cigar
 attempt	guess	pattern
 1		soare	00110
-2		riyal	12020
+2		radar	00022
 3		cigar	Correct!
 
 2/2315
 Simulation starts! Answer = rebut
 attempt	guess	pattern
 1		soare	00011
-2		tined	10010
+2		direr	00110
 3		retch	22100
 4		rebut	Correct!
 
@@ -34,14 +34,14 @@ Simulation starts! Answer = awake
 attempt	guess	pattern
 1		soare	00202
 2		glitz	00000
-3		weave	11202
+3		weave	10202
 4		awake	Correct!
 
 6/2315
 Simulation starts! Answer = blush
 attempt	guess	pattern
 1		soare	10000
-2		mythi	00010
+2		hists	10100
 3		fibre	00100
 4		blush	Correct!
 
@@ -72,7 +72,7 @@ attempt	guess	pattern
 Simulation starts! Answer = serve
 attempt	guess	pattern
 1		soare	20012
-2		perch	02200
+2		spree	20212
 3		serve	Correct!
 
 11/2315
@@ -100,7 +100,7 @@ attempt	guess	pattern
 Simulation starts! Answer = karma
 attempt	guess	pattern
 1		soare	00110
-2		riyal	10010
+2		radar	12010
 3		karma	Correct!
 
 15/2315
@@ -121,14 +121,14 @@ attempt	guess	pattern
 Simulation starts! Answer = quiet
 attempt	guess	pattern
 1		soare	00001
-2		teind	11200
+2		denet	00022
 3		quiet	Correct!
 
 18/2315
 Simulation starts! Answer = bench
 attempt	guess	pattern
 1		soare	00001
-2		teind	02010
+2		denet	02200
 3		bench	Correct!
 
 19/2315
@@ -142,7 +142,7 @@ attempt	guess	pattern
 Simulation starts! Answer = feign
 attempt	guess	pattern
 1		soare	00001
-2		teind	02210
+2		denet	02100
 3		feign	Correct!
 
 21/2315
@@ -214,7 +214,7 @@ Simulation starts! Answer = batty
 attempt	guess	pattern
 1		soare	00100
 2		clint	00001
-3		bluff	20000
+3		baffy	22002
 4		batty	Correct!
 
 31/2315
@@ -228,15 +228,16 @@ attempt	guess	pattern
 Simulation starts! Answer = floss
 attempt	guess	pattern
 1		soare	11000
-2		gloom	02210
+2		gloom	02200
 3		floss	Correct!
 
 33/2315
 Simulation starts! Answer = helix
 attempt	guess	pattern
 1		soare	00001
-2		teind	02100
-3		helix	Correct!
+2		denet	02000
+3		belch	02201
+4		helix	Correct!
 
 34/2315
 Simulation starts! Answer = croak
@@ -257,7 +258,7 @@ attempt	guess	pattern
 Simulation starts! Answer = paper
 attempt	guess	pattern
 1		soare	00111
-2		talar	02012
+2		talar	02002
 3		pygmy	20000
 4		paper	Correct!
 
@@ -265,16 +266,15 @@ attempt	guess	pattern
 Simulation starts! Answer = unfed
 attempt	guess	pattern
 1		soare	00001
-2		teind	01012
+2		denet	10120
 3		unfed	Correct!
 
 38/2315
 Simulation starts! Answer = whelp
 attempt	guess	pattern
 1		soare	00001
-2		teind	01000
-3		excel	10011
-4		whelp	Correct!
+2		denet	01000
+3		whelp	Correct!
 
 39/2315
 Simulation starts! Answer = trawl
@@ -302,7 +302,7 @@ Simulation starts! Answer = crazy
 attempt	guess	pattern
 1		soare	00210
 2		clint	20000
-3		karma	01101
+3		karma	01100
 4		crazy	Correct!
 
 43/2315
@@ -315,7 +315,7 @@ attempt	guess	pattern
 Simulation starts! Answer = repay
 attempt	guess	pattern
 1		soare	00111
-2		talar	01021
+2		talar	00021
 3		brick	01000
 4		repay	Correct!
 
@@ -375,15 +375,14 @@ attempt	guess	pattern
 Simulation starts! Answer = linen
 attempt	guess	pattern
 1		soare	00001
-2		teind	01110
-3		vinyl	02201
-4		linen	Correct!
+2		denet	00220
+3		linen	Correct!
 
 53/2315
 Simulation starts! Answer = unmet
 attempt	guess	pattern
 1		soare	00001
-2		teind	11010
+2		denet	00122
 3		unmet	Correct!
 
 54/2315
@@ -427,8 +426,8 @@ attempt	guess	pattern
 Simulation starts! Answer = belly
 attempt	guess	pattern
 1		soare	00001
-2		teind	02000
-3		bylaw	21200
+2		denet	02000
+3		belch	22200
 4		belly	Correct!
 
 60/2315
@@ -480,7 +479,7 @@ attempt	guess	pattern
 Simulation starts! Answer = stout
 attempt	guess	pattern
 1		soare	21000
-2		cloot	00212
+2		cloot	00202
 3		nymph	00000
 4		stout	Correct!
 
@@ -488,7 +487,7 @@ attempt	guess	pattern
 Simulation starts! Answer = panel
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01112
+2		canal	02202
 3		panel	Correct!
 
 68/2315
@@ -509,7 +508,7 @@ attempt	guess	pattern
 Simulation starts! Answer = offal
 attempt	guess	pattern
 1		soare	01100
-2		cloot	01110
+2		cloot	01100
 3		offal	Correct!
 
 71/2315
@@ -544,14 +543,14 @@ attempt	guess	pattern
 Simulation starts! Answer = bleed
 attempt	guess	pattern
 1		soare	00001
-2		teind	01002
+2		denet	11020
 3		bleed	Correct!
 
 76/2315
 Simulation starts! Answer = delta
 attempt	guess	pattern
 1		soare	00101
-2		tepal	12011
+2		canal	01001
 3		delta	Correct!
 
 77/2315
@@ -607,8 +606,9 @@ attempt	guess	pattern
 Simulation starts! Answer = lapel
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01212
-3		lapel	Correct!
+2		canal	02002
+3		bough	00000
+4		lapel	Correct!
 
 85/2315
 Simulation starts! Answer = start
@@ -621,8 +621,8 @@ attempt	guess	pattern
 Simulation starts! Answer = greet
 attempt	guess	pattern
 1		soare	00011
-2		tined	10020
-3		shrug	00101
+2		direr	00120
+3		pence	01001
 4		greet	Correct!
 
 87/2315
@@ -645,7 +645,7 @@ attempt	guess	pattern
 Simulation starts! Answer = lusty
 attempt	guess	pattern
 1		soare	10000
-2		mythi	01100
+2		hists	00220
 3		model	00001
 4		lusty	Correct!
 
@@ -654,7 +654,7 @@ Simulation starts! Answer = loopy
 attempt	guess	pattern
 1		soare	02000
 2		culty	00102
-3		blown	01200
+3		knoll	00210
 4		loopy	Correct!
 
 91/2315
@@ -768,7 +768,7 @@ attempt	guess	pattern
 Simulation starts! Answer = essay
 attempt	guess	pattern
 1		soare	10101
-2		tangy	01002
+2		tweed	00100
 3		essay	Correct!
 
 107/2315
@@ -783,16 +783,15 @@ Simulation starts! Answer = spend
 attempt	guess	pattern
 1		soare	20001
 2		clipt	00010
-3		sweep	20211
+3		sweep	20201
 4		spend	Correct!
 
 109/2315
 Simulation starts! Answer = kebab
 attempt	guess	pattern
 1		soare	00101
-2		tepal	02020
-3		began	12020
-4		kebab	Correct!
+2		canal	00020
+3		kebab	Correct!
 
 110/2315
 Simulation starts! Answer = guild
@@ -835,8 +834,8 @@ attempt	guess	pattern
 Simulation starts! Answer = hyper
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	00001
+2		direr	00022
+3		butyl	00010
 4		hyper	Correct!
 
 116/2315
@@ -864,9 +863,8 @@ attempt	guess	pattern
 Simulation starts! Answer = belch
 attempt	guess	pattern
 1		soare	00001
-2		teind	02000
-3		bylaw	20200
-4		belch	Correct!
+2		denet	02000
+3		belch	Correct!
 
 120/2315
 Simulation starts! Answer = dutch
@@ -887,7 +885,7 @@ attempt	guess	pattern
 Simulation starts! Answer = tweed
 attempt	guess	pattern
 1		soare	00001
-2		teind	21002
+2		denet	11021
 3		tweed	Correct!
 
 123/2315
@@ -910,9 +908,8 @@ attempt	guess	pattern
 Simulation starts! Answer = enema
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01010
-3		annex	12110
-4		enema	Correct!
+2		canal	01100
+3		enema	Correct!
 
 126/2315
 Simulation starts! Answer = steed
@@ -933,7 +930,7 @@ Simulation starts! Answer = growl
 attempt	guess	pattern
 1		soare	01010
 2		cutin	00000
-3		gloop	21210
+3		gloop	21200
 4		growl	Correct!
 
 129/2315
@@ -958,7 +955,7 @@ attempt	guess	pattern
 1		soare	02000
 2		culty	00002
 3		goody	02202
-4		booby	22212
+4		booby	22202
 5		boozy	Correct!
 
 132/2315
@@ -995,21 +992,21 @@ attempt	guess	pattern
 Simulation starts! Answer = briar
 attempt	guess	pattern
 1		soare	00110
-2		riyal	11020
+2		radar	10022
 3		briar	Correct!
 
 137/2315
 Simulation starts! Answer = great
 attempt	guess	pattern
 1		soare	00111
-2		talar	11021
+2		talar	10021
 3		great	Correct!
 
 138/2315
 Simulation starts! Answer = altar
 attempt	guess	pattern
 1		soare	00110
-2		riyal	10021
+2		radar	01022
 3		altar	Correct!
 
 139/2315
@@ -1017,7 +1014,7 @@ Simulation starts! Answer = pulpy
 attempt	guess	pattern
 1		soare	00000
 2		clint	01000
-3		bully	02212
+3		bully	02202
 4		pulpy	Correct!
 
 140/2315
@@ -1052,8 +1049,8 @@ attempt	guess	pattern
 Simulation starts! Answer = fixer
 attempt	guess	pattern
 1		soare	00011
-2		tined	02020
-3		rival	12000
+2		direr	02022
+3		fling	20100
 4		fixer	Correct!
 
 145/2315
@@ -1083,7 +1080,7 @@ Simulation starts! Answer = smart
 attempt	guess	pattern
 1		soare	20220
 2		thick	10000
-3		start	21222
+3		start	20222
 4		smart	Correct!
 
 149/2315
@@ -1091,7 +1088,7 @@ Simulation starts! Answer = pithy
 attempt	guess	pattern
 1		soare	00000
 2		clint	00101
-3		ditty	02212
+3		ditty	02202
 4		pithy	Correct!
 
 150/2315
@@ -1128,15 +1125,15 @@ attempt	guess	pattern
 Simulation starts! Answer = finer
 attempt	guess	pattern
 1		soare	00011
-2		tined	02220
-3		focal	20000
+2		direr	02022
+3		fling	20110
 4		finer	Correct!
 
 155/2315
 Simulation starts! Answer = surer
 attempt	guess	pattern
 1		soare	20011
-2		rerun	11210
+2		newie	01000
 3		surer	Correct!
 
 156/2315
@@ -1157,15 +1154,14 @@ attempt	guess	pattern
 Simulation starts! Answer = perch
 attempt	guess	pattern
 1		soare	00011
-2		tined	00010
-3		pluck	20020
-4		perch	Correct!
+2		direr	00210
+3		perch	Correct!
 
 159/2315
 Simulation starts! Answer = retch
 attempt	guess	pattern
 1		soare	00011
-2		tined	10010
+2		direr	00110
 3		retch	Correct!
 
 160/2315
@@ -1220,7 +1216,7 @@ attempt	guess	pattern
 Simulation starts! Answer = cheat
 attempt	guess	pattern
 1		soare	00101
-2		tepal	11020
+2		canal	20020
 3		cheat	Correct!
 
 168/2315
@@ -1235,8 +1231,8 @@ attempt	guess	pattern
 Simulation starts! Answer = exult
 attempt	guess	pattern
 1		soare	00001
-2		teind	11000
-3		fleet	01112
+2		denet	01002
+3		eight	20002
 4		exult	Correct!
 
 170/2315
@@ -1258,15 +1254,14 @@ attempt	guess	pattern
 Simulation starts! Answer = triad
 attempt	guess	pattern
 1		soare	00110
-2		riyal	11020
-3		briar	02221
-4		triad	Correct!
+2		radar	10120
+3		triad	Correct!
 
 173/2315
 Simulation starts! Answer = break
 attempt	guess	pattern
 1		soare	00111
-2		talar	01021
+2		talar	00021
 3		brick	22002
 4		break	Correct!
 
@@ -1281,7 +1276,7 @@ attempt	guess	pattern
 Simulation starts! Answer = viral
 attempt	guess	pattern
 1		soare	00110
-2		riyal	12022
+2		radar	10020
 3		viral	Correct!
 
 176/2315
@@ -1289,8 +1284,7 @@ Simulation starts! Answer = conic
 attempt	guess	pattern
 1		soare	02000
 2		culty	20000
-3		drain	00021
-4		conic	Correct!
+3		conic	Correct!
 
 177/2315
 Simulation starts! Answer = masse
@@ -1324,7 +1318,7 @@ attempt	guess	pattern
 Simulation starts! Answer = using
 attempt	guess	pattern
 1		soare	10000
-2		mythi	00001
+2		hists	01100
 3		using	Correct!
 
 182/2315
@@ -1345,7 +1339,7 @@ attempt	guess	pattern
 Simulation starts! Answer = baton
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00121
+2		cloot	00021
 3		baton	Correct!
 
 185/2315
@@ -1368,7 +1362,7 @@ Simulation starts! Answer = craze
 attempt	guess	pattern
 1		soare	00212
 2		ditch	00010
-3		naval	01010
+3		naval	01000
 4		craze	Correct!
 
 188/2315
@@ -1390,7 +1384,7 @@ Simulation starts! Answer = picky
 attempt	guess	pattern
 1		soare	00000
 2		clint	10100
-3		mimic	02011
+3		mimic	02001
 4		picky	Correct!
 
 191/2315
@@ -1404,7 +1398,7 @@ attempt	guess	pattern
 Simulation starts! Answer = ferry
 attempt	guess	pattern
 1		soare	00021
-2		delft	02010
+2		feted	22000
 3		ferry	Correct!
 
 193/2315
@@ -1418,7 +1412,7 @@ attempt	guess	pattern
 Simulation starts! Answer = tapir
 attempt	guess	pattern
 1		soare	00110
-2		riyal	11010
+2		radar	02002
 3		tapir	Correct!
 
 195/2315
@@ -1468,8 +1462,9 @@ attempt	guess	pattern
 Simulation starts! Answer = tiger
 attempt	guess	pattern
 1		soare	00011
-2		tined	22020
-3		tiger	Correct!
+2		direr	02022
+3		fling	00101
+4		tiger	Correct!
 
 202/2315
 Simulation starts! Answer = banal
@@ -1504,7 +1499,7 @@ attempt	guess	pattern
 Simulation starts! Answer = query
 attempt	guess	pattern
 1		soare	00021
-2		delft	01000
+2		feted	01000
 3		query	Correct!
 
 207/2315
@@ -1526,8 +1521,8 @@ attempt	guess	pattern
 Simulation starts! Answer = abbey
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01010
-3		annex	20020
+2		canal	01000
+3		theta	00101
 4		abbey	Correct!
 
 210/2315
@@ -1561,7 +1556,7 @@ Simulation starts! Answer = proxy
 attempt	guess	pattern
 1		soare	01010
 2		cutin	00000
-3		gloop	00211
+3		gloop	00201
 4		proxy	Correct!
 
 215/2315
@@ -1633,8 +1628,8 @@ attempt	guess	pattern
 Simulation starts! Answer = perky
 attempt	guess	pattern
 1		soare	00011
-2		tined	00010
-3		pluck	20001
+2		direr	00210
+3		perch	22200
 4		perky	Correct!
 
 225/2315
@@ -1662,7 +1657,7 @@ attempt	guess	pattern
 Simulation starts! Answer = those
 attempt	guess	pattern
 1		soare	11002
-2		hatch	10101
+2		hatch	10100
 3		those	Correct!
 
 229/2315
@@ -1683,14 +1678,15 @@ attempt	guess	pattern
 Simulation starts! Answer = pleat
 attempt	guess	pattern
 1		soare	00101
-2		tepal	11121
-3		pleat	Correct!
+2		canal	00021
+3		doubt	00002
+4		pleat	Correct!
 
 232/2315
 Simulation starts! Answer = aloft
 attempt	guess	pattern
 1		soare	01100
-2		cloot	02212
+2		cloot	02202
 3		feign	10000
 4		aloft	Correct!
 
@@ -1705,8 +1701,8 @@ attempt	guess	pattern
 Simulation starts! Answer = elder
 attempt	guess	pattern
 1		soare	00011
-2		tined	00021
-3		lusty	10000
+2		direr	10022
+3		udder	00222
 4		elder	Correct!
 
 235/2315
@@ -1723,7 +1719,7 @@ Simulation starts! Answer = humor
 attempt	guess	pattern
 1		soare	01010
 2		cutin	02000
-3		forth	01101
+3		furor	02022
 4		humor	Correct!
 
 237/2315
@@ -1737,8 +1733,8 @@ attempt	guess	pattern
 Simulation starts! Answer = ulcer
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	02100
+2		direr	00022
+3		butyl	01001
 4		ulcer	Correct!
 
 239/2315
@@ -1766,7 +1762,7 @@ attempt	guess	pattern
 Simulation starts! Answer = agora
 attempt	guess	pattern
 1		soare	01120
-2		cling	00001
+2		aback	20100
 3		agora	Correct!
 
 243/2315
@@ -1904,7 +1900,7 @@ attempt	guess	pattern
 Simulation starts! Answer = ahead
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01020
+2		canal	01020
 3		ahead	Correct!
 
 262/2315
@@ -1940,7 +1936,7 @@ Simulation starts! Answer = month
 attempt	guess	pattern
 1		soare	02000
 2		culty	00020
-3		tooth	12122
+3		motto	22020
 4		month	Correct!
 
 267/2315
@@ -1955,7 +1951,7 @@ Simulation starts! Answer = watch
 attempt	guess	pattern
 1		soare	00100
 2		clint	10001
-3		humph	10002
+3		humph	00002
 4		watch	Correct!
 
 269/2315
@@ -1990,7 +1986,7 @@ attempt	guess	pattern
 Simulation starts! Answer = cater
 attempt	guess	pattern
 1		soare	00111
-2		talar	12012
+2		talar	12002
 3		epoch	10010
 4		cater	Correct!
 
@@ -2018,28 +2014,29 @@ attempt	guess	pattern
 Simulation starts! Answer = allow
 attempt	guess	pattern
 1		soare	01100
-2		cloot	02120
+2		cloot	02020
 3		allow	Correct!
 
 278/2315
 Simulation starts! Answer = renew
 attempt	guess	pattern
 1		soare	00011
-2		tined	00220
-3		renew	Correct!
+2		direr	00120
+3		pence	02201
+4		renew	Correct!
 
 279/2315
 Simulation starts! Answer = their
 attempt	guess	pattern
 1		soare	00011
-2		tined	21010
+2		direr	01012
 3		their	Correct!
 
 280/2315
 Simulation starts! Answer = slosh
 attempt	guess	pattern
 1		soare	21000
-2		cloot	02210
+2		cloot	02200
 3		slosh	Correct!
 
 281/2315
@@ -2112,14 +2109,14 @@ Simulation starts! Answer = lowly
 attempt	guess	pattern
 1		soare	02000
 2		culty	00102
-3		blown	01110
+3		knoll	00121
 4		lowly	Correct!
 
 291/2315
 Simulation starts! Answer = snout
 attempt	guess	pattern
 1		soare	21000
-2		cloot	00212
+2		cloot	00202
 3		nymph	10000
 4		snout	Correct!
 
@@ -2134,8 +2131,8 @@ attempt	guess	pattern
 Simulation starts! Answer = fewer
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	20000
+2		direr	00022
+3		butyl	00000
 4		fewer	Correct!
 
 294/2315
@@ -2156,7 +2153,7 @@ attempt	guess	pattern
 Simulation starts! Answer = fibre
 attempt	guess	pattern
 1		soare	00022
-2		rebut	11200
+2		there	00022
 3		fibre	Correct!
 
 297/2315
@@ -2241,9 +2238,8 @@ attempt	guess	pattern
 Simulation starts! Answer = cheek
 attempt	guess	pattern
 1		soare	00001
-2		teind	01000
-3		excel	10120
-4		cheek	Correct!
+2		denet	01020
+3		cheek	Correct!
 
 309/2315
 Simulation starts! Answer = ample
@@ -2300,14 +2296,14 @@ attempt	guess	pattern
 Simulation starts! Answer = inert
 attempt	guess	pattern
 1		soare	00021
-2		delft	01002
+2		feted	01100
 3		inert	Correct!
 
 317/2315
 Simulation starts! Answer = askew
 attempt	guess	pattern
 1		soare	10101
-2		tangy	01000
+2		tweed	01020
 3		askew	Correct!
 
 318/2315
@@ -2321,7 +2317,7 @@ attempt	guess	pattern
 Simulation starts! Answer = shown
 attempt	guess	pattern
 1		soare	21000
-2		cloot	00210
+2		cloot	00200
 3		shown	Correct!
 
 320/2315
@@ -2336,7 +2332,7 @@ Simulation starts! Answer = hasty
 attempt	guess	pattern
 1		soare	10100
 2		linty	00022
-3		humph	20001
+3		humph	20000
 4		hasty	Correct!
 
 322/2315
@@ -2350,15 +2346,17 @@ attempt	guess	pattern
 Simulation starts! Answer = fella
 attempt	guess	pattern
 1		soare	00101
-2		tepal	02011
-3		fella	Correct!
+2		canal	01001
+3		delta	02202
+4		fella	Correct!
 
 324/2315
 Simulation starts! Answer = larva
 attempt	guess	pattern
 1		soare	00110
-2		riyal	10011
-3		larva	Correct!
+2		radar	12010
+3		karma	02202
+4		larva	Correct!
 
 325/2315
 Simulation starts! Answer = forgo
@@ -2408,7 +2406,7 @@ attempt	guess	pattern
 Simulation starts! Answer = midst
 attempt	guess	pattern
 1		soare	10000
-2		mythi	20101
+2		hists	02110
 3		midst	Correct!
 
 332/2315
@@ -2452,22 +2450,24 @@ attempt	guess	pattern
 Simulation starts! Answer = tipsy
 attempt	guess	pattern
 1		soare	10000
-2		mythi	01101
-3		tipsy	Correct!
+2		hists	02110
+3		midst	02021
+4		tipsy	Correct!
 
 338/2315
 Simulation starts! Answer = metal
 attempt	guess	pattern
 1		soare	00101
-2		tepal	12022
-3		metal	Correct!
+2		canal	00022
+3		dempt	02101
+4		metal	Correct!
 
 339/2315
 Simulation starts! Answer = yield
 attempt	guess	pattern
 1		soare	00001
-2		teind	01102
-3		dwarf	10000
+2		denet	11000
+3		edify	11101
 4		yield	Correct!
 
 340/2315
@@ -2481,8 +2481,9 @@ attempt	guess	pattern
 Simulation starts! Answer = being
 attempt	guess	pattern
 1		soare	00001
-2		teind	02220
-3		being	Correct!
+2		denet	02100
+3		feign	02211
+4		being	Correct!
 
 342/2315
 Simulation starts! Answer = scour
@@ -2501,7 +2502,7 @@ attempt	guess	pattern
 Simulation starts! Answer = gamer
 attempt	guess	pattern
 1		soare	00111
-2		talar	02012
+2		talar	02002
 3		pygmy	00110
 4		gamer	Correct!
 
@@ -2531,7 +2532,7 @@ Simulation starts! Answer = album
 attempt	guess	pattern
 1		soare	00100
 2		clint	02000
-3		humph	01100
+3		alpha	22000
 4		album	Correct!
 
 349/2315
@@ -2545,7 +2546,7 @@ attempt	guess	pattern
 Simulation starts! Answer = asset
 attempt	guess	pattern
 1		soare	10101
-2		tangy	11000
+2		tweed	10020
 3		asset	Correct!
 
 351/2315
@@ -2559,7 +2560,7 @@ attempt	guess	pattern
 Simulation starts! Answer = crept
 attempt	guess	pattern
 1		soare	00011
-2		tined	10010
+2		direr	00110
 3		retch	11110
 4		crept	Correct!
 
@@ -2567,7 +2568,7 @@ attempt	guess	pattern
 Simulation starts! Answer = bayou
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00120
+2		cloot	00020
 3		wagon	02020
 4		bayou	Correct!
 
@@ -2575,7 +2576,7 @@ attempt	guess	pattern
 Simulation starts! Answer = atoll
 attempt	guess	pattern
 1		soare	01100
-2		cloot	01211
+2		cloot	01201
 3		atoll	Correct!
 
 355/2315
@@ -2589,7 +2590,7 @@ attempt	guess	pattern
 Simulation starts! Answer = creak
 attempt	guess	pattern
 1		soare	00111
-2		talar	01021
+2		talar	00021
 3		brick	02012
 4		creak	Correct!
 
@@ -2597,7 +2598,7 @@ attempt	guess	pattern
 Simulation starts! Answer = showy
 attempt	guess	pattern
 1		soare	21000
-2		cloot	00210
+2		cloot	00200
 3		shown	22220
 4		showy	Correct!
 
@@ -2620,7 +2621,7 @@ attempt	guess	pattern
 Simulation starts! Answer = depth
 attempt	guess	pattern
 1		soare	00001
-2		teind	12001
+2		denet	22001
 3		depth	Correct!
 
 361/2315
@@ -2657,16 +2658,15 @@ attempt	guess	pattern
 Simulation starts! Answer = piety
 attempt	guess	pattern
 1		soare	00001
-2		teind	11100
-3		eight	12001
-4		piety	Correct!
+2		denet	01001
+3		piety	Correct!
 
 366/2315
 Simulation starts! Answer = payer
 attempt	guess	pattern
 1		soare	00111
-2		talar	02012
-3		pygmy	21001
+2		talar	02002
+3		pygmy	21000
 4		payer	Correct!
 
 367/2315
@@ -2680,7 +2680,7 @@ attempt	guess	pattern
 Simulation starts! Answer = float
 attempt	guess	pattern
 1		soare	01100
-2		cloot	02212
+2		cloot	02202
 3		feign	20000
 4		float	Correct!
 
@@ -2724,7 +2724,7 @@ attempt	guess	pattern
 Simulation starts! Answer = cacao
 attempt	guess	pattern
 1		soare	01100
-2		cloot	20110
+2		cloot	20100
 3		cacao	Correct!
 
 375/2315
@@ -2744,7 +2744,7 @@ attempt	guess	pattern
 Simulation starts! Answer = gloat
 attempt	guess	pattern
 1		soare	01100
-2		cloot	02212
+2		cloot	02202
 3		feign	00010
 4		gloat	Correct!
 
@@ -2796,7 +2796,7 @@ Simulation starts! Answer = droll
 attempt	guess	pattern
 1		soare	01010
 2		cutin	00000
-3		gloop	01210
+3		gloop	01200
 4		droll	Correct!
 
 385/2315
@@ -2833,9 +2833,8 @@ attempt	guess	pattern
 Simulation starts! Answer = egret
 attempt	guess	pattern
 1		soare	00011
-2		tined	10020
-3		shrug	00201
-4		egret	Correct!
+2		direr	00220
+3		egret	Correct!
 
 390/2315
 Simulation starts! Answer = lilac
@@ -2848,15 +2847,15 @@ attempt	guess	pattern
 Simulation starts! Answer = sever
 attempt	guess	pattern
 1		soare	20011
-2		rerun	12100
+2		newie	02001
 3		sever	Correct!
 
 392/2315
 Simulation starts! Answer = field
 attempt	guess	pattern
 1		soare	00001
-2		teind	01102
-3		dwarf	10001
+2		denet	11000
+3		edify	11110
 4		field	Correct!
 
 393/2315
@@ -2893,7 +2892,7 @@ attempt	guess	pattern
 Simulation starts! Answer = wench
 attempt	guess	pattern
 1		soare	00001
-2		teind	02010
+2		denet	02200
 3		bench	02222
 4		wench	Correct!
 
@@ -2922,8 +2921,8 @@ attempt	guess	pattern
 Simulation starts! Answer = berth
 attempt	guess	pattern
 1		soare	00011
-2		tined	10010
-3		retch	12102
+2		direr	00210
+3		perch	02202
 4		berth	Correct!
 
 402/2315
@@ -2953,8 +2952,8 @@ attempt	guess	pattern
 Simulation starts! Answer = liver
 attempt	guess	pattern
 1		soare	00011
-2		tined	02020
-3		rival	12201
+2		direr	02022
+3		fling	01100
 4		liver	Correct!
 
 406/2315
@@ -2968,9 +2967,8 @@ attempt	guess	pattern
 Simulation starts! Answer = augur
 attempt	guess	pattern
 1		soare	00110
-2		riyal	10010
-3		karma	01101
-4		augur	Correct!
+2		radar	01002
+3		augur	Correct!
 
 408/2315
 Simulation starts! Answer = roomy
@@ -3006,7 +3004,7 @@ Simulation starts! Answer = bobby
 attempt	guess	pattern
 1		soare	02000
 2		culty	00002
-3		goody	02102
+3		goody	02002
 4		bobby	Correct!
 
 413/2315
@@ -3069,14 +3067,13 @@ Simulation starts! Answer = motto
 attempt	guess	pattern
 1		soare	02000
 2		culty	00020
-3		tooth	12120
-4		motto	Correct!
+3		motto	Correct!
 
 421/2315
 Simulation starts! Answer = stomp
 attempt	guess	pattern
 1		soare	21000
-2		cloot	00211
+2		cloot	00201
 3		stomp	Correct!
 
 422/2315
@@ -3098,7 +3095,7 @@ Simulation starts! Answer = cramp
 attempt	guess	pattern
 1		soare	00210
 2		clint	20000
-3		karma	01121
+3		karma	01120
 4		cramp	Correct!
 
 425/2315
@@ -3127,7 +3124,7 @@ Simulation starts! Answer = rhyme
 attempt	guess	pattern
 1		soare	00012
 2		pudic	00000
-3		nerve	01102
+3		nerve	00102
 4		rhyme	Correct!
 
 429/2315
@@ -3142,7 +3139,7 @@ attempt	guess	pattern
 Simulation starts! Answer = alien
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01011
+2		canal	01101
 3		alien	Correct!
 
 431/2315
@@ -3165,7 +3162,7 @@ Simulation starts! Answer = patty
 attempt	guess	pattern
 1		soare	00100
 2		clint	00001
-3		bluff	00000
+3		baffy	02002
 4		patty	Correct!
 
 434/2315
@@ -3179,15 +3176,15 @@ attempt	guess	pattern
 Simulation starts! Answer = glean
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01021
+2		canal	00121
 3		glean	Correct!
 
 436/2315
 Simulation starts! Answer = label
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01012
-3		bhang	10100
+2		canal	02002
+3		bough	10000
 4		label	Correct!
 
 437/2315
@@ -3217,8 +3214,8 @@ attempt	guess	pattern
 Simulation starts! Answer = gruel
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	01200
+2		direr	00120
+3		pence	01000
 4		gruel	Correct!
 
 441/2315
@@ -3246,7 +3243,7 @@ attempt	guess	pattern
 Simulation starts! Answer = treat
 attempt	guess	pattern
 1		soare	00111
-2		talar	21021
+2		talar	20021
 3		treat	Correct!
 
 445/2315
@@ -3268,7 +3265,7 @@ attempt	guess	pattern
 Simulation starts! Answer = merit
 attempt	guess	pattern
 1		soare	00011
-2		tined	11010
+2		direr	01210
 3		merit	Correct!
 
 448/2315
@@ -3282,14 +3279,14 @@ attempt	guess	pattern
 Simulation starts! Answer = octal
 attempt	guess	pattern
 1		soare	01100
-2		cloot	11111
+2		cloot	11101
 3		octal	Correct!
 
 450/2315
 Simulation starts! Answer = needy
 attempt	guess	pattern
 1		soare	00001
-2		teind	02011
+2		denet	12110
 3		needy	Correct!
 
 451/2315
@@ -3318,9 +3315,8 @@ attempt	guess	pattern
 Simulation starts! Answer = ruder
 attempt	guess	pattern
 1		soare	00011
-2		tined	00021
-3		lusty	02000
-4		ruder	Correct!
+2		direr	10122
+3		ruder	Correct!
 
 455/2315
 Simulation starts! Answer = gauze
@@ -3333,8 +3329,9 @@ attempt	guess	pattern
 Simulation starts! Answer = chief
 attempt	guess	pattern
 1		soare	00001
-2		teind	01200
-3		chief	Correct!
+2		denet	00020
+3		libel	01020
+4		chief	Correct!
 
 457/2315
 Simulation starts! Answer = onset
@@ -3377,8 +3374,9 @@ attempt	guess	pattern
 Simulation starts! Answer = inter
 attempt	guess	pattern
 1		soare	00011
-2		tined	11120
-3		inter	Correct!
+2		direr	01022
+3		front	01011
+4		inter	Correct!
 
 463/2315
 Simulation starts! Answer = whoop
@@ -3400,7 +3398,7 @@ attempt	guess	pattern
 Simulation starts! Answer = leery
 attempt	guess	pattern
 1		soare	00021
-2		delft	02100
+2		feted	02010
 3		leery	Correct!
 
 466/2315
@@ -3443,22 +3441,21 @@ Simulation starts! Answer = alpha
 attempt	guess	pattern
 1		soare	00100
 2		clint	02000
-3		humph	10011
-4		alpha	Correct!
+3		alpha	Correct!
 
 472/2315
 Simulation starts! Answer = thyme
 attempt	guess	pattern
 1		soare	00002
 2		guilt	00001
-3		theme	22122
+3		theme	22022
 4		thyme	Correct!
 
 473/2315
 Simulation starts! Answer = eclat
 attempt	guess	pattern
 1		soare	00101
-2		tepal	11021
+2		canal	10021
 3		eclat	Correct!
 
 474/2315
@@ -3473,9 +3470,9 @@ attempt	guess	pattern
 Simulation starts! Answer = parer
 attempt	guess	pattern
 1		soare	00111
-2		talar	02012
+2		talar	02002
 3		pygmy	20000
-4		paper	22122
+4		paper	22022
 5		parer	Correct!
 
 476/2315
@@ -3518,7 +3515,7 @@ attempt	guess	pattern
 Simulation starts! Answer = recap
 attempt	guess	pattern
 1		soare	00111
-2		talar	01021
+2		talar	00021
 3		brick	01010
 4		recap	Correct!
 
@@ -3633,7 +3630,7 @@ attempt	guess	pattern
 Simulation starts! Answer = sloth
 attempt	guess	pattern
 1		soare	21000
-2		cloot	02211
+2		cloot	02201
 3		sloth	Correct!
 
 498/2315
@@ -3655,7 +3652,7 @@ Simulation starts! Answer = howdy
 attempt	guess	pattern
 1		soare	02000
 2		culty	00002
-3		goody	02122
+3		goody	02022
 4		howdy	Correct!
 
 501/2315
@@ -3683,8 +3680,9 @@ attempt	guess	pattern
 Simulation starts! Answer = equal
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01022
-3		equal	Correct!
+2		canal	00022
+3		dempt	01000
+4		equal	Correct!
 
 505/2315
 Simulation starts! Answer = unset
@@ -3742,7 +3740,7 @@ attempt	guess	pattern
 Simulation starts! Answer = denim
 attempt	guess	pattern
 1		soare	00001
-2		teind	02111
+2		denet	22200
 3		denim	Correct!
 
 513/2315
@@ -3780,7 +3778,7 @@ Simulation starts! Answer = foggy
 attempt	guess	pattern
 1		soare	02000
 2		culty	00002
-3		goody	12102
+3		goody	12002
 4		foggy	Correct!
 
 518/2315
@@ -3808,7 +3806,7 @@ attempt	guess	pattern
 Simulation starts! Answer = libel
 attempt	guess	pattern
 1		soare	00001
-2		teind	01100
+2		denet	00020
 3		libel	Correct!
 
 522/2315
@@ -3816,7 +3814,7 @@ Simulation starts! Answer = waltz
 attempt	guess	pattern
 1		soare	00100
 2		clint	01001
-3		tally	12210
+3		tally	12200
 4		waltz	Correct!
 
 523/2315
@@ -3824,29 +3822,29 @@ Simulation starts! Answer = aptly
 attempt	guess	pattern
 1		soare	00100
 2		clint	01001
-3		tally	11122
+3		tally	11022
 4		aptly	Correct!
 
 524/2315
 Simulation starts! Answer = piney
 attempt	guess	pattern
 1		soare	00001
-2		teind	01110
-3		vinyl	02210
+2		denet	00220
+3		linen	02220
 4		piney	Correct!
 
 525/2315
 Simulation starts! Answer = inept
 attempt	guess	pattern
 1		soare	00001
-2		teind	11110
+2		denet	01102
 3		inept	Correct!
 
 526/2315
 Simulation starts! Answer = aloud
 attempt	guess	pattern
 1		soare	01100
-2		cloot	02210
+2		cloot	02200
 3		aloud	Correct!
 
 527/2315
@@ -3861,7 +3859,7 @@ attempt	guess	pattern
 Simulation starts! Answer = dream
 attempt	guess	pattern
 1		soare	00111
-2		talar	01021
+2		talar	00021
 3		brick	02000
 4		dream	Correct!
 
@@ -3911,7 +3909,7 @@ attempt	guess	pattern
 Simulation starts! Answer = baker
 attempt	guess	pattern
 1		soare	00111
-2		talar	02012
+2		talar	02002
 3		pygmy	00000
 4		flick	00001
 5		baker	Correct!
@@ -3920,8 +3918,7 @@ attempt	guess	pattern
 Simulation starts! Answer = there
 attempt	guess	pattern
 1		soare	00022
-2		rebut	11001
-3		there	Correct!
+2		there	Correct!
 
 537/2315
 Simulation starts! Answer = glyph
@@ -3989,22 +3986,22 @@ Simulation starts! Answer = godly
 attempt	guess	pattern
 1		soare	02000
 2		culty	00102
-3		blown	01100
+3		knoll	00120
 4		godly	Correct!
 
 546/2315
 Simulation starts! Answer = threw
 attempt	guess	pattern
 1		soare	00011
-2		tined	20020
-3		tuber	20021
+2		direr	00220
+3		egret	00221
 4		threw	Correct!
 
 547/2315
 Simulation starts! Answer = fleet
 attempt	guess	pattern
 1		soare	00001
-2		teind	11000
+2		denet	01022
 3		fleet	Correct!
 
 548/2315
@@ -4025,7 +4022,7 @@ attempt	guess	pattern
 Simulation starts! Answer = shock
 attempt	guess	pattern
 1		soare	21000
-2		cloot	10210
+2		cloot	10200
 3		shock	Correct!
 
 551/2315
@@ -4033,7 +4030,7 @@ Simulation starts! Answer = crave
 attempt	guess	pattern
 1		soare	00212
 2		ditch	00010
-3		naval	01110
+3		naval	01100
 4		crave	Correct!
 
 552/2315
@@ -4069,15 +4066,17 @@ attempt	guess	pattern
 Simulation starts! Answer = rainy
 attempt	guess	pattern
 1		soare	00110
-2		riyal	21110
-3		rainy	Correct!
+2		radar	22000
+3		print	01220
+4		rainy	Correct!
 
 557/2315
 Simulation starts! Answer = musty
 attempt	guess	pattern
 1		soare	10000
-2		mythi	21100
-3		musty	Correct!
+2		hists	00220
+3		model	20000
+4		musty	Correct!
 
 558/2315
 Simulation starts! Answer = pique
@@ -4118,7 +4117,7 @@ attempt	guess	pattern
 Simulation starts! Answer = valet
 attempt	guess	pattern
 1		soare	00101
-2		tepal	11011
+2		canal	02001
 3		valet	Correct!
 
 564/2315
@@ -4146,7 +4145,7 @@ attempt	guess	pattern
 Simulation starts! Answer = recut
 attempt	guess	pattern
 1		soare	00011
-2		tined	10010
+2		direr	00110
 3		retch	22110
 4		recut	Correct!
 
@@ -4162,7 +4161,7 @@ attempt	guess	pattern
 Simulation starts! Answer = genre
 attempt	guess	pattern
 1		soare	00022
-2		rebut	12000
+2		there	00122
 3		genre	Correct!
 
 570/2315
@@ -4221,7 +4220,7 @@ attempt	guess	pattern
 Simulation starts! Answer = deter
 attempt	guess	pattern
 1		soare	00011
-2		tined	10021
+2		direr	20022
 3		deter	Correct!
 
 578/2315
@@ -4251,7 +4250,7 @@ attempt	guess	pattern
 Simulation starts! Answer = rivet
 attempt	guess	pattern
 1		soare	00011
-2		tined	12020
+2		direr	02120
 3		rivet	Correct!
 
 582/2315
@@ -4316,7 +4315,7 @@ attempt	guess	pattern
 Simulation starts! Answer = gusty
 attempt	guess	pattern
 1		soare	10000
-2		mythi	01100
+2		hists	00220
 3		model	00000
 4		gusty	Correct!
 
@@ -4324,8 +4323,8 @@ attempt	guess	pattern
 Simulation starts! Answer = equip
 attempt	guess	pattern
 1		soare	00001
-2		teind	01100
-3		libel	01010
+2		denet	01000
+3		whelp	00102
 4		equip	Correct!
 
 592/2315
@@ -4368,9 +4367,8 @@ attempt	guess	pattern
 Simulation starts! Answer = udder
 attempt	guess	pattern
 1		soare	00011
-2		tined	00021
-3		lusty	01000
-4		udder	Correct!
+2		direr	10022
+3		udder	Correct!
 
 598/2315
 Simulation starts! Answer = lunch
@@ -4391,7 +4389,7 @@ attempt	guess	pattern
 Simulation starts! Answer = stray
 attempt	guess	pattern
 1		soare	20110
-2		putty	00112
+2		putty	00102
 3		stray	Correct!
 
 601/2315
@@ -4414,7 +4412,7 @@ attempt	guess	pattern
 Simulation starts! Answer = lefty
 attempt	guess	pattern
 1		soare	00001
-2		teind	12000
+2		denet	02001
 3		pithy	00102
 4		lefty	Correct!
 
@@ -4436,8 +4434,8 @@ attempt	guess	pattern
 Simulation starts! Answer = given
 attempt	guess	pattern
 1		soare	00001
-2		teind	01110
-3		vinyl	12100
+2		denet	00120
+3		helix	01010
 4		given	Correct!
 
 607/2315
@@ -4565,7 +4563,7 @@ attempt	guess	pattern
 Simulation starts! Answer = derby
 attempt	guess	pattern
 1		soare	00011
-2		tined	00011
+2		direr	20210
 3		derby	Correct!
 
 625/2315
@@ -4594,7 +4592,7 @@ attempt	guess	pattern
 Simulation starts! Answer = erupt
 attempt	guess	pattern
 1		soare	00011
-2		tined	10010
+2		direr	00110
 3		retch	11100
 4		erupt	Correct!
 
@@ -4639,7 +4637,7 @@ Simulation starts! Answer = filmy
 attempt	guess	pattern
 1		soare	00000
 2		clint	01100
-3		mirid	12010
+3		dumpy	00102
 4		filmy	Correct!
 
 635/2315
@@ -4653,7 +4651,7 @@ attempt	guess	pattern
 Simulation starts! Answer = chose
 attempt	guess	pattern
 1		soare	11002
-2		hatch	10011
+2		hatch	10010
 3		chose	Correct!
 
 637/2315
@@ -4700,7 +4698,7 @@ Simulation starts! Answer = handy
 attempt	guess	pattern
 1		soare	00100
 2		clint	00010
-3		dandy	12222
+3		dandy	02222
 4		handy	Correct!
 
 643/2315
@@ -4729,7 +4727,7 @@ attempt	guess	pattern
 Simulation starts! Answer = cream
 attempt	guess	pattern
 1		soare	00111
-2		talar	01021
+2		talar	00021
 3		brick	02010
 4		cream	Correct!
 
@@ -4789,8 +4787,8 @@ attempt	guess	pattern
 Simulation starts! Answer = reply
 attempt	guess	pattern
 1		soare	00011
-2		tined	00010
-3		pluck	11000
+2		direr	00110
+3		retch	22000
 4		reply	Correct!
 
 655/2315
@@ -4804,7 +4802,7 @@ attempt	guess	pattern
 Simulation starts! Answer = spoil
 attempt	guess	pattern
 1		soare	21000
-2		cloot	01210
+2		cloot	01200
 3		spoil	Correct!
 
 657/2315
@@ -4826,7 +4824,7 @@ attempt	guess	pattern
 Simulation starts! Answer = diner
 attempt	guess	pattern
 1		soare	00011
-2		tined	02221
+2		direr	22022
 3		diner	Correct!
 
 660/2315
@@ -4897,8 +4895,8 @@ attempt	guess	pattern
 Simulation starts! Answer = creek
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	00000
+2		direr	00120
+3		pence	01011
 4		creek	Correct!
 
 670/2315
@@ -4927,7 +4925,7 @@ attempt	guess	pattern
 Simulation starts! Answer = siren
 attempt	guess	pattern
 1		soare	20011
-2		rerun	11202
+2		newie	11010
 3		siren	Correct!
 
 674/2315
@@ -4942,7 +4940,7 @@ attempt	guess	pattern
 Simulation starts! Answer = embed
 attempt	guess	pattern
 1		soare	00001
-2		teind	01002
+2		denet	11020
 3		bleed	10122
 4		embed	Correct!
 
@@ -4987,16 +4985,15 @@ attempt	guess	pattern
 Simulation starts! Answer = patio
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00111
+2		cloot	00101
 3		patio	Correct!
 
 682/2315
 Simulation starts! Answer = laden
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01011
-3		alien	11022
-4		laden	Correct!
+2		canal	02101
+3		laden	Correct!
 
 683/2315
 Simulation starts! Answer = humid
@@ -5018,14 +5015,14 @@ Simulation starts! Answer = lymph
 attempt	guess	pattern
 1		soare	00000
 2		clint	01000
-3		bully	00111
+3		bully	00101
 4		lymph	Correct!
 
 686/2315
 Simulation starts! Answer = edify
 attempt	guess	pattern
 1		soare	00001
-2		teind	01201
+2		denet	11000
 3		edify	Correct!
 
 687/2315
@@ -5047,14 +5044,14 @@ attempt	guess	pattern
 Simulation starts! Answer = visit
 attempt	guess	pattern
 1		soare	10000
-2		mythi	00101
+2		hists	02210
 3		visit	Correct!
 
 690/2315
 Simulation starts! Answer = gusto
 attempt	guess	pattern
 1		soare	11000
-2		gloom	20110
+2		gloom	20100
 3		gusto	Correct!
 
 691/2315
@@ -5120,8 +5117,8 @@ attempt	guess	pattern
 Simulation starts! Answer = queer
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	00100
+2		direr	00022
+3		butyl	02000
 4		queer	Correct!
 
 700/2315
@@ -5157,7 +5154,7 @@ attempt	guess	pattern
 Simulation starts! Answer = acorn
 attempt	guess	pattern
 1		soare	01120
-2		cling	10010
+2		aback	20010
 3		acorn	Correct!
 
 705/2315
@@ -5165,21 +5162,22 @@ Simulation starts! Answer = aping
 attempt	guess	pattern
 1		soare	00100
 2		clint	00220
-3		aging	21222
+3		aging	20222
 4		aping	Correct!
 
 706/2315
 Simulation starts! Answer = pushy
 attempt	guess	pattern
 1		soare	10000
-2		mythi	01020
-3		pushy	Correct!
+2		hists	10200
+3		humph	12010
+4		pushy	Correct!
 
 707/2315
 Simulation starts! Answer = tamer
 attempt	guess	pattern
 1		soare	00111
-2		talar	22012
+2		talar	22002
 3		humph	00200
 4		tamer	Correct!
 
@@ -5187,7 +5185,7 @@ attempt	guess	pattern
 Simulation starts! Answer = hater
 attempt	guess	pattern
 1		soare	00111
-2		talar	12012
+2		talar	12002
 3		epoch	10001
 4		hater	Correct!
 
@@ -5196,7 +5194,7 @@ Simulation starts! Answer = mania
 attempt	guess	pattern
 1		soare	00100
 2		clint	00110
-3		ninja	11202
+3		ninja	01202
 4		mania	Correct!
 
 710/2315
@@ -5248,10 +5246,8 @@ attempt	guess	pattern
 Simulation starts! Answer = freer
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	20000
-4		fewer	21022
-5		freer	Correct!
+2		direr	00122
+3		freer	Correct!
 
 717/2315
 Simulation starts! Answer = risky
@@ -5264,23 +5260,23 @@ attempt	guess	pattern
 Simulation starts! Answer = ghost
 attempt	guess	pattern
 1		soare	11000
-2		gloom	20210
+2		gloom	20200
 3		ghost	Correct!
 
 719/2315
 Simulation starts! Answer = plier
 attempt	guess	pattern
 1		soare	00011
-2		tined	01020
-3		grief	01220
+2		direr	01022
+3		front	01000
 4		plier	Correct!
 
 720/2315
 Simulation starts! Answer = lunar
 attempt	guess	pattern
 1		soare	00110
-2		riyal	10021
-3		altar	11022
+2		radar	00022
+3		cigar	00022
 4		lunar	Correct!
 
 721/2315
@@ -5323,8 +5319,9 @@ attempt	guess	pattern
 Simulation starts! Answer = nicer
 attempt	guess	pattern
 1		soare	00011
-2		tined	02120
-3		nicer	Correct!
+2		direr	02022
+3		fling	00110
+4		nicer	Correct!
 
 727/2315
 Simulation starts! Answer = lurch
@@ -5345,7 +5342,7 @@ attempt	guess	pattern
 Simulation starts! Answer = about
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00212
+2		cloot	00202
 3		about	Correct!
 
 730/2315
@@ -5375,8 +5372,8 @@ attempt	guess	pattern
 Simulation starts! Answer = pried
 attempt	guess	pattern
 1		soare	00011
-2		tined	01022
-3		decaf	11000
+2		direr	11120
+3		crept	02110
 4		pried	Correct!
 
 734/2315
@@ -5412,7 +5409,7 @@ attempt	guess	pattern
 Simulation starts! Answer = eater
 attempt	guess	pattern
 1		soare	00111
-2		talar	12012
+2		talar	12002
 3		epoch	20000
 4		eater	Correct!
 
@@ -5458,7 +5455,7 @@ attempt	guess	pattern
 Simulation starts! Answer = tenet
 attempt	guess	pattern
 1		soare	00001
-2		teind	22010
+2		denet	02222
 3		tenet	Correct!
 
 745/2315
@@ -5474,14 +5471,14 @@ Simulation starts! Answer = lobby
 attempt	guess	pattern
 1		soare	02000
 2		culty	00102
-3		blown	11100
+3		knoll	00110
 4		lobby	Correct!
 
 747/2315
 Simulation starts! Answer = plush
 attempt	guess	pattern
 1		soare	10000
-2		mythi	00010
+2		hists	10100
 3		fibre	00000
 4		plush	Correct!
 
@@ -5490,15 +5487,16 @@ Simulation starts! Answer = vigil
 attempt	guess	pattern
 1		soare	00000
 2		clint	01100
-3		mirid	02020
+3		dumpy	00000
 4		vigil	Correct!
 
 749/2315
 Simulation starts! Answer = index
 attempt	guess	pattern
 1		soare	00001
-2		teind	01111
-3		index	Correct!
+2		denet	10120
+3		unfed	02021
+4		index	Correct!
 
 750/2315
 Simulation starts! Answer = blink
@@ -5549,16 +5547,15 @@ Simulation starts! Answer = stage
 attempt	guess	pattern
 1		soare	20202
 2		thilk	10000
-3		agate	11212
+3		agate	01212
 4		stage	Correct!
 
 757/2315
 Simulation starts! Answer = decay
 attempt	guess	pattern
 1		soare	00101
-2		tepal	02020
-3		began	02020
-4		decay	Correct!
+2		canal	10020
+3		decay	Correct!
 
 758/2315
 Simulation starts! Answer = nerve
@@ -5571,8 +5568,8 @@ attempt	guess	pattern
 Simulation starts! Answer = flier
 attempt	guess	pattern
 1		soare	00011
-2		tined	01020
-3		grief	01221
+2		direr	01022
+3		front	21000
 4		flier	Correct!
 
 760/2315
@@ -5587,16 +5584,15 @@ Simulation starts! Answer = crook
 attempt	guess	pattern
 1		soare	01010
 2		cutin	20000
-3		crock	22212
+3		crock	22202
 4		crook	Correct!
 
 762/2315
 Simulation starts! Answer = clean
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01021
-3		glean	02222
-4		clean	Correct!
+2		canal	20121
+3		clean	Correct!
 
 763/2315
 Simulation starts! Answer = china
@@ -5632,7 +5628,7 @@ Simulation starts! Answer = snuck
 attempt	guess	pattern
 1		soare	20000
 2		thilk	00002
-3		skunk	21212
+3		skunk	20212
 4		snuck	Correct!
 
 768/2315
@@ -5677,7 +5673,7 @@ attempt	guess	pattern
 Simulation starts! Answer = rabid
 attempt	guess	pattern
 1		soare	00110
-2		riyal	21010
+2		radar	22100
 3		rabid	Correct!
 
 774/2315
@@ -5698,7 +5694,7 @@ Simulation starts! Answer = poppy
 attempt	guess	pattern
 1		soare	02000
 2		culty	00002
-3		goody	02102
+3		goody	02002
 4		bobby	02002
 5		poppy	Correct!
 
@@ -5714,8 +5710,8 @@ attempt	guess	pattern
 Simulation starts! Answer = fiber
 attempt	guess	pattern
 1		soare	00011
-2		tined	02020
-3		rival	12000
+2		direr	02022
+3		fling	20100
 4		fixer	22022
 5		fiber	Correct!
 
@@ -5732,7 +5728,7 @@ Simulation starts! Answer = dowdy
 attempt	guess	pattern
 1		soare	02000
 2		culty	00002
-3		goody	02122
+3		goody	02022
 4		howdy	02222
 5		dowdy	Correct!
 
@@ -5740,7 +5736,7 @@ attempt	guess	pattern
 Simulation starts! Answer = kneel
 attempt	guess	pattern
 1		soare	00001
-2		teind	01010
+2		denet	01120
 3		kneel	Correct!
 
 782/2315
@@ -5761,8 +5757,8 @@ attempt	guess	pattern
 Simulation starts! Answer = quell
 attempt	guess	pattern
 1		soare	00001
-2		teind	01000
-3		excel	10012
+2		denet	01000
+3		whelp	00220
 4		quell	Correct!
 
 785/2315
@@ -5776,7 +5772,7 @@ attempt	guess	pattern
 Simulation starts! Answer = paler
 attempt	guess	pattern
 1		soare	00111
-2		talar	02212
+2		talar	02202
 3		paler	Correct!
 
 787/2315
@@ -5790,7 +5786,7 @@ attempt	guess	pattern
 Simulation starts! Answer = rebar
 attempt	guess	pattern
 1		soare	00111
-2		talar	01022
+2		talar	00022
 3		rebar	Correct!
 
 789/2315
@@ -5811,8 +5807,8 @@ attempt	guess	pattern
 Simulation starts! Answer = flyer
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	22000
+2		direr	00022
+3		butyl	00011
 4		flyer	Correct!
 
 792/2315
@@ -5918,7 +5914,7 @@ attempt	guess	pattern
 Simulation starts! Answer = edict
 attempt	guess	pattern
 1		soare	00001
-2		teind	11201
+2		denet	11002
 3		edict	Correct!
 
 807/2315
@@ -5946,8 +5942,8 @@ attempt	guess	pattern
 Simulation starts! Answer = eaten
 attempt	guess	pattern
 1		soare	00101
-2		tepal	11010
-3		colon	00002
+2		canal	02100
+3		trawl	10100
 4		eaten	Correct!
 
 811/2315
@@ -5961,7 +5957,7 @@ attempt	guess	pattern
 Simulation starts! Answer = whisk
 attempt	guess	pattern
 1		soare	10000
-2		mythi	00011
+2		hists	11100
 3		whisk	Correct!
 
 813/2315
@@ -5976,7 +5972,7 @@ attempt	guess	pattern
 Simulation starts! Answer = rehab
 attempt	guess	pattern
 1		soare	00111
-2		talar	01021
+2		talar	00021
 3		brick	11000
 4		rehab	Correct!
 
@@ -5999,7 +5995,7 @@ attempt	guess	pattern
 Simulation starts! Answer = spout
 attempt	guess	pattern
 1		soare	21000
-2		cloot	00212
+2		cloot	00202
 3		nymph	00010
 4		spout	Correct!
 
@@ -6029,7 +6025,7 @@ attempt	guess	pattern
 Simulation starts! Answer = fetid
 attempt	guess	pattern
 1		soare	00001
-2		teind	12102
+2		denet	12001
 3		fetid	Correct!
 
 822/2315
@@ -6060,7 +6056,7 @@ attempt	guess	pattern
 Simulation starts! Answer = scion
 attempt	guess	pattern
 1		soare	21000
-2		cloot	10120
+2		cloot	10020
 3		scion	Correct!
 
 826/2315
@@ -6088,8 +6084,8 @@ attempt	guess	pattern
 Simulation starts! Answer = march
 attempt	guess	pattern
 1		soare	00110
-2		riyal	10010
-3		karma	02211
+2		radar	12000
+3		party	02200
 4		march	Correct!
 
 830/2315
@@ -6097,7 +6093,7 @@ Simulation starts! Answer = crowd
 attempt	guess	pattern
 1		soare	01010
 2		cutin	20000
-3		crock	22210
+3		crock	22200
 4		crowd	Correct!
 
 831/2315
@@ -6119,7 +6115,7 @@ attempt	guess	pattern
 Simulation starts! Answer = musky
 attempt	guess	pattern
 1		soare	10000
-2		mythi	21000
+2		hists	00200
 3		musky	Correct!
 
 834/2315
@@ -6169,15 +6165,15 @@ attempt	guess	pattern
 Simulation starts! Answer = ruler
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	01100
+2		direr	00122
+3		freer	01022
 4		ruler	Correct!
 
 841/2315
 Simulation starts! Answer = kiosk
 attempt	guess	pattern
 1		soare	11000
-2		gloom	00210
+2		gloom	00200
 3		kiosk	Correct!
 
 842/2315
@@ -6191,15 +6187,14 @@ attempt	guess	pattern
 Simulation starts! Answer = ennui
 attempt	guess	pattern
 1		soare	00001
-2		teind	01110
-3		vinyl	01200
-4		ennui	Correct!
+2		denet	01200
+3		ennui	Correct!
 
 844/2315
 Simulation starts! Answer = layer
 attempt	guess	pattern
 1		soare	00111
-2		talar	02112
+2		talar	02102
 3		layer	Correct!
 
 845/2315
@@ -6214,7 +6209,7 @@ Simulation starts! Answer = tatty
 attempt	guess	pattern
 1		soare	00100
 2		clint	00001
-3		bluff	00000
+3		baffy	02002
 4		patty	02222
 5		tatty	Correct!
 
@@ -6250,23 +6245,22 @@ attempt	guess	pattern
 Simulation starts! Answer = matey
 attempt	guess	pattern
 1		soare	00101
-2		tepal	11010
-3		colon	00000
-4		matey	Correct!
+2		canal	02000
+3		matey	Correct!
 
 852/2315
 Simulation starts! Answer = bluer
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	02200
+2		direr	00022
+3		butyl	21001
 4		bluer	Correct!
 
 853/2315
 Simulation starts! Answer = aider
 attempt	guess	pattern
 1		soare	00111
-2		talar	01012
+2		talar	01002
 3		cigar	02012
 4		aider	Correct!
 
@@ -6282,9 +6276,8 @@ attempt	guess	pattern
 Simulation starts! Answer = river
 attempt	guess	pattern
 1		soare	00011
-2		tined	02020
-3		rival	22200
-4		river	Correct!
+2		direr	02122
+3		river	Correct!
 
 856/2315
 Simulation starts! Answer = privy
@@ -6298,9 +6291,8 @@ attempt	guess	pattern
 Simulation starts! Answer = betel
 attempt	guess	pattern
 1		soare	00001
-2		teind	12000
-3		pithy	00200
-4		betel	Correct!
+2		denet	02021
+3		betel	Correct!
 
 858/2315
 Simulation starts! Answer = frisk
@@ -6321,8 +6313,8 @@ attempt	guess	pattern
 Simulation starts! Answer = begun
 attempt	guess	pattern
 1		soare	00001
-2		teind	02010
-3		bench	22100
+2		denet	02100
+3		feign	02012
 4		begun	Correct!
 
 861/2315
@@ -6419,7 +6411,7 @@ attempt	guess	pattern
 Simulation starts! Answer = later
 attempt	guess	pattern
 1		soare	00111
-2		talar	12112
+2		talar	12102
 3		later	Correct!
 
 875/2315
@@ -6441,15 +6433,15 @@ attempt	guess	pattern
 Simulation starts! Answer = wreck
 attempt	guess	pattern
 1		soare	00011
-2		tined	00010
-3		pluck	00022
+2		direr	00110
+3		retch	11020
 4		wreck	Correct!
 
 878/2315
 Simulation starts! Answer = dwelt
 attempt	guess	pattern
 1		soare	00001
-2		teind	11001
+2		denet	21002
 3		dwelt	Correct!
 
 879/2315
@@ -6484,8 +6476,8 @@ attempt	guess	pattern
 Simulation starts! Answer = hazel
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01012
-3		bhang	01100
+2		canal	02002
+3		bough	00001
 4		hazel	Correct!
 
 884/2315
@@ -6493,7 +6485,7 @@ Simulation starts! Answer = wrist
 attempt	guess	pattern
 1		soare	10010
 2		cruft	02002
-3		tryst	12022
+3		tryst	02022
 4		wrist	Correct!
 
 885/2315
@@ -6544,7 +6536,7 @@ attempt	guess	pattern
 Simulation starts! Answer = relax
 attempt	guess	pattern
 1		soare	00111
-2		talar	01221
+2		talar	00221
 3		relax	Correct!
 
 892/2315
@@ -6567,15 +6559,14 @@ attempt	guess	pattern
 Simulation starts! Answer = beech
 attempt	guess	pattern
 1		soare	00001
-2		teind	02000
-3		bylaw	20000
-4		beech	Correct!
+2		denet	02010
+3		beech	Correct!
 
 895/2315
 Simulation starts! Answer = jetty
 attempt	guess	pattern
 1		soare	00001
-2		teind	12000
+2		denet	02001
 3		pithy	00202
 4		jetty	Correct!
 
@@ -6583,9 +6574,8 @@ attempt	guess	pattern
 Simulation starts! Answer = bliss
 attempt	guess	pattern
 1		soare	10000
-2		mythi	00001
-3		using	01200
-4		bliss	Correct!
+2		hists	01102
+3		bliss	Correct!
 
 897/2315
 Simulation starts! Answer = vocal
@@ -6614,7 +6604,7 @@ attempt	guess	pattern
 Simulation starts! Answer = eight
 attempt	guess	pattern
 1		soare	00001
-2		teind	11100
+2		denet	01002
 3		eight	Correct!
 
 901/2315
@@ -6637,7 +6627,7 @@ attempt	guess	pattern
 Simulation starts! Answer = event
 attempt	guess	pattern
 1		soare	00001
-2		teind	11020
+2		denet	01112
 3		event	Correct!
 
 904/2315
@@ -6658,8 +6648,8 @@ attempt	guess	pattern
 Simulation starts! Answer = diver
 attempt	guess	pattern
 1		soare	00011
-2		tined	02021
-3		ridic	12110
+2		direr	22022
+3		diner	22022
 4		diver	Correct!
 
 907/2315
@@ -6686,15 +6676,15 @@ attempt	guess	pattern
 Simulation starts! Answer = alley
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01011
-3		alien	22020
+2		canal	01001
+3		delta	01201
 4		alley	Correct!
 
 911/2315
 Simulation starts! Answer = creed
 attempt	guess	pattern
 1		soare	00011
-2		tined	00022
+2		direr	10120
 3		befog	01000
 4		creed	Correct!
 
@@ -6725,7 +6715,7 @@ Simulation starts! Answer = dunce
 attempt	guess	pattern
 1		soare	00002
 2		guilt	02000
-3		queue	02112
+3		queue	02002
 4		dunce	Correct!
 
 916/2315
@@ -6785,23 +6775,24 @@ attempt	guess	pattern
 Simulation starts! Answer = delay
 attempt	guess	pattern
 1		soare	00101
-2		tepal	02021
-3		delay	Correct!
+2		canal	00021
+3		doubt	20000
+4		delay	Correct!
 
 924/2315
 Simulation starts! Answer = bilge
 attempt	guess	pattern
 1		soare	00002
 2		guilt	10110
-3		liege	12122
+3		liege	12022
 4		bilge	Correct!
 
 925/2315
 Simulation starts! Answer = ideal
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01022
-3		equal	10022
+2		canal	00022
+3		dempt	11000
 4		ideal	Correct!
 
 926/2315
@@ -6809,7 +6800,7 @@ Simulation starts! Answer = clasp
 attempt	guess	pattern
 1		soare	10200
 2		gulch	00110
-3		class	22221
+3		class	22220
 4		clasp	Correct!
 
 927/2315
@@ -6877,9 +6868,8 @@ attempt	guess	pattern
 Simulation starts! Answer = hardy
 attempt	guess	pattern
 1		soare	00110
-2		riyal	10110
-3		party	02202
-4		hardy	Correct!
+2		radar	12100
+3		hardy	Correct!
 
 936/2315
 Simulation starts! Answer = shied
@@ -6944,15 +6934,15 @@ Simulation starts! Answer = idyll
 attempt	guess	pattern
 1		soare	00000
 2		clint	01100
-3		mirid	01011
+3		dumpy	10001
 4		idyll	Correct!
 
 945/2315
 Simulation starts! Answer = vixen
 attempt	guess	pattern
 1		soare	00001
-2		teind	01110
-3		vinyl	22100
+2		denet	00120
+3		helix	01011
 4		vixen	Correct!
 
 946/2315
@@ -6960,15 +6950,14 @@ Simulation starts! Answer = furor
 attempt	guess	pattern
 1		soare	01010
 2		cutin	02000
-3		forth	21200
-4		furor	Correct!
+3		furor	Correct!
 
 947/2315
 Simulation starts! Answer = geeky
 attempt	guess	pattern
 1		soare	00001
-2		teind	02000
-3		bylaw	01000
+2		denet	02010
+3		beech	02200
 4		geeky	Correct!
 
 948/2315
@@ -6976,7 +6965,7 @@ Simulation starts! Answer = cough
 attempt	guess	pattern
 1		soare	02000
 2		culty	21000
-3		couch	22212
+3		couch	22202
 4		cough	Correct!
 
 949/2315
@@ -7021,8 +7010,8 @@ attempt	guess	pattern
 Simulation starts! Answer = check
 attempt	guess	pattern
 1		soare	00001
-2		teind	01000
-3		excel	10110
+2		denet	01000
+3		whelp	02200
 4		check	Correct!
 
 955/2315
@@ -7066,16 +7055,15 @@ attempt	guess	pattern
 Simulation starts! Answer = elect
 attempt	guess	pattern
 1		soare	00001
-2		teind	11000
-3		fleet	02212
-4		elect	Correct!
+2		denet	01012
+3		elect	Correct!
 
 961/2315
 Simulation starts! Answer = evict
 attempt	guess	pattern
 1		soare	00001
-2		teind	11200
-3		quiet	00212
+2		denet	01002
+3		eight	21002
 4		evict	Correct!
 
 962/2315
@@ -7083,30 +7071,29 @@ Simulation starts! Answer = imply
 attempt	guess	pattern
 1		soare	00000
 2		clint	01100
-3		mirid	11010
+3		dumpy	00112
 4		imply	Correct!
 
 963/2315
 Simulation starts! Answer = demur
 attempt	guess	pattern
 1		soare	00011
-2		tined	00011
-3		derby	22100
-4		demur	Correct!
+2		direr	20012
+3		demur	Correct!
 
 964/2315
 Simulation starts! Answer = quota
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00211
+2		cloot	00201
 3		quota	Correct!
 
 965/2315
 Simulation starts! Answer = haven
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01010
-3		annex	11120
+2		canal	02100
+3		trawl	00100
 4		haven	Correct!
 
 966/2315
@@ -7142,15 +7129,15 @@ attempt	guess	pattern
 Simulation starts! Answer = gavel
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01012
-3		bhang	00101
+2		canal	02002
+3		bough	00010
 4		gavel	Correct!
 
 971/2315
 Simulation starts! Answer = wagon
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00120
+2		cloot	00020
 3		wagon	Correct!
 
 972/2315
@@ -7171,7 +7158,7 @@ attempt	guess	pattern
 Simulation starts! Answer = harem
 attempt	guess	pattern
 1		soare	00111
-2		talar	02011
+2		talar	02001
 3		harem	Correct!
 
 975/2315
@@ -7194,21 +7181,22 @@ Simulation starts! Answer = pupil
 attempt	guess	pattern
 1		soare	00000
 2		clint	01100
-3		mirid	01020
+3		dumpy	02010
 4		pupil	Correct!
 
 978/2315
 Simulation starts! Answer = excel
 attempt	guess	pattern
 1		soare	00001
-2		teind	01000
-3		excel	Correct!
+2		denet	01020
+3		cheek	10120
+4		excel	Correct!
 
 979/2315
 Simulation starts! Answer = stony
 attempt	guess	pattern
 1		soare	21000
-2		cloot	00211
+2		cloot	00201
 3		stomp	22200
 4		stony	Correct!
 
@@ -7231,7 +7219,7 @@ attempt	guess	pattern
 Simulation starts! Answer = queen
 attempt	guess	pattern
 1		soare	00001
-2		teind	01010
+2		denet	01120
 3		kneel	01220
 4		queen	Correct!
 
@@ -7253,7 +7241,7 @@ attempt	guess	pattern
 Simulation starts! Answer = earth
 attempt	guess	pattern
 1		soare	00111
-2		talar	12011
+2		talar	12001
 3		earth	Correct!
 
 986/2315
@@ -7275,7 +7263,7 @@ attempt	guess	pattern
 Simulation starts! Answer = taper
 attempt	guess	pattern
 1		soare	00111
-2		talar	22012
+2		talar	22002
 3		humph	00010
 4		taper	Correct!
 
@@ -7283,8 +7271,9 @@ attempt	guess	pattern
 Simulation starts! Answer = enter
 attempt	guess	pattern
 1		soare	00011
-2		tined	10120
-3		enter	Correct!
+2		direr	00022
+3		butyl	00200
+4		enter	Correct!
 
 990/2315
 Simulation starts! Answer = child
@@ -7298,7 +7287,7 @@ attempt	guess	pattern
 Simulation starts! Answer = adopt
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00212
+2		cloot	00202
 3		about	20202
 4		adopt	Correct!
 
@@ -7315,14 +7304,14 @@ Simulation starts! Answer = fatty
 attempt	guess	pattern
 1		soare	00100
 2		clint	00001
-3		bluff	00011
+3		baffy	02102
 4		fatty	Correct!
 
 994/2315
 Simulation starts! Answer = husky
 attempt	guess	pattern
 1		soare	10000
-2		mythi	01010
+2		hists	20200
 3		husky	Correct!
 
 995/2315
@@ -7337,8 +7326,8 @@ attempt	guess	pattern
 Simulation starts! Answer = filet
 attempt	guess	pattern
 1		soare	00001
-2		teind	11100
-3		eight	12002
+2		denet	00022
+3		quiet	00122
 4		filet	Correct!
 
 997/2315
@@ -7361,8 +7350,8 @@ attempt	guess	pattern
 Simulation starts! Answer = tread
 attempt	guess	pattern
 1		soare	00111
-2		talar	21021
-3		treat	22221
+2		talar	20021
+3		treat	22220
 4		tread	Correct!
 
 1000/2315
@@ -7376,7 +7365,7 @@ attempt	guess	pattern
 Simulation starts! Answer = regal
 attempt	guess	pattern
 1		soare	00111
-2		talar	01121
+2		talar	00121
 3		regal	Correct!
 
 1002/2315
@@ -7390,9 +7379,8 @@ attempt	guess	pattern
 Simulation starts! Answer = every
 attempt	guess	pattern
 1		soare	00021
-2		delft	01000
-3		query	00222
-4		every	Correct!
+2		feted	01010
+3		every	Correct!
 
 1004/2315
 Simulation starts! Answer = murky
@@ -7435,8 +7423,9 @@ attempt	guess	pattern
 Simulation starts! Answer = inner
 attempt	guess	pattern
 1		soare	00011
-2		tined	01220
-3		inner	Correct!
+2		direr	01022
+3		front	01010
+4		inner	Correct!
 
 1010/2315
 Simulation starts! Answer = otter
@@ -7451,15 +7440,15 @@ Simulation starts! Answer = dimly
 attempt	guess	pattern
 1		soare	00000
 2		clint	01100
-3		mirid	12011
+3		dumpy	20202
 4		dimly	Correct!
 
 1012/2315
 Simulation starts! Answer = level
 attempt	guess	pattern
 1		soare	00001
-2		teind	02000
-3		bylaw	00100
+2		denet	02020
+3		bevel	02222
 4		level	Correct!
 
 1013/2315
@@ -7575,7 +7564,7 @@ attempt	guess	pattern
 Simulation starts! Answer = bread
 attempt	guess	pattern
 1		soare	00111
-2		talar	01021
+2		talar	00021
 3		brick	22000
 4		bread	Correct!
 
@@ -7583,7 +7572,7 @@ attempt	guess	pattern
 Simulation starts! Answer = friar
 attempt	guess	pattern
 1		soare	00110
-2		riyal	11020
+2		radar	10022
 3		briar	02222
 4		friar	Correct!
 
@@ -7591,8 +7580,9 @@ attempt	guess	pattern
 Simulation starts! Answer = reign
 attempt	guess	pattern
 1		soare	00011
-2		tined	01110
-3		reign	Correct!
+2		direr	01110
+3		remit	22010
+4		reign	Correct!
 
 1031/2315
 Simulation starts! Answer = dairy
@@ -7630,8 +7620,9 @@ attempt	guess	pattern
 Simulation starts! Answer = tuber
 attempt	guess	pattern
 1		soare	00011
-2		tined	20020
-3		tuber	Correct!
+2		direr	00022
+3		butyl	12100
+4		tuber	Correct!
 
 1036/2315
 Simulation starts! Answer = shear
@@ -7683,7 +7674,7 @@ attempt	guess	pattern
 Simulation starts! Answer = freak
 attempt	guess	pattern
 1		soare	00111
-2		talar	01021
+2		talar	00021
 3		brick	02002
 4		freak	Correct!
 
@@ -7699,16 +7690,15 @@ attempt	guess	pattern
 Simulation starts! Answer = among
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00210
+2		cloot	00200
 3		among	Correct!
 
 1045/2315
 Simulation starts! Answer = fecal
 attempt	guess	pattern
 1		soare	00101
-2		tepal	02022
-3		decal	02222
-4		fecal	Correct!
+2		canal	10022
+3		fecal	Correct!
 
 1046/2315
 Simulation starts! Answer = shell
@@ -7743,15 +7733,15 @@ attempt	guess	pattern
 Simulation starts! Answer = rabbi
 attempt	guess	pattern
 1		soare	00110
-2		riyal	21010
-3		rabid	22210
+2		radar	22000
+3		print	01100
 4		rabbi	Correct!
 
 1051/2315
 Simulation starts! Answer = agony
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00210
+2		cloot	00200
 3		among	20221
 4		agony	Correct!
 
@@ -7766,8 +7756,8 @@ attempt	guess	pattern
 Simulation starts! Answer = bushy
 attempt	guess	pattern
 1		soare	10000
-2		mythi	01020
-3		pushy	02222
+2		hists	10200
+3		humph	12000
 4		bushy	Correct!
 
 1054/2315
@@ -7828,8 +7818,9 @@ attempt	guess	pattern
 Simulation starts! Answer = urban
 attempt	guess	pattern
 1		soare	00110
-2		riyal	10020
-3		urban	Correct!
+2		radar	10020
+3		viral	00120
+4		urban	Correct!
 
 1062/2315
 Simulation starts! Answer = snide
@@ -7842,7 +7833,7 @@ attempt	guess	pattern
 Simulation starts! Answer = relay
 attempt	guess	pattern
 1		soare	00111
-2		talar	01221
+2		talar	00221
 3		relax	22220
 4		relay	Correct!
 
@@ -7858,21 +7849,21 @@ attempt	guess	pattern
 Simulation starts! Answer = viola
 attempt	guess	pattern
 1		soare	01100
-2		cloot	01210
+2		cloot	01200
 3		viola	Correct!
 
 1066/2315
 Simulation starts! Answer = rajah
 attempt	guess	pattern
 1		soare	00110
-2		riyal	20020
+2		radar	22020
 3		rajah	Correct!
 
 1067/2315
 Simulation starts! Answer = straw
 attempt	guess	pattern
 1		soare	20110
-2		putty	00110
+2		putty	00100
 3		straw	Correct!
 
 1068/2315
@@ -7880,7 +7871,7 @@ Simulation starts! Answer = dilly
 attempt	guess	pattern
 1		soare	00000
 2		clint	01100
-3		mirid	02011
+3		dumpy	20002
 4		dilly	Correct!
 
 1069/2315
@@ -7938,21 +7929,21 @@ attempt	guess	pattern
 Simulation starts! Answer = grief
 attempt	guess	pattern
 1		soare	00011
-2		tined	01020
+2		direr	01120
 3		grief	Correct!
 
 1077/2315
 Simulation starts! Answer = disco
 attempt	guess	pattern
 1		soare	11000
-2		gloom	00110
+2		gloom	00100
 3		disco	Correct!
 
 1078/2315
 Simulation starts! Answer = where
 attempt	guess	pattern
 1		soare	00022
-2		rebut	11000
+2		there	02222
 3		where	Correct!
 
 1079/2315
@@ -7982,23 +7973,22 @@ Simulation starts! Answer = comic
 attempt	guess	pattern
 1		soare	02000
 2		culty	20000
-3		drain	00020
+3		conic	22022
 4		comic	Correct!
 
 1083/2315
 Simulation starts! Answer = clued
 attempt	guess	pattern
 1		soare	00001
-2		teind	01002
-3		bleed	02122
-4		clued	Correct!
+2		denet	10020
+3		clued	Correct!
 
 1084/2315
 Simulation starts! Answer = creep
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	00002
+2		direr	00120
+3		pence	11011
 4		creep	Correct!
 
 1085/2315
@@ -8023,7 +8013,7 @@ Simulation starts! Answer = snuff
 attempt	guess	pattern
 1		soare	20000
 2		thilk	00000
-3		sunny	21110
+3		sunny	21100
 4		snuff	Correct!
 
 1088/2315
@@ -8073,17 +8063,16 @@ Simulation starts! Answer = halve
 attempt	guess	pattern
 1		soare	00102
 2		gault	02010
-3		valve	12222
+3		valve	02222
 4		halve	Correct!
 
 1095/2315
 Simulation starts! Answer = buyer
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	00100
-4		queer	02122
-5		buyer	Correct!
+2		direr	00022
+3		butyl	22010
+4		buyer	Correct!
 
 1096/2315
 Simulation starts! Answer = vinyl
@@ -8156,7 +8145,7 @@ attempt	guess	pattern
 Simulation starts! Answer = ashen
 attempt	guess	pattern
 1		soare	10101
-2		tangy	01100
+2		tweed	00020
 3		ashen	Correct!
 
 1106/2315
@@ -8193,7 +8182,7 @@ attempt	guess	pattern
 Simulation starts! Answer = adorn
 attempt	guess	pattern
 1		soare	01120
-2		cling	00010
+2		aback	20000
 3		adorn	Correct!
 
 1111/2315
@@ -8220,7 +8209,7 @@ attempt	guess	pattern
 Simulation starts! Answer = missy
 attempt	guess	pattern
 1		soare	10000
-2		mythi	21001
+2		hists	02201
 3		missy	Correct!
 
 1115/2315
@@ -8242,7 +8231,7 @@ attempt	guess	pattern
 Simulation starts! Answer = party
 attempt	guess	pattern
 1		soare	00110
-2		riyal	10110
+2		radar	12000
 3		party	Correct!
 
 1118/2315
@@ -8257,7 +8246,7 @@ Simulation starts! Answer = mafia
 attempt	guess	pattern
 1		soare	00100
 2		clint	00100
-3		maxim	22021
+3		maxim	22020
 4		mafia	Correct!
 
 1120/2315
@@ -8272,7 +8261,7 @@ attempt	guess	pattern
 Simulation starts! Answer = array
 attempt	guess	pattern
 1		soare	00110
-2		riyal	10120
+2		radar	11021
 3		array	Correct!
 
 1122/2315
@@ -8294,8 +8283,8 @@ attempt	guess	pattern
 Simulation starts! Answer = jelly
 attempt	guess	pattern
 1		soare	00001
-2		teind	02000
-3		bylaw	01200
+2		denet	02000
+3		belch	02200
 4		jelly	Correct!
 
 1125/2315
@@ -8317,7 +8306,7 @@ Simulation starts! Answer = tubal
 attempt	guess	pattern
 1		soare	00100
 2		clint	01001
-3		tally	21110
+3		tally	21100
 4		tubal	Correct!
 
 1128/2315
@@ -8346,10 +8335,9 @@ attempt	guess	pattern
 Simulation starts! Answer = cyber
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	00000
-4		creek	21120
-5		cyber	Correct!
+2		direr	00022
+3		butyl	10010
+4		cyber	Correct!
 
 1132/2315
 Simulation starts! Answer = adore
@@ -8361,8 +8349,8 @@ attempt	guess	pattern
 Simulation starts! Answer = tardy
 attempt	guess	pattern
 1		soare	00110
-2		riyal	10110
-3		party	02212
+2		radar	12100
+3		hardy	02222
 4		tardy	Correct!
 
 1134/2315
@@ -8435,7 +8423,7 @@ attempt	guess	pattern
 Simulation starts! Answer = strap
 attempt	guess	pattern
 1		soare	20110
-2		putty	10110
+2		putty	10100
 3		strap	Correct!
 
 1144/2315
@@ -8458,7 +8446,7 @@ Simulation starts! Answer = venue
 attempt	guess	pattern
 1		soare	00002
 2		guilt	01000
-3		undue	11022
+3		undue	01022
 4		venue	Correct!
 
 1147/2315
@@ -8487,9 +8475,8 @@ attempt	guess	pattern
 Simulation starts! Answer = dryer
 attempt	guess	pattern
 1		soare	00011
-2		tined	00021
-3		lusty	00001
-4		dryer	Correct!
+2		direr	20122
+3		dryer	Correct!
 
 1151/2315
 Simulation starts! Answer = diary
@@ -8518,9 +8505,8 @@ attempt	guess	pattern
 Simulation starts! Answer = acrid
 attempt	guess	pattern
 1		soare	00110
-2		riyal	11010
-3		tapir	01021
-4		acrid	Correct!
+2		radar	11100
+3		acrid	Correct!
 
 1155/2315
 Simulation starts! Answer = heady
@@ -8533,7 +8519,7 @@ attempt	guess	pattern
 Simulation starts! Answer = theta
 attempt	guess	pattern
 1		soare	00101
-2		tepal	21010
+2		canal	01000
 3		theta	Correct!
 
 1157/2315
@@ -8556,7 +8542,7 @@ Simulation starts! Answer = quoth
 attempt	guess	pattern
 1		soare	01000
 2		clint	00001
-3		outdo	12101
+3		outdo	12100
 4		quoth	Correct!
 
 1160/2315
@@ -8585,8 +8571,8 @@ attempt	guess	pattern
 Simulation starts! Answer = amend
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01010
-3		annex	21110
+2		canal	01100
+3		enema	01211
 4		amend	Correct!
 
 1164/2315
@@ -8594,7 +8580,7 @@ Simulation starts! Answer = datum
 attempt	guess	pattern
 1		soare	00100
 2		clint	00001
-3		bluff	00100
+3		baffy	02000
 4		datum	Correct!
 
 1165/2315
@@ -8651,7 +8637,7 @@ attempt	guess	pattern
 Simulation starts! Answer = ramen
 attempt	guess	pattern
 1		soare	00111
-2		talar	02011
+2		talar	02001
 3		harem	02121
 4		ramen	Correct!
 
@@ -8675,14 +8661,15 @@ attempt	guess	pattern
 Simulation starts! Answer = infer
 attempt	guess	pattern
 1		soare	00011
-2		tined	01120
-3		infer	Correct!
+2		direr	01022
+3		front	11010
+4		infer	Correct!
 
 1176/2315
 Simulation starts! Answer = overt
 attempt	guess	pattern
 1		soare	01021
-2		retro	11121
+2		retro	01121
 3		overt	Correct!
 
 1177/2315
@@ -8726,8 +8713,9 @@ attempt	guess	pattern
 Simulation starts! Answer = randy
 attempt	guess	pattern
 1		soare	00110
-2		riyal	20110
-3		randy	Correct!
+2		radar	22100
+3		rabid	22001
+4		randy	Correct!
 
 1183/2315
 Simulation starts! Answer = chuck
@@ -8749,7 +8737,7 @@ attempt	guess	pattern
 Simulation starts! Answer = fishy
 attempt	guess	pattern
 1		soare	10000
-2		mythi	01021
+2		hists	12200
 3		fishy	Correct!
 
 1186/2315
@@ -8757,14 +8745,15 @@ Simulation starts! Answer = tooth
 attempt	guess	pattern
 1		soare	02000
 2		culty	00020
-3		tooth	Correct!
+3		motto	02121
+4		tooth	Correct!
 
 1187/2315
 Simulation starts! Answer = ether
 attempt	guess	pattern
 1		soare	00011
-2		tined	10020
-3		shrug	01100
+2		direr	00022
+3		butyl	00100
 4		ether	Correct!
 
 1188/2315
@@ -8772,14 +8761,14 @@ Simulation starts! Answer = drove
 attempt	guess	pattern
 1		soare	01012
 2		pownd	01001
-3		erode	12212
+3		erode	02212
 4		drove	Correct!
 
 1189/2315
 Simulation starts! Answer = idler
 attempt	guess	pattern
 1		soare	00011
-2		tined	01021
+2		direr	11022
 3		idler	Correct!
 
 1190/2315
@@ -8802,15 +8791,16 @@ Simulation starts! Answer = while
 attempt	guess	pattern
 1		soare	00002
 2		guilt	00220
-3		exile	10222
+3		exile	00222
 4		while	Correct!
 
 1193/2315
 Simulation starts! Answer = begat
 attempt	guess	pattern
 1		soare	00101
-2		tepal	12020
-3		begat	Correct!
+2		canal	00020
+3		kebab	02120
+4		begat	Correct!
 
 1194/2315
 Simulation starts! Answer = apply
@@ -8838,9 +8828,7 @@ attempt	guess	pattern
 Simulation starts! Answer = radar
 attempt	guess	pattern
 1		soare	00110
-2		riyal	20020
-3		rajah	22020
-4		radar	Correct!
+2		radar	Correct!
 
 1198/2315
 Simulation starts! Answer = credo
@@ -8860,7 +8848,7 @@ attempt	guess	pattern
 Simulation starts! Answer = canon
 attempt	guess	pattern
 1		soare	01100
-2		cloot	20120
+2		cloot	20020
 3		canon	Correct!
 
 1201/2315
@@ -8874,9 +8862,10 @@ attempt	guess	pattern
 Simulation starts! Answer = timer
 attempt	guess	pattern
 1		soare	00011
-2		tined	22020
-3		tiger	22022
-4		timer	Correct!
+2		direr	02022
+3		fling	00100
+4		piper	02022
+5		timer	Correct!
 
 1203/2315
 Simulation starts! Answer = bylaw
@@ -8890,7 +8879,7 @@ attempt	guess	pattern
 Simulation starts! Answer = serum
 attempt	guess	pattern
 1		soare	20011
-2		rerun	12220
+2		newie	02000
 3		serum	Correct!
 
 1205/2315
@@ -8941,7 +8930,7 @@ attempt	guess	pattern
 Simulation starts! Answer = penal
 attempt	guess	pattern
 1		soare	00101
-2		tepal	02122
+2		canal	00222
 3		penal	Correct!
 
 1212/2315
@@ -8971,24 +8960,24 @@ attempt	guess	pattern
 Simulation starts! Answer = beget
 attempt	guess	pattern
 1		soare	00001
-2		teind	12000
-3		pithy	00100
-4		beget	Correct!
+2		denet	02022
+3		beget	Correct!
 
 1216/2315
 Simulation starts! Answer = wheel
 attempt	guess	pattern
 1		soare	00001
-2		teind	01000
-3		excel	10022
+2		denet	01020
+3		cheek	02220
 4		wheel	Correct!
 
 1217/2315
 Simulation starts! Answer = adept
 attempt	guess	pattern
 1		soare	00101
-2		tepal	11110
-3		adept	Correct!
+2		canal	01000
+3		theta	10201
+4		adept	Correct!
 
 1218/2315
 Simulation starts! Answer = stunt
@@ -9039,7 +9028,7 @@ attempt	guess	pattern
 Simulation starts! Answer = bloat
 attempt	guess	pattern
 1		soare	01100
-2		cloot	02212
+2		cloot	02202
 3		feign	00000
 4		bloat	Correct!
 
@@ -9061,7 +9050,7 @@ attempt	guess	pattern
 Simulation starts! Answer = caper
 attempt	guess	pattern
 1		soare	00111
-2		talar	02012
+2		talar	02002
 3		pygmy	10000
 4		caper	Correct!
 
@@ -9069,7 +9058,7 @@ attempt	guess	pattern
 Simulation starts! Answer = sneer
 attempt	guess	pattern
 1		soare	20011
-2		rerun	11101
+2		newie	11001
 3		sneer	Correct!
 
 1229/2315
@@ -9152,7 +9141,7 @@ Simulation starts! Answer = conch
 attempt	guess	pattern
 1		soare	02000
 2		culty	20000
-3		drain	00001
+3		conic	22201
 4		conch	Correct!
 
 1240/2315
@@ -9195,7 +9184,7 @@ attempt	guess	pattern
 Simulation starts! Answer = afoul
 attempt	guess	pattern
 1		soare	01100
-2		cloot	01210
+2		cloot	01200
 3		viola	00211
 4		afoul	Correct!
 
@@ -9232,7 +9221,7 @@ attempt	guess	pattern
 Simulation starts! Answer = dwell
 attempt	guess	pattern
 1		soare	00001
-2		teind	01001
+2		denet	21000
 3		dwell	Correct!
 
 1251/2315
@@ -9240,7 +9229,7 @@ Simulation starts! Answer = knave
 attempt	guess	pattern
 1		soare	00202
 2		glitz	00000
-3		weave	01222
+3		weave	00222
 4		knave	Correct!
 
 1252/2315
@@ -9248,7 +9237,7 @@ Simulation starts! Answer = beard
 attempt	guess	pattern
 1		soare	00221
 2		lathy	01000
-3		rearm	12220
+3		rearm	02220
 4		beard	Correct!
 
 1253/2315
@@ -9322,7 +9311,7 @@ attempt	guess	pattern
 Simulation starts! Answer = along
 attempt	guess	pattern
 1		soare	01100
-2		cloot	02210
+2		cloot	02200
 3		aloud	22200
 4		along	Correct!
 
@@ -9337,7 +9326,7 @@ attempt	guess	pattern
 Simulation starts! Answer = wager
 attempt	guess	pattern
 1		soare	00111
-2		talar	02012
+2		talar	02002
 3		pygmy	00200
 4		wager	Correct!
 
@@ -9367,7 +9356,7 @@ attempt	guess	pattern
 Simulation starts! Answer = debit
 attempt	guess	pattern
 1		soare	00001
-2		teind	12101
+2		denet	22002
 3		debit	Correct!
 
 1269/2315
@@ -9419,8 +9408,8 @@ attempt	guess	pattern
 Simulation starts! Answer = medal
 attempt	guess	pattern
 1		soare	00101
-2		tepal	02022
-3		decal	12022
+2		canal	00022
+3		dempt	12100
 4		medal	Correct!
 
 1276/2315
@@ -9434,8 +9423,8 @@ attempt	guess	pattern
 Simulation starts! Answer = rebel
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	01000
+2		direr	00120
+3		pence	02001
 4		rebel	Correct!
 
 1278/2315
@@ -9457,9 +9446,8 @@ attempt	guess	pattern
 Simulation starts! Answer = nadir
 attempt	guess	pattern
 1		soare	00110
-2		riyal	11010
-3		tapir	02022
-4		nadir	Correct!
+2		radar	02202
+3		nadir	Correct!
 
 1281/2315
 Simulation starts! Answer = maple
@@ -9480,9 +9468,8 @@ attempt	guess	pattern
 Simulation starts! Answer = remit
 attempt	guess	pattern
 1		soare	00011
-2		tined	11010
-3		merit	12122
-4		remit	Correct!
+2		direr	01110
+3		remit	Correct!
 
 1284/2315
 Simulation starts! Answer = gruff
@@ -9517,7 +9504,7 @@ attempt	guess	pattern
 Simulation starts! Answer = fetch
 attempt	guess	pattern
 1		soare	00001
-2		teind	12000
+2		denet	02001
 3		pithy	00210
 4		fetch	Correct!
 
@@ -9539,7 +9526,7 @@ attempt	guess	pattern
 Simulation starts! Answer = aglow
 attempt	guess	pattern
 1		soare	01100
-2		cloot	01120
+2		cloot	01020
 3		aglow	Correct!
 
 1292/2315
@@ -9567,7 +9554,7 @@ attempt	guess	pattern
 Simulation starts! Answer = racer
 attempt	guess	pattern
 1		soare	00111
-2		talar	02012
+2		talar	02002
 3		pygmy	00000
 4		flick	00010
 5		racer	Correct!
@@ -9577,14 +9564,14 @@ Simulation starts! Answer = prowl
 attempt	guess	pattern
 1		soare	01010
 2		cutin	00000
-3		gloop	01211
+3		gloop	01201
 4		prowl	Correct!
 
 1297/2315
 Simulation starts! Answer = thief
 attempt	guess	pattern
 1		soare	00001
-2		teind	21200
+2		denet	00021
 3		thief	Correct!
 
 1298/2315
@@ -9610,8 +9597,9 @@ attempt	guess	pattern
 Simulation starts! Answer = tweet
 attempt	guess	pattern
 1		soare	00001
-2		teind	21000
-3		tweet	Correct!
+2		denet	01022
+3		fleet	00222
+4		tweet	Correct!
 
 1302/2315
 Simulation starts! Answer = waist
@@ -9639,7 +9627,7 @@ attempt	guess	pattern
 Simulation starts! Answer = havoc
 attempt	guess	pattern
 1		soare	01100
-2		cloot	10120
+2		cloot	10020
 3		havoc	Correct!
 
 1306/2315
@@ -9667,8 +9655,9 @@ attempt	guess	pattern
 Simulation starts! Answer = deity
 attempt	guess	pattern
 1		soare	00001
-2		teind	12201
-3		deity	Correct!
+2		denet	22001
+3		depth	22020
+4		deity	Correct!
 
 1310/2315
 Simulation starts! Answer = uncle
@@ -9688,33 +9677,32 @@ attempt	guess	pattern
 Simulation starts! Answer = giver
 attempt	guess	pattern
 1		soare	00011
-2		tined	02020
-3		rival	12200
-4		giver	Correct!
+2		direr	02022
+3		fling	00101
+4		tiger	02122
+5		giver	Correct!
 
 1313/2315
 Simulation starts! Answer = preen
 attempt	guess	pattern
 1		soare	00011
-2		tined	00120
-3		whelp	00201
+2		direr	00120
+3		pence	21101
 4		preen	Correct!
 
 1314/2315
 Simulation starts! Answer = bevel
 attempt	guess	pattern
 1		soare	00001
-2		teind	02000
-3		bylaw	20100
-4		bevel	Correct!
+2		denet	02020
+3		bevel	Correct!
 
 1315/2315
 Simulation starts! Answer = lemur
 attempt	guess	pattern
 1		soare	00011
-2		tined	00010
-3		pluck	01100
-4		lemur	Correct!
+2		direr	00012
+3		lemur	Correct!
 
 1316/2315
 Simulation starts! Answer = draft
@@ -9734,7 +9722,7 @@ attempt	guess	pattern
 Simulation starts! Answer = annoy
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00120
+2		cloot	00020
 3		wagon	01021
 4		annoy	Correct!
 
@@ -9749,8 +9737,8 @@ attempt	guess	pattern
 Simulation starts! Answer = bleak
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01021
-3		glean	02220
+2		canal	00021
+3		doubt	00010
 4		bleak	Correct!
 
 1321/2315
@@ -9772,8 +9760,8 @@ attempt	guess	pattern
 Simulation starts! Answer = cedar
 attempt	guess	pattern
 1		soare	00111
-2		talar	01022
-3		rebar	12022
+2		talar	00022
+3		rebar	02022
 4		cedar	Correct!
 
 1324/2315
@@ -9825,14 +9813,14 @@ Simulation starts! Answer = cumin
 attempt	guess	pattern
 1		soare	00000
 2		clint	20110
-3		cynic	20121
+3		cynic	20120
 4		cumin	Correct!
 
 1331/2315
 Simulation starts! Answer = stock
 attempt	guess	pattern
 1		soare	21000
-2		cloot	10211
+2		cloot	10201
 3		stock	Correct!
 
 1332/2315
@@ -9855,15 +9843,14 @@ attempt	guess	pattern
 Simulation starts! Answer = wider
 attempt	guess	pattern
 1		soare	00011
-2		tined	02021
-3		ridic	12210
-4		wider	Correct!
+2		direr	12022
+3		wider	Correct!
 
 1335/2315
 Simulation starts! Answer = breed
 attempt	guess	pattern
 1		soare	00011
-2		tined	00022
+2		direr	10120
 3		befog	21000
 4		breed	Correct!
 
@@ -9879,7 +9866,7 @@ Simulation starts! Answer = chafe
 attempt	guess	pattern
 1		soare	00202
 2		glitz	00000
-3		weave	01202
+3		weave	00202
 4		chafe	Correct!
 
 1338/2315
@@ -9901,14 +9888,14 @@ attempt	guess	pattern
 Simulation starts! Answer = deign
 attempt	guess	pattern
 1		soare	00001
-2		teind	02211
+2		denet	22100
 3		deign	Correct!
 
 1341/2315
 Simulation starts! Answer = fiend
 attempt	guess	pattern
 1		soare	00001
-2		teind	01122
+2		denet	11100
 3		fiend	Correct!
 
 1342/2315
@@ -9922,8 +9909,9 @@ attempt	guess	pattern
 Simulation starts! Answer = cheap
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01120
-3		cheap	Correct!
+2		canal	20020
+3		cheat	22220
+4		cheap	Correct!
 
 1344/2315
 Simulation starts! Answer = elide
@@ -9951,7 +9939,7 @@ attempt	guess	pattern
 Simulation starts! Answer = renal
 attempt	guess	pattern
 1		soare	00111
-2		talar	01121
+2		talar	00121
 3		regal	22022
 4		renal	Correct!
 
@@ -9968,7 +9956,7 @@ Simulation starts! Answer = rowdy
 attempt	guess	pattern
 1		soare	02010
 2		cyton	01010
-3		roomy	22102
+3		roomy	22002
 4		rowdy	Correct!
 
 1350/2315
@@ -10004,7 +9992,7 @@ attempt	guess	pattern
 Simulation starts! Answer = brief
 attempt	guess	pattern
 1		soare	00011
-2		tined	01020
+2		direr	01120
 3		grief	02222
 4		brief	Correct!
 
@@ -10012,15 +10000,16 @@ attempt	guess	pattern
 Simulation starts! Answer = never
 attempt	guess	pattern
 1		soare	00011
-2		tined	00120
-3		whelp	00100
-4		never	Correct!
+2		direr	00022
+3		butyl	00000
+4		fewer	02022
+5		never	Correct!
 
 1356/2315
 Simulation starts! Answer = abort
 attempt	guess	pattern
 1		soare	01120
-2		cling	00000
+2		aback	22000
 3		abort	Correct!
 
 1357/2315
@@ -10049,15 +10038,16 @@ attempt	guess	pattern
 Simulation starts! Answer = fiery
 attempt	guess	pattern
 1		soare	00021
-2		delft	01010
+2		feted	21000
 3		fiery	Correct!
 
 1361/2315
 Simulation starts! Answer = media
 attempt	guess	pattern
 1		soare	00101
-2		tepal	02010
-3		media	Correct!
+2		canal	01000
+3		theta	00102
+4		media	Correct!
 
 1362/2315
 Simulation starts! Answer = trunk
@@ -10077,7 +10067,7 @@ attempt	guess	pattern
 Simulation starts! Answer = clear
 attempt	guess	pattern
 1		soare	00111
-2		talar	01122
+2		talar	00122
 3		clear	Correct!
 
 1365/2315
@@ -10108,8 +10098,8 @@ attempt	guess	pattern
 Simulation starts! Answer = cider
 attempt	guess	pattern
 1		soare	00011
-2		tined	02021
-3		ridic	12211
+2		direr	12022
+3		wider	02222
 4		cider	Correct!
 
 1369/2315
@@ -10123,9 +10113,8 @@ attempt	guess	pattern
 Simulation starts! Answer = duvet
 attempt	guess	pattern
 1		soare	00001
-2		teind	11001
-3		dwelt	20102
-4		duvet	Correct!
+2		denet	20022
+3		duvet	Correct!
 
 1371/2315
 Simulation starts! Answer = segue
@@ -10145,8 +10134,9 @@ attempt	guess	pattern
 Simulation starts! Answer = super
 attempt	guess	pattern
 1		soare	20011
-2		rerun	11110
-3		super	Correct!
+2		newie	01000
+3		surer	22022
+4		super	Correct!
 
 1374/2315
 Simulation starts! Answer = grill
@@ -10159,7 +10149,7 @@ attempt	guess	pattern
 Simulation starts! Answer = after
 attempt	guess	pattern
 1		soare	00111
-2		talar	11012
+2		talar	11002
 3		after	Correct!
 
 1376/2315
@@ -10174,8 +10164,8 @@ attempt	guess	pattern
 Simulation starts! Answer = ember
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	00010
+2		direr	00022
+3		butyl	10000
 4		ember	Correct!
 
 1378/2315
@@ -10190,15 +10180,15 @@ Simulation starts! Answer = nobly
 attempt	guess	pattern
 1		soare	02000
 2		culty	00102
-3		blown	11101
+3		knoll	01120
 4		nobly	Correct!
 
 1380/2315
 Simulation starts! Answer = empty
 attempt	guess	pattern
 1		soare	00001
-2		teind	11000
-3		fleet	00111
+2		denet	01001
+3		piety	10122
 4		empty	Correct!
 
 1381/2315
@@ -10213,22 +10203,21 @@ attempt	guess	pattern
 Simulation starts! Answer = gipsy
 attempt	guess	pattern
 1		soare	10000
-2		mythi	01001
+2		hists	02100
 3		gipsy	Correct!
 
 1383/2315
 Simulation starts! Answer = recur
 attempt	guess	pattern
 1		soare	00011
-2		tined	00010
-3		pluck	00110
-4		recur	Correct!
+2		direr	00112
+3		recur	Correct!
 
 1384/2315
 Simulation starts! Answer = smock
 attempt	guess	pattern
 1		soare	21000
-2		cloot	10210
+2		cloot	10200
 3		shock	20222
 4		smock	Correct!
 
@@ -10236,7 +10225,7 @@ attempt	guess	pattern
 Simulation starts! Answer = dread
 attempt	guess	pattern
 1		soare	00111
-2		talar	01021
+2		talar	00021
 3		brick	02000
 4		dream	22220
 5		dread	Correct!
@@ -10305,7 +10294,7 @@ attempt	guess	pattern
 Simulation starts! Answer = synod
 attempt	guess	pattern
 1		soare	21000
-2		cloot	00120
+2		cloot	00020
 3		synod	Correct!
 
 1395/2315
@@ -10351,7 +10340,7 @@ attempt	guess	pattern
 Simulation starts! Answer = shrew
 attempt	guess	pattern
 1		soare	20011
-2		rerun	11200
+2		newie	01100
 3		shrew	Correct!
 
 1401/2315
@@ -10365,8 +10354,9 @@ attempt	guess	pattern
 Simulation starts! Answer = plied
 attempt	guess	pattern
 1		soare	00001
-2		teind	01202
-3		plied	Correct!
+2		denet	10020
+3		clued	02022
+4		plied	Correct!
 
 1403/2315
 Simulation starts! Answer = quark
@@ -10395,15 +10385,15 @@ attempt	guess	pattern
 Simulation starts! Answer = waxen
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01010
-3		annex	11121
+2		canal	02100
+3		trawl	00110
 4		waxen	Correct!
 
 1407/2315
 Simulation starts! Answer = stoic
 attempt	guess	pattern
 1		soare	21000
-2		cloot	10211
+2		cloot	10201
 3		stock	22210
 4		stoic	Correct!
 
@@ -10411,8 +10401,8 @@ attempt	guess	pattern
 Simulation starts! Answer = jerky
 attempt	guess	pattern
 1		soare	00011
-2		tined	00010
-3		pluck	00001
+2		direr	00210
+3		perch	02200
 4		jerky	Correct!
 
 1409/2315
@@ -10426,8 +10416,8 @@ attempt	guess	pattern
 Simulation starts! Answer = beefy
 attempt	guess	pattern
 1		soare	00001
-2		teind	02000
-3		bylaw	21000
+2		denet	02010
+3		beech	22200
 4		beefy	Correct!
 
 1411/2315
@@ -10442,9 +10432,8 @@ attempt	guess	pattern
 Simulation starts! Answer = hussy
 attempt	guess	pattern
 1		soare	10000
-2		mythi	01010
-3		husky	22202
-4		hussy	Correct!
+2		hists	20201
+3		hussy	Correct!
 
 1413/2315
 Simulation starts! Answer = towel
@@ -10480,9 +10469,8 @@ attempt	guess	pattern
 Simulation starts! Answer = wispy
 attempt	guess	pattern
 1		soare	10000
-2		mythi	01001
-3		gipsy	02112
-4		wispy	Correct!
+2		hists	02200
+3		wispy	Correct!
 
 1418/2315
 Simulation starts! Answer = brash
@@ -10509,7 +10497,7 @@ attempt	guess	pattern
 Simulation starts! Answer = easel
 attempt	guess	pattern
 1		soare	10101
-2		tangy	02000
+2		tweed	00120
 3		easel	Correct!
 
 1422/2315
@@ -10517,7 +10505,7 @@ Simulation starts! Answer = saucy
 attempt	guess	pattern
 1		soare	20100
 2		dault	02200
-3		sauna	22201
+3		sauna	22200
 4		saucy	Correct!
 
 1423/2315
@@ -10570,9 +10558,8 @@ attempt	guess	pattern
 Simulation starts! Answer = radii
 attempt	guess	pattern
 1		soare	00110
-2		riyal	21010
-3		rabid	22021
-4		radii	Correct!
+2		radar	22200
+3		radii	Correct!
 
 1430/2315
 Simulation starts! Answer = skull
@@ -10599,7 +10586,7 @@ attempt	guess	pattern
 Simulation starts! Answer = lager
 attempt	guess	pattern
 1		soare	00111
-2		talar	02112
+2		talar	02102
 3		layer	22022
 4		lager	Correct!
 
@@ -10623,29 +10610,30 @@ Simulation starts! Answer = gassy
 attempt	guess	pattern
 1		soare	10100
 2		linty	00002
-3		assay	11212
+3		assay	11202
 4		gassy	Correct!
 
 1437/2315
 Simulation starts! Answer = trial
 attempt	guess	pattern
 1		soare	00110
-2		riyal	11022
-3		trial	Correct!
+2		radar	10020
+3		viral	01122
+4		trial	Correct!
 
 1438/2315
 Simulation starts! Answer = flora
 attempt	guess	pattern
 1		soare	01120
-2		cling	02000
+2		aback	10000
 3		flora	Correct!
 
 1439/2315
 Simulation starts! Answer = upper
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	00101
+2		direr	00022
+3		butyl	01000
 4		upper	Correct!
 
 1440/2315
@@ -10675,7 +10663,7 @@ attempt	guess	pattern
 Simulation starts! Answer = retry
 attempt	guess	pattern
 1		soare	00021
-2		delft	02001
+2		feted	02200
 3		retry	Correct!
 
 1444/2315
@@ -10690,8 +10678,9 @@ attempt	guess	pattern
 Simulation starts! Answer = decal
 attempt	guess	pattern
 1		soare	00101
-2		tepal	02022
-3		decal	Correct!
+2		canal	10022
+3		fecal	02222
+4		decal	Correct!
 
 1446/2315
 Simulation starts! Answer = grass
@@ -10729,8 +10718,8 @@ attempt	guess	pattern
 Simulation starts! Answer = defer
 attempt	guess	pattern
 1		soare	00011
-2		tined	00021
-3		lusty	00000
+2		direr	20022
+3		deter	22022
 4		defer	Correct!
 
 1451/2315
@@ -10751,9 +10740,8 @@ attempt	guess	pattern
 Simulation starts! Answer = crier
 attempt	guess	pattern
 1		soare	00011
-2		tined	01020
-3		grief	02220
-4		crier	Correct!
+2		direr	01122
+3		crier	Correct!
 
 1454/2315
 Simulation starts! Answer = vying
@@ -10796,9 +10784,8 @@ attempt	guess	pattern
 Simulation starts! Answer = drier
 attempt	guess	pattern
 1		soare	00011
-2		tined	01021
-3		idler	11022
-4		drier	Correct!
+2		direr	21122
+3		drier	Correct!
 
 1460/2315
 Simulation starts! Answer = obese
@@ -10847,8 +10834,8 @@ attempt	guess	pattern
 Simulation starts! Answer = pedal
 attempt	guess	pattern
 1		soare	00101
-2		tepal	02122
-3		penal	22022
+2		canal	00022
+3		dempt	12010
 4		pedal	Correct!
 
 1467/2315
@@ -10862,17 +10849,16 @@ attempt	guess	pattern
 Simulation starts! Answer = cruel
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	01200
-4		gruel	02222
-5		cruel	Correct!
+2		direr	00120
+3		pence	01010
+4		cruel	Correct!
 
 1469/2315
 Simulation starts! Answer = bleat
 attempt	guess	pattern
 1		soare	00101
-2		tepal	11021
-3		eclat	10122
+2		canal	00021
+3		doubt	00012
 4		bleat	Correct!
 
 1470/2315
@@ -10910,7 +10896,7 @@ attempt	guess	pattern
 Simulation starts! Answer = dusty
 attempt	guess	pattern
 1		soare	10000
-2		mythi	01100
+2		hists	00220
 3		model	00100
 4		dusty	Correct!
 
@@ -10932,15 +10918,15 @@ attempt	guess	pattern
 Simulation starts! Answer = nerdy
 attempt	guess	pattern
 1		soare	00011
-2		tined	00111
+2		direr	10210
 3		nerdy	Correct!
 
 1478/2315
 Simulation starts! Answer = jewel
 attempt	guess	pattern
 1		soare	00001
-2		teind	02000
-3		bylaw	00101
+2		denet	02020
+3		bevel	02022
 4		jewel	Correct!
 
 1479/2315
@@ -10956,15 +10942,15 @@ Simulation starts! Answer = whale
 attempt	guess	pattern
 1		soare	00202
 2		glitz	01000
-3		leave	11202
+3		leave	10202
 4		whale	Correct!
 
 1481/2315
 Simulation starts! Answer = hymen
 attempt	guess	pattern
 1		soare	00001
-2		teind	01010
-3		kneel	01120
+2		denet	00120
+3		helix	21000
 4		hymen	Correct!
 
 1482/2315
@@ -11046,7 +11032,7 @@ Simulation starts! Answer = swung
 attempt	guess	pattern
 1		soare	20000
 2		thilk	00000
-3		sunny	21120
+3		sunny	21020
 4		swung	Correct!
 
 1493/2315
@@ -11060,7 +11046,7 @@ attempt	guess	pattern
 Simulation starts! Answer = freed
 attempt	guess	pattern
 1		soare	00011
-2		tined	00022
+2		direr	10120
 3		befog	01100
 4		freed	Correct!
 
@@ -11083,7 +11069,7 @@ Simulation starts! Answer = grout
 attempt	guess	pattern
 1		soare	01010
 2		cutin	01100
-3		trout	12222
+3		trout	02222
 4		grout	Correct!
 
 1498/2315
@@ -11143,9 +11129,8 @@ attempt	guess	pattern
 Simulation starts! Answer = enemy
 attempt	guess	pattern
 1		soare	00001
-2		teind	01010
-3		kneel	02210
-4		enemy	Correct!
+2		denet	01110
+3		enemy	Correct!
 
 1506/2315
 Simulation starts! Answer = again
@@ -11172,14 +11157,14 @@ attempt	guess	pattern
 Simulation starts! Answer = alter
 attempt	guess	pattern
 1		soare	00111
-2		talar	11112
+2		talar	11102
 3		alter	Correct!
 
 1510/2315
 Simulation starts! Answer = gazer
 attempt	guess	pattern
 1		soare	00111
-2		talar	02012
+2		talar	02002
 3		pygmy	00100
 4		gazer	Correct!
 
@@ -11224,8 +11209,8 @@ Simulation starts! Answer = hobby
 attempt	guess	pattern
 1		soare	02000
 2		culty	00002
-3		goody	02102
-4		bobby	12222
+3		goody	02002
+4		bobby	02222
 5		hobby	Correct!
 
 1517/2315
@@ -11247,8 +11232,8 @@ attempt	guess	pattern
 Simulation starts! Answer = utter
 attempt	guess	pattern
 1		soare	00011
-2		tined	10020
-3		shrug	00110
+2		direr	00022
+3		butyl	01200
 4		utter	Correct!
 
 1520/2315
@@ -11282,26 +11267,24 @@ attempt	guess	pattern
 Simulation starts! Answer = elegy
 attempt	guess	pattern
 1		soare	00001
-2		teind	01000
-3		excel	20011
-4		elegy	Correct!
+2		denet	01010
+3		elegy	Correct!
 
 1525/2315
 Simulation starts! Answer = spunk
 attempt	guess	pattern
 1		soare	20000
 2		thilk	00002
-3		skunk	21222
+3		skunk	20222
 4		spunk	Correct!
 
 1526/2315
 Simulation starts! Answer = piper
 attempt	guess	pattern
 1		soare	00011
-2		tined	02020
-3		rival	12000
-4		fixer	02022
-5		piper	Correct!
+2		direr	02022
+3		fling	00100
+4		piper	Correct!
 
 1527/2315
 Simulation starts! Answer = scaly
@@ -11315,14 +11298,14 @@ attempt	guess	pattern
 Simulation starts! Answer = scold
 attempt	guess	pattern
 1		soare	21000
-2		cloot	11210
+2		cloot	11200
 3		scold	Correct!
 
 1529/2315
 Simulation starts! Answer = hefty
 attempt	guess	pattern
 1		soare	00001
-2		teind	12000
+2		denet	02001
 3		pithy	00112
 4		hefty	Correct!
 
@@ -11367,7 +11350,7 @@ Simulation starts! Answer = quake
 attempt	guess	pattern
 1		soare	00202
 2		glitz	00000
-3		weave	01202
+3		weave	00202
 4		chafe	00202
 5		quake	Correct!
 
@@ -11404,8 +11387,8 @@ attempt	guess	pattern
 Simulation starts! Answer = wield
 attempt	guess	pattern
 1		soare	00001
-2		teind	01102
-3		dwarf	11000
+2		denet	11000
+3		edify	11100
 4		wield	Correct!
 
 1541/2315
@@ -11442,7 +11425,7 @@ attempt	guess	pattern
 Simulation starts! Answer = screw
 attempt	guess	pattern
 1		soare	20011
-2		rerun	11200
+2		newie	01100
 3		shrew	20222
 4		screw	Correct!
 
@@ -11450,14 +11433,13 @@ attempt	guess	pattern
 Simulation starts! Answer = spree
 attempt	guess	pattern
 1		soare	20012
-2		perch	11200
-3		spree	Correct!
+2		spree	Correct!
 
 1547/2315
 Simulation starts! Answer = smoky
 attempt	guess	pattern
 1		soare	21000
-2		cloot	00210
+2		cloot	00200
 3		shown	20200
 4		smoky	Correct!
 
@@ -11508,8 +11490,8 @@ attempt	guess	pattern
 Simulation starts! Answer = riper
 attempt	guess	pattern
 1		soare	00011
-2		tined	02020
-3		rival	22000
+2		direr	02122
+3		river	22022
 4		riper	Correct!
 
 1555/2315
@@ -11539,7 +11521,7 @@ attempt	guess	pattern
 Simulation starts! Answer = humus
 attempt	guess	pattern
 1		soare	10000
-2		mythi	10010
+2		hists	20002
 3		humus	Correct!
 
 1559/2315
@@ -11626,8 +11608,8 @@ attempt	guess	pattern
 Simulation starts! Answer = pixel
 attempt	guess	pattern
 1		soare	00001
-2		teind	01100
-3		libel	12022
+2		denet	00020
+3		libel	02022
 4		pixel	Correct!
 
 1571/2315
@@ -11656,22 +11638,21 @@ attempt	guess	pattern
 Simulation starts! Answer = cleat
 attempt	guess	pattern
 1		soare	00101
-2		tepal	11021
-3		eclat	11122
-4		cleat	Correct!
+2		canal	20021
+3		cleat	Correct!
 
 1575/2315
 Simulation starts! Answer = mango
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00110
+2		cloot	00100
 3		mango	Correct!
 
 1576/2315
 Simulation starts! Answer = rumba
 attempt	guess	pattern
 1		soare	00110
-2		riyal	20010
+2		radar	21000
 3		rumba	Correct!
 
 1577/2315
@@ -11687,7 +11668,7 @@ Simulation starts! Answer = filly
 attempt	guess	pattern
 1		soare	00000
 2		clint	01100
-3		mirid	02010
+3		dumpy	00002
 4		wharf	00001
 5		filly	Correct!
 
@@ -11696,7 +11677,7 @@ Simulation starts! Answer = billy
 attempt	guess	pattern
 1		soare	00000
 2		clint	01100
-3		mirid	02010
+3		dumpy	00002
 4		wharf	00000
 5		billy	Correct!
 
@@ -11732,9 +11713,8 @@ attempt	guess	pattern
 Simulation starts! Answer = facet
 attempt	guess	pattern
 1		soare	00101
-2		tepal	11010
-3		colon	10000
-4		facet	Correct!
+2		canal	12000
+3		facet	Correct!
 
 1585/2315
 Simulation starts! Answer = chili
@@ -11756,8 +11736,8 @@ attempt	guess	pattern
 Simulation starts! Answer = liner
 attempt	guess	pattern
 1		soare	00011
-2		tined	02220
-3		focal	00001
+2		direr	02022
+3		fling	01110
 4		liner	Correct!
 
 1588/2315
@@ -11778,7 +11758,7 @@ attempt	guess	pattern
 Simulation starts! Answer = audio
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00110
+2		cloot	00100
 3		mango	01002
 4		audio	Correct!
 
@@ -11801,16 +11781,15 @@ attempt	guess	pattern
 Simulation starts! Answer = cloak
 attempt	guess	pattern
 1		soare	01100
-2		cloot	22210
+2		cloot	22200
 3		cloak	Correct!
 
 1594/2315
 Simulation starts! Answer = navel
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01012
-3		bhang	00110
-4		navel	Correct!
+2		canal	02102
+3		navel	Correct!
 
 1595/2315
 Simulation starts! Answer = spurt
@@ -11845,7 +11824,7 @@ attempt	guess	pattern
 Simulation starts! Answer = unwed
 attempt	guess	pattern
 1		soare	00001
-2		teind	01012
+2		denet	10120
 3		unfed	22022
 4		unwed	Correct!
 
@@ -11853,7 +11832,7 @@ attempt	guess	pattern
 Simulation starts! Answer = early
 attempt	guess	pattern
 1		soare	00111
-2		talar	02111
+2		talar	02101
 3		early	Correct!
 
 1601/2315
@@ -11867,7 +11846,7 @@ attempt	guess	pattern
 Simulation starts! Answer = weedy
 attempt	guess	pattern
 1		soare	00001
-2		teind	02001
+2		denet	12010
 3		weedy	Correct!
 
 1603/2315
@@ -11900,7 +11879,7 @@ attempt	guess	pattern
 1		soare	00000
 2		clint	00100
 3		fudgy	00002
-4		hippy	02122
+4		hippy	02022
 5		wimpy	Correct!
 
 1607/2315
@@ -11923,8 +11902,9 @@ attempt	guess	pattern
 Simulation starts! Answer = blend
 attempt	guess	pattern
 1		soare	00001
-2		teind	01022
-3		blend	Correct!
+2		denet	11100
+3		fiend	00222
+4		blend	Correct!
 
 1610/2315
 Simulation starts! Answer = salsa
@@ -11944,7 +11924,7 @@ attempt	guess	pattern
 Simulation starts! Answer = warty
 attempt	guess	pattern
 1		soare	00110
-2		riyal	10110
+2		radar	12000
 3		party	02222
 4		warty	Correct!
 
@@ -11968,7 +11948,7 @@ Simulation starts! Answer = squib
 attempt	guess	pattern
 1		soare	20000
 2		thilk	00100
-3		sissy	21110
+3		sissy	21000
 4		squib	Correct!
 
 1616/2315
@@ -12013,8 +11993,8 @@ attempt	guess	pattern
 Simulation starts! Answer = debut
 attempt	guess	pattern
 1		soare	00001
-2		teind	12001
-3		depth	22010
+2		denet	22002
+3		debit	22202
 4		debut	Correct!
 
 1622/2315
@@ -12035,23 +12015,23 @@ attempt	guess	pattern
 Simulation starts! Answer = teeth
 attempt	guess	pattern
 1		soare	00001
-2		teind	22000
+2		denet	02011
 3		teeth	Correct!
 
 1625/2315
 Simulation starts! Answer = agent
 attempt	guess	pattern
 1		soare	00101
-2		tepal	11010
-3		colon	00001
+2		canal	01100
+3		enema	01201
 4		agent	Correct!
 
 1626/2315
 Simulation starts! Answer = widen
 attempt	guess	pattern
 1		soare	00001
-2		teind	01111
-3		index	11220
+2		denet	10120
+3		unfed	01021
 4		widen	Correct!
 
 1627/2315
@@ -12088,7 +12068,7 @@ Simulation starts! Answer = juror
 attempt	guess	pattern
 1		soare	01010
 2		cutin	02000
-3		forth	01200
+3		furor	02222
 4		juror	Correct!
 
 1632/2315
@@ -12154,9 +12134,8 @@ attempt	guess	pattern
 Simulation starts! Answer = sewer
 attempt	guess	pattern
 1		soare	20011
-2		rerun	12100
-3		sever	22022
-4		sewer	Correct!
+2		newie	02201
+3		sewer	Correct!
 
 1641/2315
 Simulation starts! Answer = parse
@@ -12215,15 +12194,16 @@ attempt	guess	pattern
 Simulation starts! Answer = annex
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01010
+2		canal	01200
 3		annex	Correct!
 
 1649/2315
 Simulation starts! Answer = begin
 attempt	guess	pattern
 1		soare	00001
-2		teind	02110
-3		begin	Correct!
+2		denet	02100
+3		feign	02112
+4		begin	Correct!
 
 1650/2315
 Simulation starts! Answer = fuzzy
@@ -12239,14 +12219,14 @@ Simulation starts! Answer = patch
 attempt	guess	pattern
 1		soare	00100
 2		clint	10001
-3		humph	10012
+3		humph	00012
 4		patch	Correct!
 
 1652/2315
 Simulation starts! Answer = water
 attempt	guess	pattern
 1		soare	00111
-2		talar	12012
+2		talar	12002
 3		epoch	10000
 4		water	Correct!
 
@@ -12255,7 +12235,7 @@ Simulation starts! Answer = lumpy
 attempt	guess	pattern
 1		soare	00000
 2		clint	01000
-3		bully	02112
+3		bully	02102
 4		lumpy	Correct!
 
 1654/2315
@@ -12263,7 +12243,7 @@ Simulation starts! Answer = admin
 attempt	guess	pattern
 1		soare	00100
 2		clint	00110
-3		ninja	11101
+3		ninja	11001
 4		admin	Correct!
 
 1655/2315
@@ -12286,14 +12266,14 @@ Simulation starts! Answer = tabby
 attempt	guess	pattern
 1		soare	00100
 2		clint	00001
-3		bluff	10000
+3		baffy	12002
 4		tabby	Correct!
 
 1658/2315
 Simulation starts! Answer = macho
 attempt	guess	pattern
 1		soare	01100
-2		cloot	10110
+2		cloot	10100
 3		macho	Correct!
 
 1659/2315
@@ -12371,7 +12351,7 @@ Simulation starts! Answer = cubic
 attempt	guess	pattern
 1		soare	00000
 2		clint	20100
-3		civic	21022
+3		civic	20022
 4		cubic	Correct!
 
 1669/2315
@@ -12414,15 +12394,16 @@ attempt	guess	pattern
 Simulation starts! Answer = under
 attempt	guess	pattern
 1		soare	00011
-2		tined	00121
-3		under	Correct!
+2		direr	10022
+3		udder	20222
+4		under	Correct!
 
 1675/2315
 Simulation starts! Answer = actor
 attempt	guess	pattern
 1		soare	01110
 2		baron	01120
-3		ardor	21022
+3		ardor	20022
 4		actor	Correct!
 
 1676/2315
@@ -12444,7 +12425,7 @@ attempt	guess	pattern
 Simulation starts! Answer = harpy
 attempt	guess	pattern
 1		soare	00110
-2		riyal	10110
+2		radar	12000
 3		party	12202
 4		harpy	Correct!
 
@@ -12467,8 +12448,8 @@ attempt	guess	pattern
 Simulation starts! Answer = refer
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	10000
+2		direr	00122
+3		freer	11122
 4		refer	Correct!
 
 1682/2315
@@ -12482,15 +12463,16 @@ attempt	guess	pattern
 Simulation starts! Answer = clerk
 attempt	guess	pattern
 1		soare	00021
-2		delft	01100
-3		clerk	Correct!
+2		feted	01000
+3		query	00220
+4		clerk	Correct!
 
 1684/2315
 Simulation starts! Answer = debar
 attempt	guess	pattern
 1		soare	00111
-2		talar	01022
-3		rebar	12222
+2		talar	00022
+3		rebar	02222
 4		debar	Correct!
 
 1685/2315
@@ -12504,8 +12486,8 @@ attempt	guess	pattern
 Simulation starts! Answer = ethic
 attempt	guess	pattern
 1		soare	00001
-2		teind	11100
-3		eight	21011
+2		denet	01001
+3		piety	01110
 4		ethic	Correct!
 
 1687/2315
@@ -12535,7 +12517,7 @@ Simulation starts! Answer = hilly
 attempt	guess	pattern
 1		soare	00000
 2		clint	01100
-3		mirid	02010
+3		dumpy	00002
 4		wharf	01000
 5		hilly	Correct!
 
@@ -12593,14 +12575,14 @@ attempt	guess	pattern
 Simulation starts! Answer = abbot
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00122
+2		cloot	00022
 3		abbot	Correct!
 
 1699/2315
 Simulation starts! Answer = rerun
 attempt	guess	pattern
 1		soare	00011
-2		tined	00110
+2		direr	00211
 3		rerun	Correct!
 
 1700/2315
@@ -12630,7 +12612,7 @@ attempt	guess	pattern
 Simulation starts! Answer = befit
 attempt	guess	pattern
 1		soare	00001
-2		teind	12100
+2		denet	02002
 3		befit	Correct!
 
 1704/2315
@@ -12661,17 +12643,17 @@ attempt	guess	pattern
 Simulation starts! Answer = cheer
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	00000
-4		creek	21220
+2		direr	00022
+3		butyl	00000
+4		fewer	01022
 5		cheer	Correct!
 
 1708/2315
 Simulation starts! Answer = bagel
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01012
-3		bhang	20101
+2		canal	02002
+3		bough	20010
 4		bagel	Correct!
 
 1709/2315
@@ -12692,7 +12674,7 @@ attempt	guess	pattern
 Simulation starts! Answer = axiom
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00120
+2		cloot	00020
 3		wagon	01020
 4		axiom	Correct!
 
@@ -12766,7 +12748,7 @@ attempt	guess	pattern
 Simulation starts! Answer = lupus
 attempt	guess	pattern
 1		soare	10000
-2		mythi	00000
+2		hists	00002
 3		lupus	Correct!
 
 1722/2315
@@ -12781,16 +12763,17 @@ attempt	guess	pattern
 Simulation starts! Answer = miner
 attempt	guess	pattern
 1		soare	00011
-2		tined	02220
-3		focal	00000
-4		miner	Correct!
+2		direr	02022
+3		fling	00110
+4		nicer	12022
+5		miner	Correct!
 
 1724/2315
 Simulation starts! Answer = green
 attempt	guess	pattern
 1		soare	00011
-2		tined	00120
-3		whelp	00200
+2		direr	00120
+3		pence	01101
 4		green	Correct!
 
 1725/2315
@@ -12805,7 +12788,7 @@ Simulation starts! Answer = lipid
 attempt	guess	pattern
 1		soare	00000
 2		clint	01100
-3		mirid	02022
+3		dumpy	10010
 4		lipid	Correct!
 
 1727/2315
@@ -12836,22 +12819,23 @@ Simulation starts! Answer = crane
 attempt	guess	pattern
 1		soare	00212
 2		ditch	00010
-3		naval	11010
+3		naval	11000
 4		crane	Correct!
 
 1731/2315
 Simulation starts! Answer = mural
 attempt	guess	pattern
 1		soare	00110
-2		riyal	10022
-3		mural	Correct!
+2		radar	10020
+3		viral	00222
+4		mural	Correct!
 
 1732/2315
 Simulation starts! Answer = abled
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01011
-3		alien	21020
+2		canal	01001
+3		delta	11201
 4		abled	Correct!
 
 1733/2315
@@ -12873,7 +12857,7 @@ attempt	guess	pattern
 Simulation starts! Answer = maker
 attempt	guess	pattern
 1		soare	00111
-2		talar	02012
+2		talar	02002
 3		pygmy	00010
 4		maker	Correct!
 
@@ -12881,8 +12865,9 @@ attempt	guess	pattern
 Simulation starts! Answer = dusky
 attempt	guess	pattern
 1		soare	10000
-2		mythi	01000
-3		dusky	Correct!
+2		hists	00200
+3		musky	02222
+4		dusky	Correct!
 
 1737/2315
 Simulation starts! Answer = dizzy
@@ -12923,7 +12908,7 @@ Simulation starts! Answer = fifty
 attempt	guess	pattern
 1		soare	00000
 2		clint	00101
-3		ditty	02122
+3		ditty	02022
 4		fifty	Correct!
 
 1742/2315
@@ -12951,8 +12936,8 @@ attempt	guess	pattern
 Simulation starts! Answer = legal
 attempt	guess	pattern
 1		soare	00101
-2		tepal	02022
-3		decal	02022
+2		canal	00022
+3		dempt	02000
 4		legal	Correct!
 
 1746/2315
@@ -12960,7 +12945,7 @@ Simulation starts! Answer = fatal
 attempt	guess	pattern
 1		soare	00100
 2		clint	01001
-3		tally	12110
+3		tally	12100
 4		fatal	Correct!
 
 1747/2315
@@ -12975,7 +12960,7 @@ attempt	guess	pattern
 Simulation starts! Answer = began
 attempt	guess	pattern
 1		soare	00101
-2		tepal	02020
+2		canal	00120
 3		began	Correct!
 
 1749/2315
@@ -13004,7 +12989,7 @@ attempt	guess	pattern
 Simulation starts! Answer = scoff
 attempt	guess	pattern
 1		soare	21000
-2		cloot	10210
+2		cloot	10200
 3		shock	20210
 4		scoff	Correct!
 
@@ -13034,16 +13019,17 @@ attempt	guess	pattern
 Simulation starts! Answer = viper
 attempt	guess	pattern
 1		soare	00011
-2		tined	02020
-3		rival	12100
-4		viper	Correct!
+2		direr	02022
+3		fling	00100
+4		piper	02222
+5		viper	Correct!
 
 1757/2315
 Simulation starts! Answer = taken
 attempt	guess	pattern
 1		soare	00101
-2		tepal	21010
-3		theta	20111
+2		canal	02100
+3		trawl	20100
 4		taken	Correct!
 
 1758/2315
@@ -13078,7 +13064,7 @@ attempt	guess	pattern
 Simulation starts! Answer = entry
 attempt	guess	pattern
 1		soare	00021
-2		delft	01001
+2		feted	01200
 3		entry	Correct!
 
 1763/2315
@@ -13086,7 +13072,7 @@ Simulation starts! Answer = booth
 attempt	guess	pattern
 1		soare	02000
 2		culty	00020
-3		tooth	12222
+3		motto	02021
 4		booth	Correct!
 
 1764/2315
@@ -13107,8 +13093,8 @@ attempt	guess	pattern
 Simulation starts! Answer = elfin
 attempt	guess	pattern
 1		soare	00001
-2		teind	01110
-3		vinyl	01101
+2		denet	01100
+3		eking	20110
 4		elfin	Correct!
 
 1767/2315
@@ -13123,7 +13109,7 @@ attempt	guess	pattern
 Simulation starts! Answer = neigh
 attempt	guess	pattern
 1		soare	00001
-2		teind	02210
+2		denet	02100
 3		feign	02221
 4		neigh	Correct!
 
@@ -13146,9 +13132,8 @@ attempt	guess	pattern
 Simulation starts! Answer = kneed
 attempt	guess	pattern
 1		soare	00001
-2		teind	01012
-3		unfed	02022
-4		kneed	Correct!
+2		denet	11120
+3		kneed	Correct!
 
 1772/2315
 Simulation starts! Answer = decoy
@@ -13183,8 +13168,9 @@ attempt	guess	pattern
 Simulation starts! Answer = mushy
 attempt	guess	pattern
 1		soare	10000
-2		mythi	21020
-3		mushy	Correct!
+2		hists	10200
+3		humph	12100
+4		mushy	Correct!
 
 1777/2315
 Simulation starts! Answer = tribe
@@ -13204,7 +13190,7 @@ attempt	guess	pattern
 Simulation starts! Answer = eager
 attempt	guess	pattern
 1		soare	00111
-2		talar	02012
+2		talar	02002
 3		pygmy	00200
 4		wager	02222
 5		eager	Correct!
@@ -13221,7 +13207,7 @@ Simulation starts! Answer = graph
 attempt	guess	pattern
 1		soare	00210
 2		clint	00000
-3		humph	10022
+3		humph	00022
 4		graph	Correct!
 
 1782/2315
@@ -13243,15 +13229,16 @@ attempt	guess	pattern
 Simulation starts! Answer = weird
 attempt	guess	pattern
 1		soare	00021
-2		delft	12000
+2		feted	02002
 3		weird	Correct!
 
 1785/2315
 Simulation starts! Answer = tried
 attempt	guess	pattern
 1		soare	00011
-2		tined	21022
-3		tried	Correct!
+2		direr	11120
+3		crept	02101
+4		tried	Correct!
 
 1786/2315
 Simulation starts! Answer = clack
@@ -13278,8 +13265,9 @@ attempt	guess	pattern
 Simulation starts! Answer = weigh
 attempt	guess	pattern
 1		soare	00001
-2		teind	02200
-3		weigh	Correct!
+2		denet	02000
+3		belch	02002
+4		weigh	Correct!
 
 1790/2315
 Simulation starts! Answer = uncut
@@ -13314,14 +13302,14 @@ attempt	guess	pattern
 Simulation starts! Answer = minus
 attempt	guess	pattern
 1		soare	10000
-2		mythi	20001
+2		hists	02002
 3		minus	Correct!
 
 1795/2315
 Simulation starts! Answer = dicey
 attempt	guess	pattern
 1		soare	00001
-2		teind	01101
+2		denet	20020
 3		dicey	Correct!
 
 1796/2315
@@ -13342,7 +13330,7 @@ attempt	guess	pattern
 Simulation starts! Answer = vicar
 attempt	guess	pattern
 1		soare	00110
-2		riyal	12020
+2		radar	00022
 3		cigar	12022
 4		vicar	Correct!
 
@@ -13365,7 +13353,7 @@ attempt	guess	pattern
 Simulation starts! Answer = gypsy
 attempt	guess	pattern
 1		soare	10000
-2		mythi	02000
+2		hists	00100
 3		gypsy	Correct!
 
 1802/2315
@@ -13380,7 +13368,7 @@ Simulation starts! Answer = taffy
 attempt	guess	pattern
 1		soare	00100
 2		clint	00001
-3		bluff	00021
+3		baffy	02222
 4		taffy	Correct!
 
 1804/2315
@@ -13448,22 +13436,22 @@ Simulation starts! Answer = wordy
 attempt	guess	pattern
 1		soare	02010
 2		cyton	01010
-3		roomy	12102
+3		roomy	12002
 4		wordy	Correct!
 
 1813/2315
 Simulation starts! Answer = sheer
 attempt	guess	pattern
 1		soare	20011
-2		rerun	11100
+2		newie	01001
 3		sheer	Correct!
 
 1814/2315
 Simulation starts! Answer = leper
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	01001
+2		direr	00022
+3		butyl	00001
 4		leper	Correct!
 
 1815/2315
@@ -13568,7 +13556,7 @@ attempt	guess	pattern
 Simulation starts! Answer = bicep
 attempt	guess	pattern
 1		soare	00001
-2		teind	01100
+2		denet	00020
 3		libel	02120
 4		bicep	Correct!
 
@@ -13605,8 +13593,8 @@ attempt	guess	pattern
 Simulation starts! Answer = hyena
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01010
-3		annex	11110
+2		canal	01100
+3		enema	01202
 4		hyena	Correct!
 
 1834/2315
@@ -13657,7 +13645,7 @@ Simulation starts! Answer = phone
 attempt	guess	pattern
 1		soare	01002
 2		clink	00020
-3		ozone	10222
+3		ozone	00222
 4		phone	Correct!
 
 1841/2315
@@ -13671,9 +13659,8 @@ attempt	guess	pattern
 Simulation starts! Answer = camel
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01012
-3		bhang	00100
-4		camel	Correct!
+2		canal	22002
+3		camel	Correct!
 
 1843/2315
 Simulation starts! Answer = proof
@@ -13694,16 +13681,16 @@ attempt	guess	pattern
 Simulation starts! Answer = angel
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01012
-3		bhang	00111
-4		angel	Correct!
+2		canal	01102
+3		angel	Correct!
 
 1846/2315
 Simulation starts! Answer = petal
 attempt	guess	pattern
 1		soare	00101
-2		tepal	12122
-3		petal	Correct!
+2		canal	00022
+3		dempt	02011
+4		petal	Correct!
 
 1847/2315
 Simulation starts! Answer = pouty
@@ -13731,8 +13718,8 @@ attempt	guess	pattern
 Simulation starts! Answer = fetal
 attempt	guess	pattern
 1		soare	00101
-2		tepal	12022
-3		metal	02222
+2		canal	00022
+3		dempt	02001
 4		fetal	Correct!
 
 1851/2315
@@ -13753,7 +13740,7 @@ attempt	guess	pattern
 Simulation starts! Answer = shout
 attempt	guess	pattern
 1		soare	21000
-2		cloot	00212
+2		cloot	00202
 3		nymph	00001
 4		shout	Correct!
 
@@ -13761,15 +13748,14 @@ attempt	guess	pattern
 Simulation starts! Answer = cadet
 attempt	guess	pattern
 1		soare	00101
-2		tepal	11010
-3		colon	20000
-4		cadet	Correct!
+2		canal	22000
+3		cadet	Correct!
 
 1855/2315
 Simulation starts! Answer = macro
 attempt	guess	pattern
 1		soare	01120
-2		cling	10000
+2		aback	10010
 3		macro	Correct!
 
 1856/2315
@@ -13777,21 +13763,21 @@ Simulation starts! Answer = dodgy
 attempt	guess	pattern
 1		soare	02000
 2		culty	00002
-3		goody	12112
+3		goody	12012
 4		dodgy	Correct!
 
 1857/2315
 Simulation starts! Answer = satyr
 attempt	guess	pattern
 1		soare	20110
-2		putty	00211
+2		putty	00201
 3		satyr	Correct!
 
 1858/2315
 Simulation starts! Answer = rarer
 attempt	guess	pattern
 1		soare	00111
-2		talar	02012
+2		talar	02002
 3		pygmy	00000
 4		flick	00000
 5		rarer	Correct!
@@ -13808,7 +13794,7 @@ attempt	guess	pattern
 Simulation starts! Answer = trend
 attempt	guess	pattern
 1		soare	00011
-2		tined	20112
+2		direr	10110
 3		trend	Correct!
 
 1861/2315
@@ -13852,7 +13838,7 @@ Simulation starts! Answer = width
 attempt	guess	pattern
 1		soare	00000
 2		clint	00101
-3		ditty	12120
+3		ditty	12020
 4		width	Correct!
 
 1867/2315
@@ -13879,8 +13865,8 @@ attempt	guess	pattern
 Simulation starts! Answer = fever
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	20000
+2		direr	00022
+3		butyl	00000
 4		fewer	22022
 5		fever	Correct!
 
@@ -13888,10 +13874,10 @@ attempt	guess	pattern
 Simulation starts! Answer = waver
 attempt	guess	pattern
 1		soare	00111
-2		talar	02012
+2		talar	02002
 3		pygmy	00000
 4		flick	00000
-5		rarer	12122
+5		rarer	02022
 6		waver	Correct!
 
 1872/2315
@@ -13919,8 +13905,8 @@ attempt	guess	pattern
 Simulation starts! Answer = expel
 attempt	guess	pattern
 1		soare	00001
-2		teind	01000
-3		excel	22022
+2		denet	01020
+3		cheek	00120
 4		expel	Correct!
 
 1876/2315
@@ -13935,7 +13921,7 @@ attempt	guess	pattern
 Simulation starts! Answer = baler
 attempt	guess	pattern
 1		soare	00111
-2		talar	02212
+2		talar	02202
 3		paler	02222
 4		baler	Correct!
 
@@ -13957,7 +13943,7 @@ attempt	guess	pattern
 Simulation starts! Answer = wafer
 attempt	guess	pattern
 1		soare	00111
-2		talar	02012
+2		talar	02002
 3		pygmy	00000
 4		flick	10000
 5		wafer	Correct!
@@ -13997,7 +13983,7 @@ attempt	guess	pattern
 Simulation starts! Answer = scowl
 attempt	guess	pattern
 1		soare	21000
-2		cloot	11210
+2		cloot	11200
 3		scold	22210
 4		scowl	Correct!
 
@@ -14020,7 +14006,7 @@ Simulation starts! Answer = limbo
 attempt	guess	pattern
 1		soare	01000
 2		clint	01100
-3		igloo	10112
+3		igloo	10102
 4		limbo	Correct!
 
 1889/2315
@@ -14049,7 +14035,7 @@ attempt	guess	pattern
 Simulation starts! Answer = wreak
 attempt	guess	pattern
 1		soare	00111
-2		talar	01021
+2		talar	00021
 3		brick	02002
 4		freak	02222
 5		wreak	Correct!
@@ -14058,8 +14044,8 @@ attempt	guess	pattern
 Simulation starts! Answer = revel
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	01000
+2		direr	00120
+3		pence	02001
 4		rebel	22022
 5		revel	Correct!
 
@@ -14067,7 +14053,7 @@ attempt	guess	pattern
 Simulation starts! Answer = talon
 attempt	guess	pattern
 1		soare	01100
-2		cloot	01121
+2		cloot	01021
 3		talon	Correct!
 
 1895/2315
@@ -14082,8 +14068,8 @@ attempt	guess	pattern
 Simulation starts! Answer = knelt
 attempt	guess	pattern
 1		soare	00001
-2		teind	11010
-3		unmet	02012
+2		denet	01102
+3		inept	02202
 4		knelt	Correct!
 
 1897/2315
@@ -14105,9 +14091,8 @@ attempt	guess	pattern
 Simulation starts! Answer = debug
 attempt	guess	pattern
 1		soare	00001
-2		teind	02001
-3		weedy	02110
-4		debug	Correct!
+2		denet	22000
+3		debug	Correct!
 
 1900/2315
 Simulation starts! Answer = anode
@@ -14135,7 +14120,7 @@ attempt	guess	pattern
 Simulation starts! Answer = scout
 attempt	guess	pattern
 1		soare	21000
-2		cloot	10212
+2		cloot	10202
 3		scout	Correct!
 
 1904/2315
@@ -14159,7 +14144,7 @@ Simulation starts! Answer = stave
 attempt	guess	pattern
 1		soare	20202
 2		thilk	10000
-3		agate	10212
+3		agate	00212
 4		stave	Correct!
 
 1907/2315
@@ -14209,8 +14194,8 @@ attempt	guess	pattern
 Simulation starts! Answer = cleft
 attempt	guess	pattern
 1		soare	00001
-2		teind	11000
-3		fleet	12212
+2		denet	01002
+3		eight	10002
 4		cleft	Correct!
 
 1914/2315
@@ -14239,15 +14224,14 @@ attempt	guess	pattern
 Simulation starts! Answer = twist
 attempt	guess	pattern
 1		soare	10000
-2		mythi	00101
-3		visit	01112
-4		twist	Correct!
+2		hists	01110
+3		twist	Correct!
 
 1918/2315
 Simulation starts! Answer = apnea
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01110
+2		canal	01210
 3		apnea	Correct!
 
 1919/2315
@@ -14263,7 +14247,7 @@ Simulation starts! Answer = plaza
 attempt	guess	pattern
 1		soare	00200
 2		clink	02000
-3		llama	12202
+3		llama	02202
 4		plaza	Correct!
 
 1921/2315
@@ -14277,8 +14261,9 @@ attempt	guess	pattern
 Simulation starts! Answer = tweak
 attempt	guess	pattern
 1		soare	00101
-2		tepal	21020
-3		tweak	Correct!
+2		canal	00020
+3		kebab	11020
+4		tweak	Correct!
 
 1923/2315
 Simulation starts! Answer = board
@@ -14298,14 +14283,14 @@ attempt	guess	pattern
 Simulation starts! Answer = medic
 attempt	guess	pattern
 1		soare	00001
-2		teind	02101
+2		denet	12000
 3		medic	Correct!
 
 1926/2315
 Simulation starts! Answer = bacon
 attempt	guess	pattern
 1		soare	01100
-2		cloot	10120
+2		cloot	10020
 3		havoc	02021
 4		bacon	Correct!
 
@@ -14365,8 +14350,9 @@ attempt	guess	pattern
 Simulation starts! Answer = mucus
 attempt	guess	pattern
 1		soare	10000
-2		mythi	20000
-3		mucus	Correct!
+2		hists	00002
+3		lupus	02022
+4		mucus	Correct!
 
 1935/2315
 Simulation starts! Answer = boast
@@ -14401,8 +14387,8 @@ attempt	guess	pattern
 Simulation starts! Answer = truer
 attempt	guess	pattern
 1		soare	00011
-2		tined	20020
-3		tuber	21022
+2		direr	00122
+3		freer	02022
 4		truer	Correct!
 
 1940/2315
@@ -14440,10 +14426,8 @@ attempt	guess	pattern
 Simulation starts! Answer = purer
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	00101
-4		upper	11122
-5		purer	Correct!
+2		direr	00222
+3		purer	Correct!
 
 1945/2315
 Simulation starts! Answer = daily
@@ -14488,7 +14472,7 @@ Simulation starts! Answer = nylon
 attempt	guess	pattern
 1		soare	01000
 2		clint	01010
-3		knoll	01111
+3		knoll	01110
 4		nylon	Correct!
 
 1951/2315
@@ -14503,7 +14487,7 @@ attempt	guess	pattern
 Simulation starts! Answer = merry
 attempt	guess	pattern
 1		soare	00021
-2		delft	02000
+2		feted	02000
 3		merry	Correct!
 
 1953/2315
@@ -14526,15 +14510,15 @@ attempt	guess	pattern
 Simulation starts! Answer = wheat
 attempt	guess	pattern
 1		soare	00101
-2		tepal	11020
-3		cheat	02222
+2		canal	00020
+3		kebab	01020
 4		wheat	Correct!
 
 1956/2315
 Simulation starts! Answer = berry
 attempt	guess	pattern
 1		soare	00021
-2		delft	02000
+2		feted	02000
 3		merry	02222
 4		berry	Correct!
 
@@ -14550,7 +14534,7 @@ attempt	guess	pattern
 Simulation starts! Answer = erect
 attempt	guess	pattern
 1		soare	00011
-2		tined	10010
+2		direr	00110
 3		retch	11120
 4		erect	Correct!
 
@@ -14559,15 +14543,15 @@ Simulation starts! Answer = brute
 attempt	guess	pattern
 1		soare	00012
 2		pudic	01000
-3		revue	11012
+3		revue	10012
 4		brute	Correct!
 
 1960/2315
 Simulation starts! Answer = leggy
 attempt	guess	pattern
 1		soare	00001
-2		teind	02000
-3		bylaw	01100
+2		denet	02000
+3		belch	02100
 4		leggy	Correct!
 
 1961/2315
@@ -14589,16 +14573,16 @@ attempt	guess	pattern
 Simulation starts! Answer = skier
 attempt	guess	pattern
 1		soare	20011
-2		rerun	11100
-3		sheer	20122
-4		skier	Correct!
+2		newie	01010
+3		skier	Correct!
 
 1964/2315
 Simulation starts! Answer = penny
 attempt	guess	pattern
 1		soare	00001
-2		teind	02020
-3		penny	Correct!
+2		denet	02200
+3		bench	02200
+4		penny	Correct!
 
 1965/2315
 Simulation starts! Answer = jumpy
@@ -14612,8 +14596,9 @@ attempt	guess	pattern
 Simulation starts! Answer = rally
 attempt	guess	pattern
 1		soare	00110
-2		riyal	20111
-3		rally	Correct!
+2		radar	22000
+3		print	01000
+4		rally	Correct!
 
 1967/2315
 Simulation starts! Answer = umbra
@@ -14656,7 +14641,7 @@ attempt	guess	pattern
 Simulation starts! Answer = greed
 attempt	guess	pattern
 1		soare	00011
-2		tined	00022
+2		direr	10120
 3		befog	01001
 4		greed	Correct!
 
@@ -14679,7 +14664,7 @@ attempt	guess	pattern
 Simulation starts! Answer = parka
 attempt	guess	pattern
 1		soare	00110
-2		riyal	10010
+2		radar	12010
 3		karma	12202
 4		parka	Correct!
 
@@ -14696,9 +14681,8 @@ Simulation starts! Answer = livid
 attempt	guess	pattern
 1		soare	00000
 2		clint	01100
-3		mirid	02022
-4		lipid	22022
-5		livid	Correct!
+3		dumpy	10000
+4		livid	Correct!
 
 1978/2315
 Simulation starts! Answer = stark
@@ -14735,14 +14719,13 @@ Simulation starts! Answer = taboo
 attempt	guess	pattern
 1		soare	01100
 2		cloot	00121
-3		baton	12120
-4		taboo	Correct!
+3		taboo	Correct!
 
 1983/2315
 Simulation starts! Answer = avoid
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00210
+2		cloot	00200
 3		among	20200
 4		avoid	Correct!
 
@@ -14757,39 +14740,39 @@ attempt	guess	pattern
 Simulation starts! Answer = devil
 attempt	guess	pattern
 1		soare	00001
-2		teind	02101
-3		medic	02120
+2		denet	22000
+3		debug	22000
 4		devil	Correct!
 
 1986/2315
 Simulation starts! Answer = liken
 attempt	guess	pattern
 1		soare	00001
-2		teind	01110
-3		vinyl	02101
+2		denet	00120
+3		helix	01110
 4		liken	Correct!
 
 1987/2315
 Simulation starts! Answer = gloss
 attempt	guess	pattern
 1		soare	11000
-2		gloom	22210
+2		gloom	22200
 3		gloss	Correct!
 
 1988/2315
 Simulation starts! Answer = gayer
 attempt	guess	pattern
 1		soare	00111
-2		talar	02012
-3		pygmy	01101
+2		talar	02002
+3		pygmy	01100
 4		gayer	Correct!
 
 1989/2315
 Simulation starts! Answer = beret
 attempt	guess	pattern
 1		soare	00011
-2		tined	10020
-3		shrug	00200
+2		direr	00220
+3		egret	10222
 4		beret	Correct!
 
 1990/2315
@@ -14827,7 +14810,7 @@ Simulation starts! Answer = rumor
 attempt	guess	pattern
 1		soare	01010
 2		cutin	02000
-3		forth	01100
+3		furor	02122
 4		rumor	Correct!
 
 1995/2315
@@ -14879,7 +14862,7 @@ Simulation starts! Answer = bulky
 attempt	guess	pattern
 1		soare	00000
 2		clint	01000
-3		bully	22212
+3		bully	22202
 4		bulky	Correct!
 
 2002/2315
@@ -14901,7 +14884,7 @@ attempt	guess	pattern
 Simulation starts! Answer = circa
 attempt	guess	pattern
 1		soare	00110
-2		riyal	12010
+2		radar	11000
 3		circa	Correct!
 
 2005/2315
@@ -14940,23 +14923,22 @@ attempt	guess	pattern
 Simulation starts! Answer = exert
 attempt	guess	pattern
 1		soare	00021
-2		delft	01002
-3		inert	00222
-4		exert	Correct!
+2		feted	01110
+3		exert	Correct!
 
 2010/2315
 Simulation starts! Answer = surge
 attempt	guess	pattern
 1		soare	20012
-2		perch	01200
+2		spree	20202
 3		surge	Correct!
 
 2011/2315
 Simulation starts! Answer = gleam
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01021
-3		glean	22220
+2		canal	00021
+3		doubt	00000
 4		gleam	Correct!
 
 2012/2315
@@ -15000,7 +14982,7 @@ attempt	guess	pattern
 Simulation starts! Answer = taker
 attempt	guess	pattern
 1		soare	00111
-2		talar	22012
+2		talar	22002
 3		humph	00000
 4		taker	Correct!
 
@@ -15039,8 +15021,8 @@ attempt	guess	pattern
 Simulation starts! Answer = reedy
 attempt	guess	pattern
 1		soare	00011
-2		tined	00011
-3		derby	12102
+2		direr	10110
+3		trend	01201
 4		reedy	Correct!
 
 2023/2315
@@ -15071,7 +15053,7 @@ attempt	guess	pattern
 Simulation starts! Answer = mambo
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00110
+2		cloot	00100
 3		mango	22002
 4		mambo	Correct!
 
@@ -15100,8 +15082,8 @@ attempt	guess	pattern
 Simulation starts! Answer = lumen
 attempt	guess	pattern
 1		soare	00001
-2		teind	01010
-3		kneel	01121
+2		denet	00120
+3		helix	01100
 4		lumen	Correct!
 
 2031/2315
@@ -15130,7 +15112,7 @@ attempt	guess	pattern
 Simulation starts! Answer = amber
 attempt	guess	pattern
 1		soare	00111
-2		talar	01012
+2		talar	01002
 3		cigar	00012
 4		amber	Correct!
 
@@ -15145,9 +15127,8 @@ attempt	guess	pattern
 Simulation starts! Answer = carat
 attempt	guess	pattern
 1		soare	00110
-2		riyal	10020
-3		urban	01020
-4		carat	Correct!
+2		radar	12020
+3		carat	Correct!
 
 2037/2315
 Simulation starts! Answer = corer
@@ -15185,7 +15166,7 @@ attempt	guess	pattern
 Simulation starts! Answer = alloy
 attempt	guess	pattern
 1		soare	01100
-2		cloot	02120
+2		cloot	02020
 3		allow	22220
 4		alloy	Correct!
 
@@ -15218,7 +15199,7 @@ Simulation starts! Answer = wooly
 attempt	guess	pattern
 1		soare	02000
 2		culty	00102
-3		blown	01210
+3		knoll	00220
 4		wooly	Correct!
 
 2046/2315
@@ -15247,8 +15228,8 @@ attempt	guess	pattern
 Simulation starts! Answer = fried
 attempt	guess	pattern
 1		soare	00011
-2		tined	01022
-3		decaf	11001
+2		direr	11120
+3		crept	02100
 4		fried	Correct!
 
 2050/2315
@@ -15256,7 +15237,7 @@ Simulation starts! Answer = quail
 attempt	guess	pattern
 1		soare	00200
 2		clink	01100
-3		avail	10222
+3		avail	00222
 4		quail	Correct!
 
 2051/2315
@@ -15286,8 +15267,8 @@ attempt	guess	pattern
 Simulation starts! Answer = cagey
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01010
-3		annex	10020
+2		canal	22000
+3		cadet	22020
 4		cagey	Correct!
 
 2055/2315
@@ -15302,7 +15283,7 @@ Simulation starts! Answer = deuce
 attempt	guess	pattern
 1		soare	00002
 2		guilt	01000
-3		undue	10112
+3		undue	10102
 4		deuce	Correct!
 
 2057/2315
@@ -15310,7 +15291,7 @@ Simulation starts! Answer = state
 attempt	guess	pattern
 1		soare	20202
 2		thilk	10000
-3		agate	10222
+3		agate	00222
 4		state	Correct!
 
 2058/2315
@@ -15325,14 +15306,15 @@ Simulation starts! Answer = milky
 attempt	guess	pattern
 1		soare	00000
 2		clint	01100
-3		mirid	22010
-4		milky	Correct!
+3		dumpy	00102
+4		filmy	02212
+5		milky	Correct!
 
 2060/2315
 Simulation starts! Answer = bison
 attempt	guess	pattern
 1		soare	11000
-2		gloom	00120
+2		gloom	00020
 3		bison	Correct!
 
 2061/2315
@@ -15417,15 +15399,15 @@ Simulation starts! Answer = abhor
 attempt	guess	pattern
 1		soare	01110
 2		baron	11120
-3		arbor	21122
+3		arbor	20122
 4		abhor	Correct!
 
 2072/2315
 Simulation starts! Answer = welch
 attempt	guess	pattern
 1		soare	00001
-2		teind	02000
-3		bylaw	00201
+2		denet	02000
+3		belch	02222
 4		welch	Correct!
 
 2073/2315
@@ -15472,7 +15454,7 @@ Simulation starts! Answer = cloud
 attempt	guess	pattern
 1		soare	01000
 2		clint	22000
-3		clock	22210
+3		clock	22200
 4		cloud	Correct!
 
 2079/2315
@@ -15487,10 +15469,9 @@ attempt	guess	pattern
 Simulation starts! Answer = leech
 attempt	guess	pattern
 1		soare	00001
-2		teind	02000
-3		bylaw	00100
-4		level	22011
-5		leech	Correct!
+2		denet	02010
+3		beech	02222
+4		leech	Correct!
 
 2081/2315
 Simulation starts! Answer = close
@@ -15503,15 +15484,14 @@ attempt	guess	pattern
 Simulation starts! Answer = tenth
 attempt	guess	pattern
 1		soare	00001
-2		teind	22010
-3		tenet	22211
-4		tenth	Correct!
+2		denet	02201
+3		tenth	Correct!
 
 2083/2315
 Simulation starts! Answer = pecan
 attempt	guess	pattern
 1		soare	00101
-2		tepal	02120
+2		canal	10120
 3		pecan	Correct!
 
 2084/2315
@@ -15548,14 +15528,15 @@ attempt	guess	pattern
 Simulation starts! Answer = ralph
 attempt	guess	pattern
 1		soare	00110
-2		riyal	20011
-3		ralph	Correct!
+2		radar	22000
+3		print	11000
+4		ralph	Correct!
 
 2089/2315
 Simulation starts! Answer = tango
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00111
+2		cloot	00101
 3		patio	02102
 4		tango	Correct!
 
@@ -15594,7 +15575,7 @@ attempt	guess	pattern
 Simulation starts! Answer = serif
 attempt	guess	pattern
 1		soare	20011
-2		rerun	12200
+2		newie	02020
 3		serif	Correct!
 
 2095/2315
@@ -15610,7 +15591,7 @@ Simulation starts! Answer = fifth
 attempt	guess	pattern
 1		soare	00000
 2		clint	00101
-3		ditty	02120
+3		ditty	02020
 4		fifth	Correct!
 
 2097/2315
@@ -15632,7 +15613,7 @@ attempt	guess	pattern
 Simulation starts! Answer = allot
 attempt	guess	pattern
 1		soare	01100
-2		cloot	02122
+2		cloot	02022
 3		allot	Correct!
 
 2100/2315
@@ -15693,7 +15674,7 @@ attempt	guess	pattern
 Simulation starts! Answer = metro
 attempt	guess	pattern
 1		soare	01021
-2		retro	12222
+2		retro	02222
 3		metro	Correct!
 
 2108/2315
@@ -15715,7 +15696,7 @@ attempt	guess	pattern
 Simulation starts! Answer = banjo
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00110
+2		cloot	00100
 3		mango	02202
 4		banjo	Correct!
 
@@ -15723,7 +15704,7 @@ attempt	guess	pattern
 Simulation starts! Answer = axion
 attempt	guess	pattern
 1		soare	01100
-2		cloot	00120
+2		cloot	00020
 3		wagon	01022
 4		axion	Correct!
 
@@ -15731,10 +15712,9 @@ attempt	guess	pattern
 Simulation starts! Answer = bezel
 attempt	guess	pattern
 1		soare	00001
-2		teind	02000
-3		bylaw	20100
-4		bevel	22022
-5		bezel	Correct!
+2		denet	02020
+3		bevel	22022
+4		bezel	Correct!
 
 2113/2315
 Simulation starts! Answer = occur
@@ -15769,8 +15749,8 @@ attempt	guess	pattern
 Simulation starts! Answer = filer
 attempt	guess	pattern
 1		soare	00011
-2		tined	02020
-3		rival	12001
+2		direr	02022
+3		fling	21100
 4		filer	Correct!
 
 2118/2315
@@ -15786,7 +15766,7 @@ Simulation starts! Answer = allay
 attempt	guess	pattern
 1		soare	00100
 2		clint	02000
-3		humph	00000
+3		alpha	22001
 4		allay	Correct!
 
 2120/2315
@@ -15794,14 +15774,14 @@ Simulation starts! Answer = pubic
 attempt	guess	pattern
 1		soare	00000
 2		clint	10100
-3		mimic	01022
+3		mimic	00022
 4		pubic	Correct!
 
 2121/2315
 Simulation starts! Answer = raven
 attempt	guess	pattern
 1		soare	00111
-2		talar	02011
+2		talar	02001
 3		harem	02120
 4		raven	Correct!
 
@@ -15809,8 +15789,9 @@ attempt	guess	pattern
 Simulation starts! Answer = plead
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01121
-3		plead	Correct!
+2		canal	00021
+3		doubt	10000
+4		plead	Correct!
 
 2123/2315
 Simulation starts! Answer = gnash
@@ -15831,7 +15812,7 @@ Simulation starts! Answer = munch
 attempt	guess	pattern
 1		soare	00000
 2		clint	10010
-3		humph	12102
+3		humph	02102
 4		munch	Correct!
 
 2126/2315
@@ -15847,7 +15828,7 @@ attempt	guess	pattern
 Simulation starts! Answer = eking
 attempt	guess	pattern
 1		soare	00001
-2		teind	01220
+2		denet	01100
 3		eking	Correct!
 
 2128/2315
@@ -15877,8 +15858,8 @@ attempt	guess	pattern
 Simulation starts! Answer = theft
 attempt	guess	pattern
 1		soare	00001
-2		teind	21000
-3		tweet	20212
+2		denet	01002
+3		eight	10012
 4		theft	Correct!
 
 2132/2315
@@ -15900,8 +15881,8 @@ attempt	guess	pattern
 Simulation starts! Answer = ranch
 attempt	guess	pattern
 1		soare	00110
-2		riyal	20010
-3		rumba	20001
+2		radar	22000
+3		print	01010
 4		ranch	Correct!
 
 2135/2315
@@ -15946,9 +15927,10 @@ attempt	guess	pattern
 Simulation starts! Answer = newer
 attempt	guess	pattern
 1		soare	00011
-2		tined	00120
-3		whelp	10100
-4		newer	Correct!
+2		direr	00022
+3		butyl	00000
+4		fewer	02222
+5		newer	Correct!
 
 2141/2315
 Simulation starts! Answer = style
@@ -15983,7 +15965,7 @@ attempt	guess	pattern
 Simulation starts! Answer = vegan
 attempt	guess	pattern
 1		soare	00101
-2		tepal	02020
+2		canal	00120
 3		began	02222
 4		vegan	Correct!
 
@@ -16000,7 +15982,7 @@ attempt	guess	pattern
 1		soare	00000
 2		clint	00000
 3		dumpy	02022
-4		puppy	12222
+4		puppy	02222
 5		guppy	Correct!
 
 2148/2315
@@ -16008,16 +15990,16 @@ Simulation starts! Answer = union
 attempt	guess	pattern
 1		soare	01000
 2		clint	00210
-3		onion	12222
+3		onion	02222
 4		union	Correct!
 
 2149/2315
 Simulation starts! Answer = lever
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	01000
-4		rebel	12021
+2		direr	00022
+3		butyl	00001
+4		leper	22022
 5		lever	Correct!
 
 2150/2315
@@ -16085,8 +16067,8 @@ attempt	guess	pattern
 Simulation starts! Answer = cried
 attempt	guess	pattern
 1		soare	00011
-2		tined	01022
-3		decaf	11100
+2		direr	11120
+3		crept	22100
 4		cried	Correct!
 
 2159/2315
@@ -16117,7 +16099,7 @@ Simulation starts! Answer = timid
 attempt	guess	pattern
 1		soare	00000
 2		clint	00101
-3		ditty	12110
+3		ditty	12100
 4		timid	Correct!
 
 2163/2315
@@ -16125,7 +16107,7 @@ Simulation starts! Answer = batch
 attempt	guess	pattern
 1		soare	00100
 2		clint	10001
-3		humph	10002
+3		humph	00002
 4		watch	02222
 5		batch	Correct!
 
@@ -16150,7 +16132,7 @@ Simulation starts! Answer = crack
 attempt	guess	pattern
 1		soare	00210
 2		clint	20000
-3		karma	11101
+3		karma	11100
 4		crack	Correct!
 
 2167/2315
@@ -16181,17 +16163,16 @@ Simulation starts! Answer = bunch
 attempt	guess	pattern
 1		soare	00000
 2		clint	10010
-3		humph	12002
+3		humph	02002
 4		bunch	Correct!
 
 2171/2315
 Simulation starts! Answer = repel
 attempt	guess	pattern
 1		soare	00011
-2		tined	00020
-3		flump	01001
-4		leper	12221
-5		repel	Correct!
+2		direr	00120
+3		pence	12001
+4		repel	Correct!
 
 2172/2315
 Simulation starts! Answer = anvil
@@ -16211,9 +16192,10 @@ attempt	guess	pattern
 Simulation starts! Answer = meter
 attempt	guess	pattern
 1		soare	00011
-2		tined	10020
-3		shrug	00100
-4		meter	Correct!
+2		direr	00022
+3		butyl	00200
+4		enter	10222
+5		meter	Correct!
 
 2175/2315
 Simulation starts! Answer = broth
@@ -16235,9 +16217,8 @@ attempt	guess	pattern
 Simulation starts! Answer = dried
 attempt	guess	pattern
 1		soare	00011
-2		tined	01022
-3		decaf	21000
-4		dried	Correct!
+2		direr	21120
+3		dried	Correct!
 
 2178/2315
 Simulation starts! Answer = scene
@@ -16288,7 +16269,7 @@ Simulation starts! Answer = punch
 attempt	guess	pattern
 1		soare	00000
 2		clint	10010
-3		humph	12012
+3		humph	02012
 4		punch	Correct!
 
 2185/2315
@@ -16304,15 +16285,15 @@ Simulation starts! Answer = downy
 attempt	guess	pattern
 1		soare	02000
 2		culty	00002
-3		goody	02112
+3		goody	02012
 4		downy	Correct!
 
 2187/2315
 Simulation starts! Answer = knead
 attempt	guess	pattern
 1		soare	00101
-2		tepal	01020
-3		ahead	10222
+2		canal	00120
+3		began	01021
 4		knead	Correct!
 
 2188/2315
@@ -16326,7 +16307,7 @@ attempt	guess	pattern
 Simulation starts! Answer = rapid
 attempt	guess	pattern
 1		soare	00110
-2		riyal	21010
+2		radar	22100
 3		rabid	22022
 4		rapid	Correct!
 
@@ -16341,7 +16322,7 @@ attempt	guess	pattern
 Simulation starts! Answer = anger
 attempt	guess	pattern
 1		soare	00111
-2		talar	01012
+2		talar	01002
 3		cigar	00212
 4		anger	Correct!
 
@@ -16372,9 +16353,8 @@ attempt	guess	pattern
 Simulation starts! Answer = music
 attempt	guess	pattern
 1		soare	10000
-2		mythi	20001
-3		minus	21011
-4		music	Correct!
+2		hists	01200
+3		music	Correct!
 
 2196/2315
 Simulation starts! Answer = stuff
@@ -16388,25 +16368,23 @@ attempt	guess	pattern
 Simulation starts! Answer = bleep
 attempt	guess	pattern
 1		soare	00001
-2		teind	01000
-3		excel	10021
+2		denet	01020
+3		cheek	00220
 4		bleep	Correct!
 
 2198/2315
 Simulation starts! Answer = rider
 attempt	guess	pattern
 1		soare	00011
-2		tined	02021
-3		ridic	22210
-4		rider	Correct!
+2		direr	12122
+3		rider	Correct!
 
 2199/2315
 Simulation starts! Answer = mecca
 attempt	guess	pattern
 1		soare	00101
-2		tepal	02010
-3		media	22002
-4		mecca	Correct!
+2		canal	11000
+3		mecca	Correct!
 
 2200/2315
 Simulation starts! Answer = folio
@@ -16420,7 +16398,7 @@ Simulation starts! Answer = setup
 attempt	guess	pattern
 1		soare	20001
 2		clipt	00011
-3		steep	21112
+3		steep	21102
 4		setup	Correct!
 
 2202/2315
@@ -16441,7 +16419,7 @@ Simulation starts! Answer = fauna
 attempt	guess	pattern
 1		soare	00100
 2		clint	00020
-3		fanny	22120
+3		fanny	22020
 4		fauna	Correct!
 
 2205/2315
@@ -16450,7 +16428,7 @@ attempt	guess	pattern
 1		soare	00000
 2		clint	00000
 3		dumpy	02202
-4		mummy	12222
+4		mummy	02222
 5		gummy	Correct!
 
 2206/2315
@@ -16465,24 +16443,24 @@ attempt	guess	pattern
 Simulation starts! Answer = newly
 attempt	guess	pattern
 1		soare	00001
-2		teind	02010
-3		bench	02100
+2		denet	02100
+3		feign	02001
 4		newly	Correct!
 
 2208/2315
 Simulation starts! Answer = fussy
 attempt	guess	pattern
 1		soare	10000
-2		mythi	01000
-3		dusky	02202
-4		fussy	Correct!
+2		hists	00201
+3		fussy	Correct!
 
 2209/2315
 Simulation starts! Answer = relic
 attempt	guess	pattern
 1		soare	00011
-2		tined	01010
-3		relic	Correct!
+2		direr	01110
+3		remit	22020
+4		relic	Correct!
 
 2210/2315
 Simulation starts! Answer = guava
@@ -16495,8 +16473,8 @@ attempt	guess	pattern
 Simulation starts! Answer = ratty
 attempt	guess	pattern
 1		soare	00110
-2		riyal	20110
-3		randy	22002
+2		radar	22000
+3		print	01001
 4		ratty	Correct!
 
 2212/2315
@@ -16511,8 +16489,8 @@ attempt	guess	pattern
 Simulation starts! Answer = femur
 attempt	guess	pattern
 1		soare	00011
-2		tined	00010
-3		pluck	00100
+2		direr	00012
+3		lemur	02222
 4		femur	Correct!
 
 2214/2315
@@ -16548,7 +16526,7 @@ attempt	guess	pattern
 Simulation starts! Answer = petty
 attempt	guess	pattern
 1		soare	00001
-2		teind	12000
+2		denet	02001
 3		pithy	20202
 4		petty	Correct!
 
@@ -16573,8 +16551,8 @@ attempt	guess	pattern
 Simulation starts! Answer = fleck
 attempt	guess	pattern
 1		soare	00001
-2		teind	01000
-3		excel	10111
+2		denet	01000
+3		whelp	00210
 4		fleck	Correct!
 
 2222/2315
@@ -16611,8 +16589,8 @@ attempt	guess	pattern
 Simulation starts! Answer = ficus
 attempt	guess	pattern
 1		soare	10000
-2		mythi	00001
-3		using	11100
+2		hists	02002
+3		minus	02022
 4		ficus	Correct!
 
 2227/2315
@@ -16627,7 +16605,7 @@ attempt	guess	pattern
 Simulation starts! Answer = decry
 attempt	guess	pattern
 1		soare	00021
-2		delft	22000
+2		feted	02001
 3		decry	Correct!
 
 2229/2315
@@ -16650,7 +16628,7 @@ attempt	guess	pattern
 Simulation starts! Answer = visor
 attempt	guess	pattern
 1		soare	11010
-2		digit	02010
+2		digit	02000
 3		visor	Correct!
 
 2232/2315
@@ -16666,15 +16644,15 @@ attempt	guess	pattern
 Simulation starts! Answer = scree
 attempt	guess	pattern
 1		soare	20012
-2		perch	01210
+2		spree	20222
 3		scree	Correct!
 
 2234/2315
 Simulation starts! Answer = impel
 attempt	guess	pattern
 1		soare	00001
-2		teind	01100
-3		libel	11022
+2		denet	00020
+3		libel	01022
 4		impel	Correct!
 
 2235/2315
@@ -16696,7 +16674,7 @@ attempt	guess	pattern
 Simulation starts! Answer = whose
 attempt	guess	pattern
 1		soare	11002
-2		hatch	10001
+2		hatch	10000
 3		whose	Correct!
 
 2238/2315
@@ -16734,7 +16712,7 @@ attempt	guess	pattern
 Simulation starts! Answer = eying
 attempt	guess	pattern
 1		soare	00001
-2		teind	01220
+2		denet	01100
 3		eking	20222
 4		eying	Correct!
 
@@ -16742,8 +16720,8 @@ attempt	guess	pattern
 Simulation starts! Answer = inlet
 attempt	guess	pattern
 1		soare	00001
-2		teind	11110
-3		inept	22102
+2		denet	00122
+3		unmet	02022
 4		inlet	Correct!
 
 2244/2315
@@ -16795,15 +16773,16 @@ attempt	guess	pattern
 Simulation starts! Answer = teddy
 attempt	guess	pattern
 1		soare	00001
-2		teind	22001
-3		teddy	Correct!
+2		denet	12001
+3		fetid	02101
+4		teddy	Correct!
 
 2251/2315
 Simulation starts! Answer = sully
 attempt	guess	pattern
 1		soare	20000
 2		thilk	00020
-3		slyly	21122
+3		slyly	21022
 4		sully	Correct!
 
 2252/2315
@@ -16818,15 +16797,15 @@ attempt	guess	pattern
 Simulation starts! Answer = ripen
 attempt	guess	pattern
 1		soare	00011
-2		tined	02120
-3		nicer	12021
+2		direr	02120
+3		rivet	22020
 4		ripen	Correct!
 
 2254/2315
 Simulation starts! Answer = snowy
 attempt	guess	pattern
 1		soare	21000
-2		cloot	00210
+2		cloot	00200
 3		shown	20221
 4		snowy	Correct!
 
@@ -16873,7 +16852,7 @@ Simulation starts! Answer = clump
 attempt	guess	pattern
 1		soare	00000
 2		clint	22000
-3		cluck	22210
+3		cluck	22200
 4		clump	Correct!
 
 2261/2315
@@ -16896,8 +16875,8 @@ attempt	guess	pattern
 Simulation starts! Answer = peril
 attempt	guess	pattern
 1		soare	00011
-2		tined	01010
-3		relic	12120
+2		direr	01210
+3		merit	02220
 4		peril	Correct!
 
 2264/2315
@@ -16973,7 +16952,7 @@ Simulation starts! Answer = rodeo
 attempt	guess	pattern
 1		soare	02011
 2		rowth	22000
-3		rover	22021
+3		rover	22020
 4		rodeo	Correct!
 
 2274/2315
@@ -16987,7 +16966,7 @@ attempt	guess	pattern
 Simulation starts! Answer = steer
 attempt	guess	pattern
 1		soare	20011
-2		rerun	11100
+2		newie	01001
 3		sheer	20222
 4		steer	Correct!
 
@@ -17050,7 +17029,7 @@ attempt	guess	pattern
 Simulation starts! Answer = feral
 attempt	guess	pattern
 1		soare	00111
-2		talar	01121
+2		talar	00121
 3		regal	12022
 4		feral	Correct!
 
@@ -17073,7 +17052,7 @@ Simulation starts! Answer = condo
 attempt	guess	pattern
 1		soare	02000
 2		culty	20000
-3		drain	10001
+3		conic	22200
 4		condo	Correct!
 
 2287/2315
@@ -17089,7 +17068,7 @@ Simulation starts! Answer = willy
 attempt	guess	pattern
 1		soare	00000
 2		clint	01100
-3		mirid	02010
+3		dumpy	00002
 4		wharf	20000
 5		willy	Correct!
 
@@ -17134,23 +17113,24 @@ Simulation starts! Answer = match
 attempt	guess	pattern
 1		soare	00100
 2		clint	10001
-3		humph	10102
+3		humph	00102
 4		match	Correct!
 
 2295/2315
 Simulation starts! Answer = mercy
 attempt	guess	pattern
 1		soare	00011
-2		tined	00010
-3		pluck	00020
+2		direr	00210
+3		perch	02220
 4		mercy	Correct!
 
 2296/2315
 Simulation starts! Answer = tepid
 attempt	guess	pattern
 1		soare	00001
-2		teind	22102
-3		tepid	Correct!
+2		denet	12001
+3		fetid	02122
+4		tepid	Correct!
 
 2297/2315
 Simulation starts! Answer = sleek
@@ -17186,7 +17166,7 @@ attempt	guess	pattern
 Simulation starts! Answer = flush
 attempt	guess	pattern
 1		soare	10000
-2		mythi	00010
+2		hists	10100
 3		fibre	20000
 4		flush	Correct!
 
@@ -17195,7 +17175,7 @@ Simulation starts! Answer = catty
 attempt	guess	pattern
 1		soare	00100
 2		clint	20001
-3		catch	22210
+3		catch	22200
 4		catty	Correct!
 
 2303/2315
@@ -17209,8 +17189,8 @@ attempt	guess	pattern
 Simulation starts! Answer = eject
 attempt	guess	pattern
 1		soare	00001
-2		teind	11000
-3		fleet	00212
+2		denet	01012
+3		elect	20222
 4		eject	Correct!
 
 2305/2315
@@ -17225,7 +17205,7 @@ attempt	guess	pattern
 Simulation starts! Answer = rival
 attempt	guess	pattern
 1		soare	00110
-2		riyal	22022
+2		radar	20020
 3		rival	Correct!
 
 2307/2315
@@ -17239,8 +17219,8 @@ attempt	guess	pattern
 Simulation starts! Answer = refit
 attempt	guess	pattern
 1		soare	00011
-2		tined	11010
-3		merit	02122
+2		direr	01110
+3		remit	22022
 4		refit	Correct!
 
 2309/2315
@@ -17285,7 +17265,7 @@ attempt	guess	pattern
 Simulation starts! Answer = rural
 attempt	guess	pattern
 1		soare	00110
-2		riyal	20022
+2		radar	20021
 3		rural	Correct!
 
 2315/2315
@@ -17296,7 +17276,7 @@ attempt	guess	pattern
 3		dumpy	00000
 4		shave	Correct!
 
-Solver finishes in  3.472 attempts on average!
-Finished in  4875.258 seconds!
+Solver finishes in  3.463 attempts on average!
+Finished in  3194.377 seconds!
 
 Process finished with exit code 0
