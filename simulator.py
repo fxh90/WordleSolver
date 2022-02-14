@@ -20,7 +20,7 @@ def simulator() -> float:
     """
     attempts = []
     potential_answers = helper.get_answer_dictionary()
-    for i, answer in enumerate(potential_answers[:10]):
+    for i, answer in enumerate(potential_answers):
         print(f'\n{i + 1}/{len(potential_answers)}')
         attempt = responder(answer, do_print=True)
         attempts.append(attempt)

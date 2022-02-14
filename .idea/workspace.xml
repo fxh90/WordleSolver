@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbef393-de46-4ef3-8d48-3945e5534fcb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/score_1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/solver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entropy_first.log" beforeDir="false" afterPath="$PROJECT_DIR$/entropy_first.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644793292780</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Implement score version 1">
+      <created>1644796653651</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1644796653651</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Auto solver using score 1">
+      <created>1644796893529</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1644796893529</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -284,6 +300,8 @@
     <MESSAGE value="similarity_to_pattern and better printing" />
     <MESSAGE value="Simulator goes through all possible answers" />
     <MESSAGE value="Entropy first simulation result" />
-    <option name="LAST_COMMIT_MESSAGE" value="Entropy first simulation result" />
+    <MESSAGE value="Implement score version 1" />
+    <MESSAGE value="Auto solver using score 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auto solver using score 1" />
   </component>
 </project>
