@@ -167,7 +167,7 @@ def man_solver():
 def auto_solver(strategy: str = 'entropy first'):
     """
     Generator object that solves a Wordle puzzle automatically according to a given strategy.
-    :param strategy: 'entropy first'
+    :param strategy: 'entropy first', 'score 1'
     """
     legal_guesses = helper.get_guess_dictionary()
     potential_answers = helper.get_answer_dictionary()
@@ -202,6 +202,10 @@ def auto_solver(strategy: str = 'entropy first'):
             else:
                 guesses = [(legal_guesses[i], entropies[i]) for i in range(len(legal_guesses))]
                 guess = sorted(guesses, key=lambda e: e[1], reverse=True)[0][0]
+        elif strategy == 'score 1':
+            scores = compute_score_1(entropies, probabilities)
+            guesses = [(legal_guesses[i], scores[i]) for i in range(len(legal_guesses))]
+            guess = sorted(guesses, key=lambda e: e[1], reverse=True)[0][0]
         else:
             raise NotImplementedError
         yield guess

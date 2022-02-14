@@ -20,7 +20,7 @@ def simulator() -> float:
     """
     attempts = []
     potential_answers = helper.get_answer_dictionary()
-    for i, answer in enumerate(potential_answers):
+    for i, answer in enumerate(potential_answers[:10]):
         print(f'\n{i + 1}/{len(potential_answers)}')
         attempt = responder(answer, do_print=True)
         attempts.append(attempt)
@@ -37,7 +37,7 @@ def responder(answer: str, do_print: bool = False) -> int:
     if do_print:
         print(f'Simulation starts! Answer = {answer}')
         print('attempt\tguess\tpattern')
-    gen = solver.auto_solver()
+    gen = solver.auto_solver(strategy='score 1')
     guess = next(gen)
     for attempt in range(max_auto_attempts):
         if guess != answer:
