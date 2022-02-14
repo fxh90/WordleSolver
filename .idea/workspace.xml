@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cbef393-de46-4ef3-8d48-3945e5534fcb" name="Changes" comment="">
+    <list default="true" id="6cbef393-de46-4ef3-8d48-3945e5534fcb" name="Changes" comment="Cache similarity LUT for faster computation">
+      <change afterPath="$PROJECT_DIR$/similarity_lut.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entropy_first.log" beforeDir="false" afterPath="$PROJECT_DIR$/entropy_first.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/solver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.solver">
+  <component name="RunManager" selected="Python.simulator">
     <configuration name="helper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WordleSolver" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.solver" />
         <item itemvalue="Python.simulator" />
+        <item itemvalue="Python.solver" />
         <item itemvalue="Python.helper" />
       </list>
     </recent_temporary>
@@ -296,13 +297,32 @@
       <option name="project" value="LOCAL" />
       <updated>1644836679011</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Update result with entropy first strategy after bug fix">
+      <created>1644848434569</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1644848434569</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Update for pkl files">
+      <created>1644863845860</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1644863845860</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Cache similarity LUT for faster computation">
+      <created>1644863888796</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1644863888796</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Comapre similarity between strings" />
-    <MESSAGE value="First commit" />
     <MESSAGE value="Include wordle dictionary" />
     <MESSAGE value="Read guess dictionary" />
     <MESSAGE value="Read answer dictionary" />
@@ -325,6 +345,9 @@
     <MESSAGE value="Score 1 simulation result" />
     <MESSAGE value="Bug fixes for multiple occurrence of letters" />
     <MESSAGE value="Updated cache entropy / probability" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated cache entropy / probability" />
+    <MESSAGE value="Update result with entropy first strategy after bug fix" />
+    <MESSAGE value="Update for pkl files" />
+    <MESSAGE value="Cache similarity LUT for faster computation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cache similarity LUT for faster computation" />
   </component>
 </project>

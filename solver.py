@@ -3,6 +3,7 @@ Solver for a Wordle puzzle.
 """
 
 import os
+import pickle
 import warnings
 import numpy as np
 
@@ -12,6 +13,17 @@ __author__ = "Z Feng"
 
 max_attempts = 5
 warnings.filterwarnings('ignore')
+
+# initialise similarity LUT
+if os.path.exists('similarity_lut.pkl'):
+    with open('similarity_lut.pkl', 'rb') as pkl_file:
+        similarity_lut = pickle.load(pkl_file)
+else:
+    print('Initialising similarity LUT...')
+    similarity_lut = helper.gen_similarity_LUT()
+    with open('similarity_lut.pkl', 'wb') as pkl_file:
+        pickle.dump(similarity_lut, pkl_file)
+
 
 def compute_entropy(legal_guesses: list, potential_answers: list, do_print: bool = True) -> np.ndarray:
     """
@@ -30,7 +42,7 @@ def compute_entropy(legal_guesses: list, potential_answers: list, do_print: bool
                 print(f'{progress}/{len(legal_guesses)}: {guess}')
         similarity_counts = np.zeros(3 ** 5, dtype=float)
         for target in potential_answers:
-            similarity = helper.compare(guess, target)
+            similarity = helper.compare(guess, target, lut=similarity_lut)
             similarity_counts[similarity] += 1
         p = similarity_counts / len(potential_answers)
         entropy_contributions = - p * np.log2(p)
@@ -100,7 +112,7 @@ def refine_potential_answers(guess: str, potential_answers: list, similarity: in
     """
     refined_answers = []
     for target in potential_answers:
-        if helper.compare(guess, target) == similarity:
+        if helper.compare(guess, target, lut=similarity_lut) == similarity:
             refined_answers.append(target)
     return refined_answers
 

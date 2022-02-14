@@ -29,12 +29,32 @@ def similarity_to_pattern(similarity: int) -> str:
     return pattern
 
 
-def compare(guess: str, target: str) -> int:
+def gen_similarity_LUT(legal_guesses: list = None, potential_answers: list = None) -> dict:
+    """
+    Generate the lookup table (LUT) of similarities for any guess and answer in the dictionary.
+    LUT returned as a nested dictionary: lut[guess][target] == similarity.
+    :param legal_guesses: list of legal guesses
+    :param potential_answers: list of potential answers
+    :return: LUT nested dictionary
+    """
+    if legal_guesses is None:
+        legal_guesses = get_guess_dictionary()
+    if potential_answers is None:
+        potential_answers = get_answer_dictionary()
+    lut = {guess: {answer: compare(guess, answer) for answer in potential_answers} for guess in legal_guesses}
+    return lut
+
+
+def compare(guess: str, target: str, lut: dict = None) -> int:
     """
     Compare a guess string to a target string. Return the similarity as an integer in the range of [0, 3^N-1], where
     N is the length of both guess and target strings.
     """
     assert len(guess) == len(target)
+    if not lut is None:
+        if guess in lut:
+            if target in lut[guess]:
+                return lut[guess][target]
     N = len(guess)
     similarity = 0
     used_target = [False for i in range(N)]
