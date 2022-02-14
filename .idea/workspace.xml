@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbef393-de46-4ef3-8d48-3945e5534fcb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/example_input.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/example_output.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/solver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -340,12 +337,18 @@
       <option name="project" value="LOCAL" />
       <updated>1644872849556</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Better readme">
+      <created>1644874774303</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1644874774303</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Read guess dictionary" />
     <MESSAGE value="Read answer dictionary" />
     <MESSAGE value="Calculate information entropy" />
     <MESSAGE value="Convert a pattern to similarity" />
@@ -370,6 +373,7 @@
     <MESSAGE value="Update for pkl files" />
     <MESSAGE value="Cache similarity LUT for faster computation" />
     <MESSAGE value="Updated score 1 result with multiple occurrence bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated score 1 result with multiple occurrence bug fix" />
+    <MESSAGE value="Better readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Better readme" />
   </component>
 </project>

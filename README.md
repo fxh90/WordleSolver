@@ -8,7 +8,7 @@ For manual solver, run solver.py with Python 3. It displays words with maximal i
 
 ![Example output](docs/example_output.png)
 
-Users can choose a word they can enter to Wordle, and receive a result from Wordle. The word they choose and the result they get should be entered back to the programme, separated by a space.
+Users can choose a word they can enter to Wordle, and receive a result from Wordle. The word they choose and the result they get should be entered back to the programme, separated by a space. Alternatively, the users can enter 'q' to exit.
 
 ![Example input](docs/example_input.png)
 
