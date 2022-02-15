@@ -1,3 +1,5 @@
+loading initial_entropies.npy...
+loading initial_probabilities.npy...
 
 1/2315
 Simulation starts! Answer = cigar
@@ -17277,6 +17279,6 @@ attempt	guess	pattern
 4		shave	Correct!
 
 Solver finishes in  3.463 attempts on average!
-Finished in  3194.377 seconds!
+Finished in  3014.784 seconds!
 
 Process finished with exit code 0

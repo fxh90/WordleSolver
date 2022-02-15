@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6cbef393-de46-4ef3-8d48-3945e5534fcb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entropy_first.log" beforeDir="false" afterPath="$PROJECT_DIR$/entropy_first.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/score_1.log" beforeDir="false" afterPath="$PROJECT_DIR$/score_1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/solver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.simulator" />
         <item itemvalue="Python.solver" />
+        <item itemvalue="Python.simulator" />
         <item itemvalue="Python.helper" />
       </list>
     </recent_temporary>
@@ -359,12 +360,18 @@
       <option name="project" value="LOCAL" />
       <updated>1644878702948</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Reduced IO">
+      <created>1644883933335</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1644883933335</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Convert a pattern to similarity" />
     <MESSAGE value="Working version considering entropy only" />
     <MESSAGE value="Compute and print possibilities" />
     <MESSAGE value="Format prints" />
@@ -389,6 +396,7 @@
     <MESSAGE value="Better readme" />
     <MESSAGE value="Update exit" />
     <MESSAGE value="Reduce cache IO by initialisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reduce cache IO by initialisation" />
+    <MESSAGE value="Reduced IO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reduced IO" />
   </component>
 </project>
