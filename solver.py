@@ -76,6 +76,19 @@ def compute_score_1(entropies: np.ndarray, probabilities: np.ndarray) -> np.ndar
     return scores
 
 
+def compute_score_2(entropies: np.ndarray, probabilities: np.ndarray) -> np.ndarray:
+    """
+    First version of computing a score combining entropy and probability to make (hopefully) better choices when making
+    a guess.
+    The proposed function of score is: S = (H + 0.1 * p) / (1.1 ^ 2 - p ^2)
+    :param entropies: entropy (H)
+    :param probabilities: probability (p)
+    :return: score (S)
+    """
+    scores = (entropies + 0.1 * probabilities) / (1.1 ** 2 - probabilities ** 2)
+    return scores
+
+
 def print_results(legal_guesses: list, entropies: np.ndarray, probabilities: np.ndarray,
                   scores: np.ndarray, lines: int = 5) -> None:
     """
@@ -182,6 +195,10 @@ def auto_solver(strategy: str = 'score 1'):
                 guess = sorted(guesses, key=lambda e: e[1], reverse=True)[0][0]
         elif strategy == 'score 1':
             scores = compute_score_1(entropies, probabilities)
+            guesses = [(legal_guesses[i], scores[i]) for i in range(len(legal_guesses))]
+            guess = sorted(guesses, key=lambda e: e[1], reverse=True)[0][0]
+        elif strategy == 'score 2':
+            scores = compute_score_2(entropies, probabilities)
             guesses = [(legal_guesses[i], scores[i]) for i in range(len(legal_guesses))]
             guess = sorted(guesses, key=lambda e: e[1], reverse=True)[0][0]
         else:
