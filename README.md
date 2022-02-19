@@ -36,6 +36,10 @@ The performance of the two strategies can be found in log files.
 
 The simulator is able to respond to the automatic solver and characterise any strategy by going over every possible answer.
 
+## Puzzle generator
+
+By excuting puzzle.py, one can enjoy playing a Wordle game.
+
 ## Acknowledgement
 
 The dictionaries used for guesses and answers are imported from [Crispy's Wordle Solver](https://github.com/CrispyConductor/wordle-solver).
