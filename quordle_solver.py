@@ -56,7 +56,8 @@ def man_solver():
             scores = np.zeros(len(legal_guesses))
             for puzzle_num in range(4):
                 if not solved_puzzles[puzzle_num]:
-                    entropies = solver.compute_entropy(legal_guesses, potential_answers[puzzle_num])
+                    entropies = solver.compute_entropy(legal_guesses,
+                                                       potential_answers[puzzle_num], do_print=False)
                     probabilities = solver.compute_probabilities(legal_guesses,
                                                                   potential_answers[puzzle_num])
                     total_entropies += entropies
@@ -107,6 +108,7 @@ else:
     print('saving initial_probabilities.npy...')
     with open('initial_probabilities.npy', 'wb') as npy_file:
         np.save(npy_file, initial_probabilities)
+
 
 if __name__ == "__main__":
     man_solver()
