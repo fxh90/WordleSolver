@@ -1,4 +1,4 @@
-# Wordle Solver
+# Wordle / Quordle Solver
 
 Solver and simulator for Wordle puzzles by fxh90.
 
@@ -13,6 +13,8 @@ Users can choose a word they can enter to Wordle, and receive a result from Word
 ![Example input](docs/example_input.png)
 
 A five-digit number should be used to represent the match pattern, in which 0 notes a grey digit (wrong digit), 1 notes a yellow digit (right digit at wrong place) and 2 notes a green digit (right digit at right place).
+
+To solve a Quordle puzzle, run quordle_solver.py instead. Give user inputs in the format like "soare 00112 00011 01002 20111".
 
 ## Caching
 
