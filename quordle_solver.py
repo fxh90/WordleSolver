@@ -65,15 +65,21 @@ def man_solver():
                     scores += solver.compute_score_1(entropies, probabilities)
             scores /= (4 - sum(solved_puzzles))
         solver.print_results(legal_guesses, total_entropies, total_probabilities, scores)
-        guess, patterns = accept_quordle_test_result()
-        for puzzle_num in range(4):
-            if not solved_puzzles[puzzle_num]:
-                similarity = helper.pattern_to_similarity(patterns[puzzle_num])
-                if similarity == 3 ** 5 - 1:
-                    solved_puzzles[puzzle_num] = True
-                else:
-                    potential_answers[puzzle_num] = solver.refine_potential_answers(
-                        guess, potential_answers[puzzle_num], similarity)
+        typo = True  # in case user has a legal typo
+        while typo:
+            guess, patterns = accept_quordle_test_result()
+            typo = False
+            for puzzle_num in range(4):
+                if not solved_puzzles[puzzle_num]:
+                    similarity = helper.pattern_to_similarity(patterns[puzzle_num])
+                    if similarity == 3 ** 5 - 1:
+                        solved_puzzles[puzzle_num] = True
+                    else:
+                        potential_answers[puzzle_num] = solver.refine_potential_answers(
+                            guess, potential_answers[puzzle_num], similarity)
+                        if len(potential_answers[puzzle_num]) == 0:
+                            typo = True
+                            print('Impossible! Please try last input again!')
         if all(solved_puzzles):
             print('Congratulations!')
             break
